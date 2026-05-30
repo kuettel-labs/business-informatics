@@ -1,12 +1,12 @@
 #!/bin/bash
 set -e
 
-DB="test.db"
+# Create a temporary database for this test
+DB=$(mktemp)
 
 echo "Recreating database..."
 rm -f $DB
 sqlite3 $DB < sql/schema/schema.sql
-sqlite3 $DB < tests/setup.sql
 
 echo "inserting data..."
 for t in sql/seed/*.sql; do

@@ -8,7 +8,7 @@ rm -f $DB
 sqlite3 $DB < sql/schema/schema.sql
 
 # Reset database state before each test
-sqlite3 "$DB" < tests/setup.sql
+sqlite3 $DB < tests/setup.sql
 
 echo "inserting data..."
 for t in sql/seed/*.sql; do

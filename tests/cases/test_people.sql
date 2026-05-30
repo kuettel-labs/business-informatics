@@ -1,3 +1,5 @@
+SELECT * FROM people;
+
 INSERT INTO people (id, surname, name, ssv, birth_date)
 VALUES (1, 'Muster', 'Max', 12345, '1980-01-01');
 

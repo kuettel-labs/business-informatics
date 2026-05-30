@@ -9,7 +9,7 @@ VALUES ((SELECT MAX(id) from people),
 	(SELECT MAX(id) from person_roles),
 	(SELECT MAX(id) from competitive_groups));
 
-UPDATE members SET role_id=1 WHERE id=1;
+UPDATE members SET role_id=1 WHERE id=(SELECT MAX(id) from members);
 
 DELETE FROM members WHERE id=(SELECT MAX(id) from members);
 

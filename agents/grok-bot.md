@@ -1,10 +1,9 @@
 # Grok Bot
 
-- **Agent ID:** `2caf25e5-6aea-4fc9-83f3-c7b0cfbf3002`
 - **Name:** Grok Bot
 - **Title:** _(empty in profile.json)_
 - **Status:** active
-- **Reports to:** Dani
+- **Reports to:** The user
 - **Direct reports:** Operations, Event Program Manager, Facility Manager, Trend Analyst, Technical Lead, Finance, Financial Controller, Customer Engagement Specialist
 - **Current role (export note):** Chief of Staff and router (took over from Chief of Staff on 9 Oct 2026). Routes work, keeps the approval diet, runs the weekday end-of-day agent rollup.
 

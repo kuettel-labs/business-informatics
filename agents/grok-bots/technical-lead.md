@@ -5,7 +5,7 @@
 - **Status:** active
 - **Reports to:** Grok Bot
 - **Direct reports:** Data Analyst
-- **Current role (export note):** Staudenschiessen site; owns kuettel-labs/GitHub work (from 9 Oct 2026). Manages Data Analyst (since 10 Oct 2026).
+- **Current role (export note):** Manages Business Technology (since 11 Oct 2026): leads the team and sets priorities for Odoo Customization Engineer, Joomla Extension Developer and Data Analyst. No hands-on GitHub, Odoo or Joomla work; GitHub belongs to Platform Engineer.
 
 ## Description / instructions (from profile.json)
 

@@ -1,6 +1,6 @@
 # Kasse – Rebuild Prompt / Specification (Odoo Studio cash register)
 
-Version: v3 (see [Change log](#13-change-log)). Items marked **(v3)** were applied but are not yet confirmed by testing.
+Version: v3 (see [Change log](#13-change-log)). Items marked **(v3)** were added in v3 and verified by testing on the reference build (11 Oct 2026).
 
 This document is self-contained. An agent or a person can follow it step by step to recreate the "Kasse" app on a fresh Odoo Online instance that has Studio. All code is included inline and also as separate files in this folder:
 

@@ -137,6 +137,8 @@ for d in sorted(os.listdir(BASE)):
     p = f'{BASE}/{d}/profile.json'
     if d in SKIP or not os.path.isfile(p): continue
     agents[d] = json.load(open(p))
+    if d in json.load(open(ORG_FILE)).get('DESC_OVERRIDE', {}):  # newer description applied server-side, not yet synced to the box
+        agents[d]['description'] = json.load(open(ORG_FILE))['DESC_OVERRIDE'][d]
 name_of = {i: a.get('name', '') for i, a in agents.items()}
 order = [GROK, OPS, PDM] + [a for a in ADVISORS] + [i for i in agents if i not in [GROK, OPS, PDM, COS_OLD] + ADVISORS] + [COS_OLD]
 index = []
@@ -178,7 +180,7 @@ _This index is named `AGENTS-README.md` because this folder already has its own 
 ## Org and reporting lines (as of 11 Oct 2026)
 
 - **Grok Bot** is Chief of Staff and router. It replaced the former Chief of Staff agent (now retired, routines paused) on 9 Oct 2026.
-- **Operations** reports to Grok Bot and manages all agents (since 11 Oct 2026). **Technical Lead** and **People Development Manager** are team leads under Operations and set their teams' priorities.
+- **Operations** reports to Grok Bot and manages all agents (since 11 Oct 2026). **Technical Lead** (Business Technology), **People Development Manager** (Competency Center), **Facility Manager** (Facility) and **Customer Engagement Specialist** (Communications & Engagement) are team leads under Operations and set their teams' priorities. **Platform Engineer** owns all GitHub work for the repo (branches, PRs, CI) since 11 Oct 2026 and reports to Technical Lead.
 - **People Development Manager** manages the Advisors: Data Capability Advisor, AI Capability Advisor, ERP Capability Advisor, AI Engineering Advisor, Business Technology Advisor. **All Advisors are on demand** since 10 Oct 2026: no scheduled routines or proactive messages; they work only when the user or People Development Manager asks.
 - **Finance** manages **Financial Controller** (money: invoices, billing, payments). All agents report financial topics to Finance.
 - **Technical Lead** manages Business Technology and sets priorities for **Odoo Customization Engineer** (Odoo), **Joomla Extension Developer** (Joomla, Staudenschiessen site, Visforms, end-to-end test), **Data Analyst** and **Platform Engineer** (storage, agent-profile export, all GitHub work since 11 Oct 2026). ERP Capability Advisor has no direct reports.

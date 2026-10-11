@@ -8,14 +8,7 @@
    "status": "active",
    "reports_to": "The user",
    "direct_reports": [
-    "Operations",
-    "Brand Designer",
-    "Event Program Manager",
-    "Facility Manager",
-    "Trend Analyst",
-    "Technical Lead",
-    "Finance",
-    "Customer Engagement Specialist"
+    "Operations"
    ]
   },
   {
@@ -26,7 +19,13 @@
    "reports_to": "Grok Bot",
    "direct_reports": [
     "People Development Manager",
-    "Platform Engineer"
+    "Brand Designer",
+    "Event Program Manager",
+    "Facility Manager",
+    "Trend Analyst",
+    "Technical Lead",
+    "Finance",
+    "Customer Engagement Specialist"
    ]
   },
   {
@@ -47,7 +46,7 @@
    "file": "agents/data-capability-advisor.md",
    "name": "Data Capability Advisor",
    "title": "",
-   "status": "paused",
+   "status": "active",
    "reports_to": "People Development Manager",
    "direct_reports": []
   },
@@ -55,7 +54,7 @@
    "file": "agents/ai-capability-advisor.md",
    "name": "AI Capability Advisor",
    "title": "",
-   "status": "paused",
+   "status": "active",
    "reports_to": "People Development Manager",
    "direct_reports": []
   },
@@ -63,7 +62,7 @@
    "file": "agents/erp-capability-advisor.md",
    "name": "ERP Capability Advisor",
    "title": "",
-   "status": "paused",
+   "status": "active",
    "reports_to": "People Development Manager",
    "direct_reports": []
   },
@@ -71,7 +70,7 @@
    "file": "agents/ai-engineering-advisor.md",
    "name": "AI Engineering Advisor",
    "title": "",
-   "status": "paused",
+   "status": "active",
    "reports_to": "People Development Manager",
    "direct_reports": []
   },
@@ -79,7 +78,7 @@
    "file": "agents/business-technology-advisor.md",
    "name": "Business Technology Advisor",
    "title": "",
-   "status": "paused",
+   "status": "active",
    "reports_to": "People Development Manager",
    "direct_reports": []
   },
@@ -88,7 +87,7 @@
    "name": "Event Program Manager",
    "title": "Event Coordinator",
    "status": "active",
-   "reports_to": "Grok Bot",
+   "reports_to": "Operations",
    "direct_reports": []
   },
   {
@@ -96,7 +95,7 @@
    "name": "Facility Manager",
    "title": "",
    "status": "active",
-   "reports_to": "Grok Bot",
+   "reports_to": "Operations",
    "direct_reports": []
   },
   {
@@ -104,7 +103,7 @@
    "name": "Trend Analyst",
    "title": "",
    "status": "active",
-   "reports_to": "Grok Bot",
+   "reports_to": "Operations",
    "direct_reports": []
   },
   {
@@ -112,9 +111,12 @@
    "name": "Technical Lead",
    "title": "",
    "status": "active",
-   "reports_to": "Grok Bot",
+   "reports_to": "Operations",
    "direct_reports": [
-    "Data Analyst"
+    "Platform Engineer",
+    "Data Analyst",
+    "Joomla Extension Developer",
+    "Odoo Customization Engineer"
    ]
   },
   {
@@ -122,7 +124,7 @@
    "name": "Platform Engineer",
    "title": "",
    "status": "active",
-   "reports_to": "Operations",
+   "reports_to": "Technical Lead",
    "direct_reports": []
   },
   {
@@ -130,7 +132,7 @@
    "name": "Brand Designer",
    "title": "",
    "status": "active",
-   "reports_to": "Grok Bot",
+   "reports_to": "Operations",
    "direct_reports": []
   },
   {
@@ -138,7 +140,7 @@
    "name": "Finance",
    "title": "",
    "status": "active",
-   "reports_to": "Grok Bot",
+   "reports_to": "Operations",
    "direct_reports": [
     "Financial Controller"
    ]
@@ -156,7 +158,7 @@
    "name": "Customer Engagement Specialist",
    "title": "",
    "status": "active",
-   "reports_to": "Grok Bot",
+   "reports_to": "Operations",
    "direct_reports": []
   },
   {

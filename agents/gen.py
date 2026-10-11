@@ -95,6 +95,8 @@ COUNTS = Counter()
 ID_PAREN = re.compile(r'\s*\((?:id:?\s*)?[0-9a-f]{8}(?:-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}|…|\.\.\.)?\)')
 ID_INLINE = re.compile(r'(?i)[,;]?\s*\bid:?\s*[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}')
 
+ORG_NAME = re.compile(r'(?i)\b[a-z]+-labs(\.odoo\.com)?\b(?:/[\w.-]+)?')
+
 def strip_ids(text):
     """Remove agent ids: '(id <uuid>)', '(<uuid>)', '(<8-hex>)', 'id <uuid>', then any bare uuid."""
     for rx in (ID_PAREN, ID_INLINE):
@@ -108,7 +110,10 @@ def redact(text):
         if 'machineId' in rx.pattern:
             text, n = rx.subn(rep, text); COUNTS[cat] += n
     text = strip_ids(text)
+    # org/instance names contain the surname: neutralize them before the name rules run
+    text, n = ORG_NAME.subn(lambda m: 'the Odoo instance' if m.group(1) else 'the organization', text); COUNTS['org names'] += n
     text = apply_names(text)
+    text = re.sub(r'\(\s*[;,]\s*', '(', text)
     for cat, rx, rep in RULES:
         if 'machineId' in rx.pattern: continue
         text, n = rx.subn(rep, text); COUNTS[cat] += n
@@ -170,14 +175,14 @@ readme = f"""# Agent profiles export
 
 _This index is named `AGENTS-README.md` because this folder already has its own `README.md` (the GitHubProject161 repository readme), which is left untouched._
 
-## Org and reporting lines (as of 10 Oct 2026)
+## Org and reporting lines (as of 11 Oct 2026)
 
 - **Grok Bot** is Chief of Staff and router. It replaced the former Chief of Staff agent (now retired, routines paused) on 9 Oct 2026.
-- **Operations** reports to Grok Bot and manages **People Development Manager** and **Platform Engineer**.
-- **People Development Manager** manages the Advisors: Data Capability Advisor, AI Capability Advisor, ERP Capability Advisor, AI Engineering Advisor, Business Technology Advisor. **All Advisors are paused** (since 3 Oct 2026; Business Technology Advisor since its creation on 9 Oct) until the user says resume.
-- **Finance** manages **Financial Controller** (money: invoices, billing, payments).
-- **Technical Lead** manages **Data Analyst**. ERP Capability Advisor has no direct reports.
-- Report directly to Grok Bot: Event Program Manager (sole owner of calendar writes), Brand Designer (visual design), Facility Manager, Trend Analyst, Technical Lead (owns FabricProject161/GitHub work), Finance (taxes/eTAX), Customer Engagement Specialist (mail/comms).
+- **Operations** reports to Grok Bot and manages all agents (since 11 Oct 2026). **Technical Lead** and **People Development Manager** are team leads under Operations and set their teams' priorities.
+- **People Development Manager** manages the Advisors: Data Capability Advisor, AI Capability Advisor, ERP Capability Advisor, AI Engineering Advisor, Business Technology Advisor. **All Advisors are on demand** since 10 Oct 2026: no scheduled routines or proactive messages; they work only when the user or People Development Manager asks.
+- **Finance** manages **Financial Controller** (money: invoices, billing, payments). All agents report financial topics to Finance.
+- **Technical Lead** manages Business Technology and sets priorities for **Odoo Customization Engineer** (Odoo), **Joomla Extension Developer** (Joomla, Staudenschiessen site, Visforms, end-to-end test), **Data Analyst** and **Platform Engineer** (storage, agent-profile export, all GitHub work since 11 Oct 2026). ERP Capability Advisor has no direct reports.
+- Report directly to Operations: Technical Lead (manages Business Technology), People Development Manager (manages the Advisors), Finance (taxes/eTAX), Event Program Manager (sole owner of calendar writes), Brand Designer (visual design), Customer Engagement Specialist (mail/comms), Facility Manager, Trend Analyst.
 
 ## Agents ({len(index)})
 

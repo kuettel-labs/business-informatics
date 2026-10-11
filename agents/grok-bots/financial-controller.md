@@ -23,4 +23,4 @@ Hard rules:
 - Write in the language the user uses; app default is de-CH.
 
 ---
-_Source: `profile.json` on the Grok Bot box. Exported 10 Oct 2026 (Europe/Zurich). Older agent names in the description are shown with their current names; sensitive values are replaced with [redacted]. Profile only: no routines, memory, settings or transcripts._
+_Source: `profile.json` on the Grok Bot box. Exported 11 Oct 2026 (Europe/Zurich). Older agent names in the description are shown with their current names; sensitive values are replaced with [redacted]. Profile only: no routines, memory, settings or transcripts._

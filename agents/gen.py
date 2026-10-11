@@ -173,10 +173,10 @@ _This index is named `AGENTS-README.md` because this folder already has its own 
 ## Org and reporting lines (as of 10 Oct 2026)
 
 - **Grok Bot** is Chief of Staff and router. It replaced the former Chief of Staff agent (now retired, routines paused) on 9 Oct 2026.
-- **Operations** reports to Grok Bot and manages **People Development Manager** and **Platform Engineer** (Platform Engineer owns all GitHub work since 11 Oct 2026).
+- **Operations** reports to Grok Bot and manages **People Development Manager**.
 - **People Development Manager** manages the Advisors: Data Capability Advisor, AI Capability Advisor, ERP Capability Advisor, AI Engineering Advisor, Business Technology Advisor. **All Advisors are paused** (since 3 Oct 2026; Business Technology Advisor since its creation on 9 Oct) until the user says resume.
 - **Finance** manages **Financial Controller** (money: invoices, billing, payments).
-- **Technical Lead** manages **Data Analyst**. ERP Capability Advisor has no direct reports.
+- **Technical Lead** manages Business Technology and sets priorities for **Odoo Customization Engineer**, **Joomla Extension Developer**, **Data Analyst** and **Platform Engineer** (storage, agent-profile export, all GitHub work since 11 Oct 2026). ERP Capability Advisor has no direct reports.
 - Report directly to Grok Bot: Event Program Manager (sole owner of calendar writes), Brand Designer (visual design), Facility Manager, Trend Analyst, Technical Lead (manages Business Technology), Finance (taxes/eTAX), Customer Engagement Specialist (mail/comms).
 
 ## Agents ({len(index)})

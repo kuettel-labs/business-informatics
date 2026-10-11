@@ -4,8 +4,8 @@
 - **Title:** _(empty in profile.json)_
 - **Status:** active
 - **Reports to:** Grok Bot
-- **Direct reports:** Data Analyst
-- **Current role (export note):** Manages Business Technology (since 11 Oct 2026): leads the team and sets priorities for Odoo Customization Engineer, Joomla Extension Developer and Data Analyst. No hands-on GitHub, Odoo or Joomla work; GitHub belongs to Platform Engineer.
+- **Direct reports:** Platform Engineer, Data Analyst, Joomla Extension Developer, Odoo Customization Engineer
+- **Current role (export note):** Manages Business Technology (since 11 Oct 2026): leads the team and sets priorities for Odoo Customization Engineer, Joomla Extension Developer, Data Analyst and Platform Engineer. No hands-on GitHub, Odoo or Joomla work; GitHub belongs to Platform Engineer.
 
 ## Description / instructions (from profile.json)
 

@@ -25,8 +25,7 @@
    "status": "active",
    "reports_to": "Grok Bot",
    "direct_reports": [
-    "People Development Manager",
-    "Platform Engineer"
+    "People Development Manager"
    ]
   },
   {
@@ -114,7 +113,10 @@
    "status": "active",
    "reports_to": "Grok Bot",
    "direct_reports": [
-    "Data Analyst"
+    "Platform Engineer",
+    "Data Analyst",
+    "Joomla Extension Developer",
+    "Odoo Customization Engineer"
    ]
   },
   {
@@ -122,7 +124,7 @@
    "name": "Platform Engineer",
    "title": "",
    "status": "active",
-   "reports_to": "Operations",
+   "reports_to": "Technical Lead",
    "direct_reports": []
   },
   {

@@ -6,14 +6,14 @@
 
 _This index is named `AGENTS-README.md` because this folder already has its own `README.md` (the GitHubProject161 repository readme), which is left untouched._
 
-## Org and reporting lines (as of 10 Oct 2026)
+## Org and reporting lines (as of 11 Oct 2026)
 
 - **Grok Bot** is Chief of Staff and router. It replaced the former Chief of Staff agent (now retired, routines paused) on 9 Oct 2026.
-- **Operations** reports to Grok Bot and manages **People Development Manager**.
-- **People Development Manager** manages the Advisors: Data Capability Advisor, AI Capability Advisor, ERP Capability Advisor, AI Engineering Advisor, Business Technology Advisor. **All Advisors are paused** (since 3 Oct 2026; Business Technology Advisor since its creation on 9 Oct) until the user says resume.
-- **Finance** manages **Financial Controller** (money: invoices, billing, payments).
-- **Technical Lead** manages Business Technology and sets priorities for **Odoo Customization Engineer**, **Joomla Extension Developer**, **Data Analyst** and **Platform Engineer** (storage, agent-profile export, all GitHub work since 11 Oct 2026). ERP Capability Advisor has no direct reports.
-- Report directly to Grok Bot: Event Program Manager (sole owner of calendar writes), Brand Designer (visual design), Facility Manager, Trend Analyst, Technical Lead (manages Business Technology), Finance (taxes/eTAX), Customer Engagement Specialist (mail/comms).
+- **Operations** reports to Grok Bot and manages all agents (since 11 Oct 2026). **Technical Lead** and **People Development Manager** are team leads under Operations and set their teams' priorities.
+- **People Development Manager** manages the Advisors: Data Capability Advisor, AI Capability Advisor, ERP Capability Advisor, AI Engineering Advisor, Business Technology Advisor. **All Advisors are on demand** since 10 Oct 2026: no scheduled routines or proactive messages; they work only when the user or People Development Manager asks.
+- **Finance** manages **Financial Controller** (money: invoices, billing, payments). All agents report financial topics to Finance.
+- **Technical Lead** manages Business Technology and sets priorities for **Odoo Customization Engineer** (Odoo), **Joomla Extension Developer** (Joomla, Staudenschiessen site, Visforms, end-to-end test), **Data Analyst** and **Platform Engineer** (storage, agent-profile export, all GitHub work since 11 Oct 2026). ERP Capability Advisor has no direct reports.
+- Report directly to Operations: Technical Lead (manages Business Technology), People Development Manager (manages the Advisors), Finance (taxes/eTAX), Event Program Manager (sole owner of calendar writes), Brand Designer (visual design), Customer Engagement Specialist (mail/comms), Facility Manager, Trend Analyst.
 
 ## Agents (18)
 
@@ -22,20 +22,20 @@ _This index is named `AGENTS-README.md` because this folder already has its own 
 | 1 | Grok Bot | active | The user | [agents/grok-bot.md](agents/grok-bot.md) |
 | 2 | Operations | active | Grok Bot | [agents/operations.md](agents/operations.md) |
 | 3 | People Development Manager | active | Operations | [agents/people-development-manager.md](agents/people-development-manager.md) |
-| 4 | Data Capability Advisor | paused | People Development Manager | [agents/data-capability-advisor.md](agents/data-capability-advisor.md) |
-| 5 | AI Capability Advisor | paused | People Development Manager | [agents/ai-capability-advisor.md](agents/ai-capability-advisor.md) |
-| 6 | ERP Capability Advisor | paused | People Development Manager | [agents/erp-capability-advisor.md](agents/erp-capability-advisor.md) |
-| 7 | AI Engineering Advisor | paused | People Development Manager | [agents/ai-engineering-advisor.md](agents/ai-engineering-advisor.md) |
-| 8 | Business Technology Advisor | paused | People Development Manager | [agents/business-technology-advisor.md](agents/business-technology-advisor.md) |
-| 9 | Event Program Manager | active | Grok Bot | [agents/event-program-manager.md](agents/event-program-manager.md) |
-| 10 | Facility Manager | active | Grok Bot | [agents/facility-manager.md](agents/facility-manager.md) |
-| 11 | Trend Analyst | active | Grok Bot | [agents/trend-analyst.md](agents/trend-analyst.md) |
-| 12 | Technical Lead | active | Grok Bot | [agents/technical-lead.md](agents/technical-lead.md) |
+| 4 | Data Capability Advisor | active | People Development Manager | [agents/data-capability-advisor.md](agents/data-capability-advisor.md) |
+| 5 | AI Capability Advisor | active | People Development Manager | [agents/ai-capability-advisor.md](agents/ai-capability-advisor.md) |
+| 6 | ERP Capability Advisor | active | People Development Manager | [agents/erp-capability-advisor.md](agents/erp-capability-advisor.md) |
+| 7 | AI Engineering Advisor | active | People Development Manager | [agents/ai-engineering-advisor.md](agents/ai-engineering-advisor.md) |
+| 8 | Business Technology Advisor | active | People Development Manager | [agents/business-technology-advisor.md](agents/business-technology-advisor.md) |
+| 9 | Event Program Manager | active | Operations | [agents/event-program-manager.md](agents/event-program-manager.md) |
+| 10 | Facility Manager | active | Operations | [agents/facility-manager.md](agents/facility-manager.md) |
+| 11 | Trend Analyst | active | Operations | [agents/trend-analyst.md](agents/trend-analyst.md) |
+| 12 | Technical Lead | active | Operations | [agents/technical-lead.md](agents/technical-lead.md) |
 | 13 | Platform Engineer | active | Technical Lead | [agents/platform-engineer.md](agents/platform-engineer.md) |
-| 14 | Brand Designer | active | Grok Bot | [agents/brand-designer.md](agents/brand-designer.md) |
-| 15 | Finance | active | Grok Bot | [agents/finance.md](agents/finance.md) |
+| 14 | Brand Designer | active | Operations | [agents/brand-designer.md](agents/brand-designer.md) |
+| 15 | Finance | active | Operations | [agents/finance.md](agents/finance.md) |
 | 16 | Financial Controller | active | Finance | [agents/financial-controller.md](agents/financial-controller.md) |
-| 17 | Customer Engagement Specialist | active | Grok Bot | [agents/customer-engagement-specialist.md](agents/customer-engagement-specialist.md) |
+| 17 | Customer Engagement Specialist | active | Operations | [agents/customer-engagement-specialist.md](agents/customer-engagement-specialist.md) |
 | 18 | Data Analyst | active | Technical Lead | [agents/data-analyst.md](agents/data-analyst.md) |
 
 ## Notes

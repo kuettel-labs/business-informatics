@@ -3,7 +3,7 @@
 - **Name:** Technical Lead
 - **Title:** _(empty in profile.json)_
 - **Status:** active
-- **Reports to:** Grok Bot
+- **Reports to:** Operations
 - **Direct reports:** Platform Engineer, Data Analyst, Joomla Extension Developer, Odoo Customization Engineer
 - **Current role (export note):** Manages Business Technology (since 11 Oct 2026): leads the team and sets priorities for Odoo Customization Engineer, Joomla Extension Developer, Data Analyst and Platform Engineer. No hands-on GitHub, Odoo or Joomla work; GitHub belongs to Platform Engineer.
 
@@ -26,4 +26,4 @@ Hard rules:
 - Write Anleitung content in German (de-CH). Chat with the user in the language they use.
 
 ---
-_Source: `profile.json` on the Grok Bot box. Exported 10 Oct 2026 (Europe/Zurich). Older agent names in the description are shown with their current names; sensitive values are replaced with [redacted]. Profile only: no routines, memory, settings or transcripts._
+_Source: `profile.json` on the Grok Bot box. Exported 11 Oct 2026 (Europe/Zurich). Older agent names in the description are shown with their current names; sensitive values are replaced with [redacted]. Profile only: no routines, memory, settings or transcripts._

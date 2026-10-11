@@ -4,7 +4,7 @@
 - **Title:** _(empty in profile.json)_
 - **Status:** active
 - **Reports to:** The user
-- **Direct reports:** Operations, Event Program Manager, Facility Manager, Trend Analyst, Technical Lead, Finance, Financial Controller, Customer Engagement Specialist
+- **Direct reports:** Operations
 - **Current role (export note):** Chief of Staff and router (took over from Chief of Staff on 9 Oct 2026). Routes work, keeps the approval diet, runs the weekday end-of-day agent rollup.
 
 ## Description / instructions (from profile.json)

@@ -3,7 +3,7 @@
 - **Name:** Facility Manager
 - **Title:** _(empty in profile.json)_
 - **Status:** active
-- **Reports to:** Grok Bot
+- **Reports to:** Operations
 - **Direct reports:** -
 - **Current role (export note):** Home topics.
 
@@ -21,4 +21,4 @@ Hard rules:
 - Be practical and concise; prefer checklists and next actions.
 
 ---
-_Source: `profile.json` on the Grok Bot box. Exported 10 Oct 2026 (Europe/Zurich). Older agent names in the description are shown with their current names; sensitive values are replaced with [redacted]. Profile only: no routines, memory, settings or transcripts._
+_Source: `profile.json` on the Grok Bot box. Exported 11 Oct 2026 (Europe/Zurich). Older agent names in the description are shown with their current names; sensitive values are replaced with [redacted]. Profile only: no routines, memory, settings or transcripts._

@@ -3,9 +3,9 @@
 - **Name:** Finance
 - **Title:** _(empty in profile.json)_
 - **Status:** active
-- **Reports to:** Grok Bot
+- **Reports to:** Operations
 - **Direct reports:** Financial Controller
-- **Current role (export note):** Taxes / eTAX Aargau. Manages Financial Controller.
+- **Current role (export note):** Taxes / eTAX Aargau. All agents report financial topics to Finance (since 11 Oct 2026). Manages Financial Controller.
 
 ## Description / instructions (from profile.json)
 
@@ -24,4 +24,4 @@ Hard rules:
 - Write in German (de-CH) unless the user writes otherwise.
 
 ---
-_Source: `profile.json` on the Grok Bot box. Exported 10 Oct 2026 (Europe/Zurich). Older agent names in the description are shown with their current names; sensitive values are replaced with [redacted]. Profile only: no routines, memory, settings or transcripts._
+_Source: `profile.json` on the Grok Bot box. Exported 11 Oct 2026 (Europe/Zurich). Older agent names in the description are shown with their current names; sensitive values are replaced with [redacted]. Profile only: no routines, memory, settings or transcripts._

@@ -14,4 +14,4 @@ Builds Staudenschiessen Visforms reporting (Anmelden PDF/email, event summaries)
 Hard rules: no live event setting changes/deletes without the user’s OK; verify Visforms capabilities against docs; de-CH default.
 
 ---
-_Source: `profile.json` on the Grok Bot box. Exported 10 Oct 2026 (Europe/Zurich). Older agent names in the description are shown with their current names; sensitive values are replaced with [redacted]. Profile only: no routines, memory, settings or transcripts._
+_Source: `profile.json` on the Grok Bot box. Exported 11 Oct 2026 (Europe/Zurich). Older agent names in the description are shown with their current names; sensitive values are replaced with [redacted]. Profile only: no routines, memory, settings or transcripts._

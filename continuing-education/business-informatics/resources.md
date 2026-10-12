@@ -50,8 +50,84 @@ Auswahl nach Aktualität und Schweizer Bezug. Dateinamen wie in der Library abge
 
 - Schweizer Recht: revidiertes Datenschutzgesetz (DSG, in Kraft seit 1.9.2023), OR (Vertragsrecht), URG – Originaltexte auf fedlex.admin.ch
 - IT-Service-Management: ITIL 4 Foundation
-- Projektmanagement: HERMES (Projektmanagementmethode der Bundesverwaltung, hermes.admin.ch), Scrum Guide
+- Projektmanagement: HERMES (Projektmanagementmethode der Bundesverwaltung, hermes.admin.ch), Scrum Guide (Scrum-Praxis teilweise in der Calibre-Bibliothek, siehe unten)
 - Informationssicherheit: ISO/IEC 27001, IKT-Minimalstandard des Bundes (BWL)
+
+## Eigene Bibliothek (Calibre)
+
+Zweite Quelle: Calibre-Bibliothek auf OneDrive (`Dokumente/Bibliothek/Calibre`, rund 1'000 Autorenordner, Bücher-IDs bis ca. 1'850). Die Bibliothek ist stark technisch (SQL, Python, Azure, Microsoft Dynamics). Wirtschaftsinformatik-Lehrbücher, ITIL, HERMES und Recht fehlen. Pfade: `Calibre/<Autor>/<Titel (ID)>`. Erscheinungsjahre sind in der Bibliothek nicht erfasst; Angaben «ca.» sind Schätzungen und zu prüfen.
+
+### a – ICT-Strategie, Enterprise Architecture, Governance
+
+| Titel | Autor | Warum / Hinweis |
+|---|---|---|
+| Enterprise Cloud Strategy (461) | Barry Briggs | Cloud-Strategie und Sourcing-Entscheide (a1, a4) |
+| Multi-Cloud Strategy for Cloud Architects (425) | Jeroen Mulder | Sourcing-Varianten vergleichen |
+| Everyday Enterprise Architecture (203) | Tom Graves | EA pragmatisch, gut für Fallstudien |
+| Modern Enterprise Architecture (199) | Jeroen Mulder | EA-Grundlagen, aktuell |
+| ArchiMate Cookbook (255) | Eero Hosiaisluoma | Architektur visualisieren |
+| The Zachman Framework (208) | John Zachman | Klassiker, nur als Hintergrund |
+| A Practical Guide to Enterprise Architecture (223) | James McGovern | veraltet (ca. 2003), nur Nachschlagen |
+| Governing Office 365 with Microsoft (360) | Ben Stegink | Governance-Beispiel, herstellerspezifisch |
+| Unternehmensführung mit SAP BI (1399) | Heinz-Dieter Knoll | Kennzahlen und Controlling (a2, a3) |
+
+### b – Projekte leiten (klassisch und agil)
+
+| Titel | Autor | Warum / Hinweis |
+|---|---|---|
+| The Project Management Life Cycle (207) | Jason Westland | Phasenmodell, Vorlagen; gute Brücke zu HERMES |
+| Scrum and XP From the Trenches (206) | Henrik Kniberg | Scrum-Praxis, kurz und konkret |
+| Scrum in five minutes (211) | Softhouse | Einseitiger Überblick zum Repetieren |
+| Software Measurement and Estimation (212) | Linda M. Laird | Aufwandschätzung, Kennzahlen |
+| Parallel Agile (480) | Doug Rosenberg | Agile Vorgehen, Ergänzung |
+| The Scrum Software Development Process (230) | Linda Rising | veraltet (ca. 2000), aktueller Scrum Guide hat Vorrang |
+| The Rational Unified Process (194) | Philippe Kruchten | veraltet (RUP), nur Hintergrund Vorgehensmodelle |
+
+### Requirements Engineering und Modellierung (b, c)
+
+| Titel | Autor | Warum / Hinweis |
+|---|---|---|
+| The Requirements Engineering Handbook (216) | Ralph R. Young | RE-Gesamtüberblick (ca. 2004, IREB-Begriffe teils anders) |
+| Writing Effective Use Cases (229) | Alistair Cockburn | Standardwerk für Use Cases |
+| Use Case Driven Object Modeling (249) | Doug Rosenberg | Von Use Cases zum Modell |
+| Sams Teach Yourself UML in 24 Hours (218) | Joseph Schmuller | UML-Einstieg |
+| Learning UML 2.0 (213) | Russ Miles | UML 2, pragmatisch |
+| The Elements of UML Style (196) | Scott W. Ambler | Modellierregeln kompakt |
+
+### d – Geschäftsprozesse
+
+| Titel | Autor | Warum / Hinweis |
+|---|---|---|
+| Business Modeling With UML (231) | Hans-Erik Eriksson | Prozessmodellierung; vor BPMN 2.0, Notation abweichend |
+| Cross Industry Process Classification (690) | Microsoft | Prozesslandkarte als Vorlage |
+| Process-Centric Architecture for Enterprise Software (248) | Parameswaran Seshan | Prozesse und Systeme verbinden |
+| Enterprise Modeling and Computing With UML (210) | Peter Rittgen | Unternehmensmodellierung |
+| Odoo 17 Scale Up! The Business Game (31) | Odoo | ERP-Prozesse durchspielen |
+
+### e – Betrieb, Sicherheit, Daten
+
+| Titel | Autor | Warum / Hinweis |
+|---|---|---|
+| SQL- und NoSQL-Datenbanken (1102) | Michael Kaufmann | Deutsch, Datenmanagement und Datenschutz-Aspekte |
+| Relationale Datenbanken und SQL in Theorie und Praxis (1518) | Michael Unterstein | Deutsch, Grundlagen |
+| Datenbanken und SQL (994) | Edwin Schicker | Deutsch, praxisorientiert |
+| Database Security (1669) | Alfred Basta | Datensicherheit |
+| Develop and Implement Least Privilege (663) | Alex Meyer | Berechtigungskonzept |
+| Office 365 Security Incident Management (379) | Microsoft | Incident-Prozess am Beispiel |
+| Cyber Security on Azure (442) | Marshall Copeland | Cloud-Security, herstellerspezifisch |
+| Cloud Observability With Azure Monitor (423) | Jose Angel Fernandez | Monitoring, SLA-Messung |
+| Software Performance and Scalability (1481) | Henry H. Liu | Kapazität und Leistung |
+
+Vollständige Liste (49 Titel): `_sources/calibre-relevant.csv` (nicht im Repo).
+
+### Lücken in der Calibre-Bibliothek
+
+- ITIL (kein Titel; ITIL-Material liegt nur ausserhalb von Calibre)
+- HERMES, PMBOK, PRINCE2
+- Recht und Compliance (DSG, OR, URG), ISO/IEC 27001
+- Führung, Kommunikation, Verhandlung
+- Finanzen, IT-Controlling, Wirtschaftlichkeitsrechnung (nur ERP-Handbücher)
+- BPMN 2.0
 
 ## Vorbereitungskurse
 

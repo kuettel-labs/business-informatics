@@ -38,6 +38,14 @@ Haltungen: vernetztes und wirtschaftliches Denken, überzeugende Kommunikation g
 
 Weitere Quellen: [resources.md](../resources.md)
 
+### Aus deiner Bibliothek (Calibre)
+
+- Barry Briggs: Enterprise Cloud Strategy (Sourcing, a1/a4)
+- Tom Graves: Everyday Enterprise Architecture; Eero Hosiaisluoma: ArchiMate Cookbook (Architektur)
+- Heinz-Dieter Knoll: Unternehmensführung mit SAP BI (Kennzahlen)
+
+Details: [resources.md](../resources.md#eigene-bibliothek-calibre)
+
 ## Übungen und Fallstudien
 
 - [ ] **Mini-Case a1:** Fünf ICT-Vorhaben mit Nutzwertanalyse priorisieren (Kriterien: Strategiebezug, Nutzen, Risiko, Abhängigkeit). *Platzhalter*

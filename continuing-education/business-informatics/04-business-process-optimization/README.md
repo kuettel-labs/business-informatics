@@ -33,6 +33,14 @@ Haltungen: strukturiert, unvoreingenommen und kritisch analysieren, transparent 
 
 Repetition Grundbildung: Module 254, 230, 348, 349, 367 (siehe [resources.md](../resources.md)).
 
+### Aus deiner Bibliothek (Calibre)
+
+- Hans-Erik Eriksson: Business Modeling With UML (vor BPMN 2.0, Notation abweichend)
+- Microsoft: Cross Industry Process Classification (Prozesslandkarte)
+- Odoo 17 Scale Up! The Business Game (ERP-Prozesse durchspielen)
+
+BPMN 2.0 fehlt in der Bibliothek. Details: [resources.md](../resources.md#eigene-bibliothek-calibre)
+
 ## Übungen und Fallstudien
 
 - [ ] **RE-Übung 2:** [Chargenrückverfolgbarkeit](../../../exercises/requirements-engineering/batch-traceability/) – den Rückrufprozess als Ist- und Soll-BPMN modellieren (d1, d3)

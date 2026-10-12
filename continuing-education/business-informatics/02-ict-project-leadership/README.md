@@ -36,6 +36,15 @@ Haltungen: ziel- und lösungsorientiert, objektiv, teamfähig, klare und wertsch
 
 Lücke: Für Projektmanagement und Führung gibt es kein spezifisches Buch in der Library. Ergänzung empfohlen: HERMES-Handbuch (hermes.admin.ch), Scrum Guide (siehe [resources.md](../resources.md)).
 
+### Aus deiner Bibliothek (Calibre)
+
+- Jason Westland: The Project Management Life Cycle (Phasen, Vorlagen; ergänzt HERMES, ersetzt es nicht)
+- Henrik Kniberg: Scrum and XP From the Trenches; Softhouse: Scrum in five minutes
+- Linda M. Laird: Software Measurement and Estimation (Aufwandschätzung)
+- Ralph R. Young: The Requirements Engineering Handbook; Alistair Cockburn: Writing Effective Use Cases (RE)
+
+Details: [resources.md](../resources.md#eigene-bibliothek-calibre)
+
 ## Übungen und Fallstudien
 
 - [ ] **RE-Übung 1:** [Online-Anmeldung](../../../exercises/requirements-engineering/marksman-event-registration/) (b1, b2)

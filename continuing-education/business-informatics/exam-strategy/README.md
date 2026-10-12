@@ -56,6 +56,11 @@ Grundlage: Wegleitung vom 2.12.2024, Ziff. 4.4 und 4.5 (eigene Zusammenfassung).
 
 Übungssituationen: [02-ict-project-leadership](../02-ict-project-leadership/)
 
+### Aus deiner Bibliothek (Calibre)
+
+- Teil 3 (mündlich): Henrik Kniberg: Scrum and XP From the Trenches und Jason Westland: The Project Management Life Cycle für Praxisbeispiele
+- Führung und Kommunikation: kein Titel in der Bibliothek
+
 ## Unterstützende Kurse (Digicomp)
 
 Optional, siehe [digicomp-courses.md](../digicomp-courses.md) und [preparation-courses.md](../preparation-courses.md):

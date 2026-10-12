@@ -32,6 +32,14 @@ Haltungen: Datenflüsse ganzheitlich analysieren, Risikobewusstsein (rechtlich u
 
 Lücke: Schweizer Rechtsgrundlagen, ITIL 4 und ISO/IEC 27001 sind nicht in der Library (siehe [resources.md](../resources.md)).
 
+### Aus deiner Bibliothek (Calibre)
+
+- Michael Kaufmann: SQL- und NoSQL-Datenbanken (deutsch)
+- Alfred Basta: Database Security; Alex Meyer: Least Privilege (Berechtigungen)
+- Jose Angel Fernandez: Cloud Observability With Azure Monitor (Monitoring, SLA)
+
+ITIL fehlt in der Bibliothek. Details: [resources.md](../resources.md#eigene-bibliothek-calibre)
+
 ## Übungen und Fallstudien
 
 - [ ] **RE-Übung 2:** [Chargenrückverfolgbarkeit](../../../exercises/requirements-engineering/batch-traceability/) – Datenqualitätsregeln für Chargendaten und Compliance-Bezüge herleiten (e2, e3)

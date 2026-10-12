@@ -34,6 +34,14 @@ Haltungen: Objektivität bei Anforderungen und Kennzahlen, Übersetzen zwischen 
 
 Lücke: ITIL 4 und ISTQB-Grundlagen sind nicht in der Library (siehe [resources.md](../resources.md)).
 
+### Aus deiner Bibliothek (Calibre)
+
+- Alistair Cockburn: Writing Effective Use Cases (Anforderungen für die Evaluation)
+- Joseph Schmuller: UML in 24 Hours; Scott W. Ambler: The Elements of UML Style
+- Jeroen Mulder: Multi-Cloud Strategy for Cloud Architects (Lösungsvarianten)
+
+Details: [resources.md](../resources.md#eigene-bibliothek-calibre)
+
 ## Übungen und Fallstudien
 
 - [ ] **Labor:** [ERPNext mit Docker](../../erp/erpnext-docker/) aufsetzen und als Evaluationskandidat gegen 10 Muss-Kriterien testen (c1, c2)

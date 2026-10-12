@@ -36,7 +36,7 @@ Lernziel · Typische Aufgabenstellungen · Theorie kompakt · Beispiel · Schrit
 
 ### Fall 1: Online-Anmeldung «Staudenschlacht»
 
-Aufgaben: [RE_Uebung_Anmeldung_Aufgaben.md](../marksman-event-registration/RE_Uebung_Anmeldung_Aufgaben.md) · Musterlösung: [RE_Uebung_Anmeldung_Musterloesung.md](../marksman-event-registration/RE_Uebung_Anmeldung_Musterloesung.md)
+Aufgaben: [RE_Uebung_Anmeldung_Aufgaben.md](../../../exercises/requirements-engineering/marksman-event-registration/RE_Uebung_Anmeldung_Aufgaben.md) · Musterlösung: [RE_Uebung_Anmeldung_Musterloesung.md](../../../exercises/requirements-engineering/marksman-event-registration/RE_Uebung_Anmeldung_Musterloesung.md)
 
 | Aufgabe im Fall | Punkte | ≈ Min. | Kursordner |
 |---|---|---|---|
@@ -53,7 +53,7 @@ Aufgaben: [RE_Uebung_Anmeldung_Aufgaben.md](../marksman-event-registration/RE_Ue
 
 ### Fall 2: Chargenrückverfolgbarkeit im ERP «Bärgmüesli AG» (fiktiv)
 
-Aufgaben: [RE_Uebung_Batch_Traceability_Aufgaben.md](../batch-traceability/RE_Uebung_Batch_Traceability_Aufgaben.md) · Musterlösung: [RE_Uebung_Batch_Traceability_Musterloesung.md](../batch-traceability/RE_Uebung_Batch_Traceability_Musterloesung.md)
+Aufgaben: [RE_Uebung_Batch_Traceability_Aufgaben.md](../../../exercises/requirements-engineering/batch-traceability/RE_Uebung_Batch_Traceability_Aufgaben.md) · Musterlösung: [RE_Uebung_Batch_Traceability_Musterloesung.md](../../../exercises/requirements-engineering/batch-traceability/RE_Uebung_Batch_Traceability_Musterloesung.md)
 
 | Aufgabe im Fall | Punkte | ≈ Min. | Kursordner |
 |---|---|---|---|

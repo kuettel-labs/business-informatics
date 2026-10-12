@@ -51,6 +51,12 @@ Repetition Grundbildung: Module 254, 230, 348, 349, 367 (siehe [resources.md](..
 5. Mit welchen KPI belegst du die Wirkung einer Optimierung?
 6. Wie passt du die Präsentation für Geschäftsleitung vs. Sachbearbeitende an?
 
+## Unterstützende Kurse (Digicomp)
+
+Optional, siehe [digicomp-courses.md](../digicomp-courses.md) und [preparation-courses.md](../preparation-courses.md):
+
+- BPMN 2.0 (PZ1): d1, d3
+
 ## Fortschritts-Checkliste
 
 - [ ] d1 Prozessanalyse (Methoden, Daten, Visualisierung)

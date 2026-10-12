@@ -54,6 +54,13 @@ Lücke: ITIL 4 und ISTQB-Grundlagen sind nicht in der Library (siehe [resources.
 6. Wie unterscheiden sich Incident und Problem Management?
 7. MTTR steigt seit drei Monaten. Wie analysierst du die Ursache?
 
+## Unterstützende Kurse (Digicomp)
+
+Optional, siehe [digicomp-courses.md](../digicomp-courses.md) und [preparation-courses.md](../preparation-courses.md):
+
+- ITIL Version 5 Foundation (IT5L/IT5): c3 Betriebsprozesse, c5 KPI
+- IREB CPRE Foundation Level (QM2): c2 Anforderungen prüfen
+
 ## Fortschritts-Checkliste
 
 - [ ] c1 Evaluation und Offertvergleich

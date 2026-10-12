@@ -43,6 +43,7 @@ Weitere Ordner:
 - [project-work](project-work/) – Leitfaden und Vorlagen für die Projektarbeit (Teil 1)
 - [exam-strategy](exam-strategy/) – Vorgehen für Fallstudien/Mini-Cases (Teil 2) und Critical Incidents (Teil 3)
 - [resources.md](resources.md) – offizielle Dokumente und Library-Empfehlungen
+- **[preparation-courses.md](preparation-courses.md) – Vorbereitungskurse: Lehrgänge, Digicomp-Einzelkurse ([digicomp-courses.md](digicomp-courses.md)) oder Selbststudium, inkl. Bundesbeiträge**
 
 ## Bestehende Lernbereiche im Repo
 
@@ -59,12 +60,12 @@ Richtwert: 5–7 Stunden pro Woche, berufsbegleitend.
 
 | Phase | Zeitraum | Schwerpunkt | Ergebnis |
 |---|---|---|---|
-| 0 Start | Okt 2026 | Standortbestimmung: alle 24 Handlungskompetenzen mit eigener Praxis abgleichen (stark / mittel / Lücke) | Kompetenz-Matrix, Lernplan |
-| 1 | Nov 2026 – Jan 2027 | **d** Geschäftsprozesse + RE-Kurs (b1, b2) | 2 Prozessmodelle (BPMN), RE-Übungen gelöst |
-| 2 | Feb – Apr 2027 | **a** ICT-Strategie, Budget, Wirtschaftlichkeit, SLA, Trends | Budget- und Investitionsrechnung, SLA-Entwurf |
-| 3 | Mai – Jul 2027 | **c** Evaluation, Test, ITSM-Prozesse, Einführung, KPI | Kriterienkatalog, Testkonzept, Rollout-Plan |
-| 4 | Aug – Okt 2027 | **e** Release, Datenqualität, Compliance, Betriebsstabilität | DQ-Konzept, Compliance-Check, BCP-Skizze |
-| 5 | Sep – Nov 2027 (parallel) | **b** Projektleitung und Führung, erste Critical Incidents | 6 Incidents mündlich geübt |
+| 0 Start | Okt 2026 | Standortbestimmung: alle 24 Handlungskompetenzen mit eigener Praxis abgleichen (stark / mittel / Lücke); Entscheid Lehrgang vs. Selbststudium ([preparation-courses.md](preparation-courses.md)) | Kompetenz-Matrix, Lernplan |
+| 1 | Nov 2026 – Jan 2027 | **d** Geschäftsprozesse + RE-Kurs (b1, b2); optional Digicomp IREB CPRE (statt HERMES, falls RE schwach), BPMN | 2 Prozessmodelle (BPMN), RE-Übungen gelöst |
+| 2 | Feb – Apr 2027 (Lehrgangsentscheid bis Feb 2027) | **a** ICT-Strategie, Budget, Wirtschaftlichkeit, SLA, Trends | Budget- und Investitionsrechnung, SLA-Entwurf |
+| 3 | Mai – Jul 2027 | **c** Evaluation, Test, ITSM-Prozesse, Einführung, KPI; Digicomp ITIL 5 (Basispaket) | Kriterienkatalog, Testkonzept, Rollout-Plan |
+| 4 | Aug – Okt 2027 | **e** Release, Datenqualität, Compliance, Betriebsstabilität; optional Digicomp ISO 27001, DSG | DQ-Konzept, Compliance-Check, BCP-Skizze |
+| 5 | Sep – Nov 2027 (parallel) | **b** Projektleitung und Führung, erste Critical Incidents; Digicomp HERMES (Basispaket), optional PSM I | 6 Incidents mündlich geübt |
 | 6 Projektarbeit | Sep 2027 – 31.3.2028 | Thema, Kompetenzauswahl, Projektantrag, Schreiben, Abgabe | siehe [project-work](project-work/) |
 | 7 Simulation | Jan – Mai 2028 | Teil-2-Simulationen (240 Min.), Teil-3-Gespräche, Präsentation und Fachgespräch | 3 Vollsimulationen, Fehlerliste |
 | Prüfung | 13.5. und 18.–22.5.2028 | | |

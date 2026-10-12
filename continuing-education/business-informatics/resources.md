@@ -53,6 +53,10 @@ Auswahl nach Aktualität und Schweizer Bezug. Dateinamen wie in der Library abge
 - Projektmanagement: HERMES (Projektmanagementmethode der Bundesverwaltung, hermes.admin.ch), Scrum Guide
 - Informationssicherheit: ISO/IEC 27001, IKT-Minimalstandard des Bundes (BWL)
 
+## Vorbereitungskurse
+
+Lücken der Library (ITIL, HERMES, ISO 27001, DSG) lassen sich mit Digicomp-Einzelkursen schliessen: [digicomp-courses.md](digicomp-courses.md). Vergleich Lehrgang / Einzelkurs / Selbststudium: [preparation-courses.md](preparation-courses.md).
+
 ## Repetition aus der Grundbildung (Modulidentifikationen)
 
 Passende EFZ-Module aus dem Ordner Grundbildung EFZ, z. B. 254/348/349/230 (Geschäftsprozesse), 306/336/337 (Projekte), 262/332 (Evaluation), 285 (Wirtschaftlichkeitsrechnung), 231/185 (Datenschutz, Sicherheit), 378 (Datenqualität).

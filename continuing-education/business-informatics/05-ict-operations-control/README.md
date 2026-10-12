@@ -50,6 +50,14 @@ Lücke: Schweizer Rechtsgrundlagen, ITIL 4 und ISO/IEC 27001 sind nicht in der L
 5. Erkläre RTO und RPO an einem Beispiel.
 6. Wie testest du einen Business-Continuity-Plan, ohne den Betrieb zu gefährden?
 
+## Unterstützende Kurse (Digicomp)
+
+Optional, siehe [digicomp-courses.md](../digicomp-courses.md) und [preparation-courses.md](../preparation-courses.md):
+
+- ITIL Version 5 Foundation (IT5L/IT5): e1 Release, e4 Betriebsstabilität
+- ISO/IEC 27001 Foundation (IS27F): e3, e4
+- Das Schweizer Datenschutzgesetz (NDSGT) / Kurspaket (NDSG): e2, e3
+
 ## Fortschritts-Checkliste
 
 - [ ] e1 Releasemanagement

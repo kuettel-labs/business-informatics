@@ -68,6 +68,14 @@ Deckblatt → Inhaltsverzeichnis → Eigenständigkeitserklärung → Einführun
 - `Bergener, Clever, Stein - Wissenschaftliches Arbeiten im Wirtschaftsinformatik-Studium (Springer Gabler, 2019) - ISBN 9783662579480.pdf` (Zitieren, Aufbau)
 - Fachliteratur pro HK: siehe Bereichsordner und [resources.md](../resources.md)
 
+## Unterstützende Kurse (Digicomp)
+
+Optional, siehe [digicomp-courses.md](../digicomp-courses.md) und [preparation-courses.md](../preparation-courses.md):
+
+- HERMES (HER22F) oder PSM I (AJS) für ein sauber begründetes Vorgehensmodell
+- IREB CPRE (QM2) für den Anforderungsteil
+- Coaching zur Projektarbeit bieten v. a. Lehrgänge (siehe Übersicht)
+
 ## Fortschritts-Checkliste
 
 - [ ] Thema gewählt und mit Arbeitgeber abgestimmt

@@ -56,6 +56,14 @@ Grundlage: Wegleitung vom 2.12.2024, Ziff. 4.4 und 4.5 (eigene Zusammenfassung).
 
 Übungssituationen: [02-ict-project-leadership](../02-ict-project-leadership/)
 
+## Unterstützende Kurse (Digicomp)
+
+Optional, siehe [digicomp-courses.md](../digicomp-courses.md) und [preparation-courses.md](../preparation-courses.md):
+
+- Teil 2: ITIL 5 (IT5L/IT5), ISO 27001 (IS27F), BPMN (PZ1)
+- Teil 3: HERMES (HER22F), PSM I (AJS)
+- Keiner ersetzt das Fallstudientraining; Prüfungssimulationen bieten v. a. Lehrgänge
+
 ## Fortschritts-Checkliste
 
 - [ ] Vorlagen für Teil 2 erstellt

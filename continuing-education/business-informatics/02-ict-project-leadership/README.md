@@ -59,6 +59,14 @@ Vorgehen und Bewertungsraster: [exam-strategy](../exam-strategy/)
 6. Wie gehst du in einem Mitarbeitergespräch mit Kritik vor?
 7. Wie strukturierst du deine Antwort in 30 Minuten Vorbereitung für einen Critical Incident?
 
+## Unterstützende Kurse (Digicomp)
+
+Optional, siehe [digicomp-courses.md](../digicomp-courses.md) und [preparation-courses.md](../preparation-courses.md):
+
+- IREB CPRE Foundation Level (QM2): b1, b2
+- HERMES Foundation (HER22F): b3–b5
+- Professional Scrum Master (AJS): b3, b4, b6
+
 ## Fortschritts-Checkliste
 
 - [ ] b1 Stakeholder und Bedürfnisse

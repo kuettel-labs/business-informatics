@@ -56,6 +56,13 @@ Weitere Quellen: [resources.md](../resources.md)
 6. Wie begründest du einen Investitionsantrag vor einer Geschäftsleitung in 5 Minuten?
 7. Welche KPI zeigen einen Kapazitätsengpass rechtzeitig an?
 
+## Unterstützende Kurse (Digicomp)
+
+Optional, siehe [digicomp-courses.md](../digicomp-courses.md) und [preparation-courses.md](../preparation-courses.md):
+
+- ITIL Version 5 Foundation (IT5L/IT5): a4 Ressourcen, a5 SLA
+- ISO/IEC 27001 Foundation (IS27F): Sicherheitsvorgaben für a1
+
 ## Fortschritts-Checkliste
 
 - [ ] a1 Vorhaben bewerten und priorisieren

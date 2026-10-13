@@ -4,7 +4,7 @@ Largest domain. Further reading: Cheshire, Exam Ref AZ-900 3rd ed., Ch. 2 (Skill
 
 ## 2.1 Core architectural components
 
-- **Datacenter:** physical facility with servers, power, cooling, network. You never pick one directly.
+- **Datacenter:** physical facility with servers, power, cooling, network. You never pick one directly; you pick a region or zone instead.
 - **Region:** one or more nearby datacenters on a low-latency network; you choose a region per resource. Some services are global (Microsoft Entra ID, Azure DNS, Front Door).
 - **Availability zones:** physically separate locations in one region with independent power, cooling and network; at least three per enabled region. *Zonal* = pinned to one zone (a VM). *Zone-redundant* = replicated across zones (ZRS storage).
 - **Region pairs:** two regions in the same geography, usually 300+ miles apart. Updates roll out to one region of a pair at a time; one of each pair is prioritised in recovery; GRS storage replicates to the pair. Some newer regions have no pair and rely on zones.
@@ -40,8 +40,8 @@ Largest domain. Further reading: Cheshire, Exam Ref AZ-900 3rd ed., Ch. 2 (Skill
 | VPN Gateway | Encrypted tunnel over the public internet: site-to-site, point-to-site, VNet-to-VNet |
 | ExpressRoute | Private dedicated connection via a connectivity provider; not over the internet |
 | Azure DNS | Host DNS zones on Azure name servers (does not sell domain names); private DNS zones for VNets |
-| NSG | Allow/deny rules by source/destination IP, port, protocol on a subnet or NIC |
-| Azure Firewall | Managed, stateful firewall service with FQDN rules and threat intelligence |
+| NSG | Stateful layer 3/4 allow/deny rules by source/destination IP, port, protocol, applied per subnet or NIC |
+| Azure Firewall | Central managed firewall service (also stateful) for many VNets, with FQDN/application rules and threat intelligence |
 
 - **Public endpoint:** reachable on a public IP. **Private endpoint:** a private IP in your VNet for a PaaS service (via Private Link), traffic stays off the internet.
 
@@ -84,7 +84,7 @@ Largest domain. Further reading: Cheshire, Exam Ref AZ-900 3rd ed., Ch. 2 (Skill
 
 - **Region vs region pair vs availability zone:** location vs two regions for regional disaster and staged updates vs separate datacenters inside one region.
 - **Availability set vs zone:** racks in one datacenter (VM SLA 99.95%) vs separate datacenters (VM SLA 99.99%).
-- **NSG vs Azure Firewall:** free basic layer 3/4 rules on subnet/NIC vs paid central stateful service with FQDN filtering and threat intelligence.
+- **NSG vs Azure Firewall:** both are stateful. NSG = free layer 3/4 allow/deny rules per subnet or NIC. Azure Firewall = paid central managed firewall with FQDN filtering and threat intelligence.
 - **VPN Gateway vs ExpressRoute:** encrypted over internet vs private circuit.
 - **VNet peering vs VPN Gateway:** VNet to VNet over backbone without gateway vs tunnel mainly for on-premises.
 - **ACI vs Container Apps vs AKS:** single container vs serverless microservices vs full orchestration.
@@ -147,7 +147,7 @@ A. RBAC  B. Conditional Access  C. Azure Policy  D. NSG
 
 **Q12.** (Multiple choice) Which filters traffic to a subnet by IP and port at no extra service cost?
 A. Azure Firewall  B. Network security group  C. ExpressRoute  D. Private endpoint
-<details><summary>Answer</summary>B. NSGs are free basic allow/deny rules; Azure Firewall is a paid managed service.</details>
+<details><summary>Answer</summary>B. NSGs are free stateful layer 3/4 allow/deny rules per subnet or NIC; Azure Firewall is a paid central managed service.</details>
 
 **Q13.** (Multiple choice) A legacy app needs LDAP and domain join, but you do not want to manage domain controllers. Use:
 A. Microsoft Entra ID only  B. Microsoft Entra Domain Services  C. Entra External ID  D. Azure Arc

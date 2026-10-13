@@ -27,7 +27,7 @@ Also: [flashcards](tutorial/flashcards.md), [references](tutorial/references.md)
 
 ## 3-session plan
 
-Each evening 50-90 minutes, in 25-minute blocks with 5-minute breaks.
+Each evening about 100 minutes, in short blocks with 5-minute breaks (block times below add up to 100). Until a dedicated mock-exam file exists, the Practice Assessment is Wednesday's timed mock.
 
 ### Tuesday evening: domains 1 and 2
 
@@ -48,10 +48,9 @@ Each evening 50-90 minutes, in 25-minute blocks with 5-minute breaks.
 | 1 | 20 | Read domain 3 summary and "commonly confused" |
 | 2 | 10 | Domain 3 practice questions |
 | break | 5 | |
-| 3 | 45 | Timed mock: mixed questions from all three domain files (dedicated mock-exam file to follow), no notes |
+| 3 | 45 | **Required:** free Microsoft Learn Practice Assessment (link above) as the timed mock, 45 minutes, no notes |
 | break | 5 | |
 | 4 | 15 | Review misses only; re-read the matching section |
-| 5 | optional | Free Microsoft Learn Practice Assessment (link above), if energy allows; otherwise skip and sleep |
 
 ### Thursday, before the exam
 

@@ -45,7 +45,7 @@ Further reading: Cheshire, Exam Ref AZ-900 3rd ed., Ch. 3 (Skills 3.1-3.4); Boyc
 ## SLAs and composite SLA
 
 - **SLA:** Microsoft's uptime commitment per service, with service credits if missed. Free and preview services usually have none.
-- Examples: single VM with premium SSD 99.9%; availability set 99.95%; VMs across zones 99.99%.
+- Illustrative examples (check current figures on the [Microsoft SLA site](https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services)): single VM with premium SSD 99.9%; availability set 99.95%; VMs across zones 99.99%. Figures in the questions below are illustrative too.
 - **Composite SLA:** for services that all must work, **multiply**: App Service 99.95% x SQL Database 99.99% = 0.9995 x 0.9999 = about **99.94%**, lower than either. Adding redundancy (independent fallbacks) raises it.
 
 ## Commonly confused

@@ -24,7 +24,7 @@
 | Private link to on-premises, no internet? | ExpressRoute |
 | Encrypted tunnel over internet? | VPN Gateway |
 | Connect two VNets without gateway? | VNet peering |
-| NSG vs Azure Firewall? | Free basic IP/port rules vs paid stateful central firewall |
+| NSG vs Azure Firewall? | Both stateful. NSG: L3/4 allow/deny rules per subnet or NIC. Firewall: central managed service with FQDN rules and threat intelligence |
 | Private endpoint? | Private IP in your VNet for a PaaS service |
 | LRS / ZRS / GRS / GZRS? | 1 datacenter / 3 zones / + paired region / zones + paired region |
 | RA- prefix? | Secondary region readable |

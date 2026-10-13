@@ -26,7 +26,7 @@ Further reading: Cheshire, Exam Ref AZ-900 3rd ed., Ch. 1 (Skills 1.1-1.3); Boyc
   - *Hybrid:* public and private connected. Keep sensitive data on-premises, burst to cloud, gradual migration.
   - *Multi-cloud:* several public providers; Azure Arc can manage across them.
 - **Consumption-based model:** no upfront cost, pay only for what you use, stop paying when you stop using.
-- **Pricing models:** pay-as-you-go; reservations (1 or 3 years, large discount); savings plan for compute (hourly spend commitment); spot VMs (cheap, evictable); Azure Hybrid Benefit (reuse Windows Server/SQL Server licences).
+- **Pricing models:** pay-as-you-go; reservations (1 or 3 years, large discount); savings plan for compute (1 or 3 year hourly spend commitment that applies flexibly across VM sizes, regions and several compute services, unlike reservations, which are tied to a specific resource type and region); spot VMs (cheap, evictable); Azure Hybrid Benefit (reuse Windows Server/SQL Server licences).
 - **Serverless:** you deploy code or workflows; the platform runs, scales and bills per execution (Azure Functions, Logic Apps). Event-driven, no server management.
 
 ### 1.2 Benefits of cloud services

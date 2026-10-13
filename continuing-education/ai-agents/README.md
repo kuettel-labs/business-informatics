@@ -1,17 +1,17 @@
 # Always-On Agent Consultant: 6-Month Learning Plan
 
-> **Status: Approved.** Start Thu 15 Oct 2026, daily 19:00-19:50 (7 x 50 min a week). Detailed plan: [detailed-plan.md](detailed-plan.md)
+> **Status:** Active learning plan. Details: [detailed-plan.md](detailed-plan.md)
 
 ## Goal
 Become a consultant for always-on, long-running AI agents: agents that run multi-step work over hours or days, operate tools and apps unattended, and surface only for human judgment. The approach is Microsoft-first and use-before-build.
 
-**Positioning (kuettel-labs):** help companies run AI agents reliably over hours and days: unattended, governed, cost-controlled, with humans only for judgment. Domain angle: Solution Architect + ERP (Dynamics 365 F&SCM, Odoo).
+**Positioning:** help companies run AI agents reliably over hours and days: unattended, governed, cost-controlled, with humans only for judgment. Domain angle: solution architecture and ERP (e.g. Dynamics 365 F&SCM).
 
 ## Rhythm
-- Daily 19:00-19:50, 7 sessions a week.
+- 7 x 50 min per week.
 - From month 2: 2 weekend build sessions plus 5 use/consulting/review sessions a week.
-- Wednesday is the weekly review.
-- Runs alongside other tracks (Berufsprüfung Wirtschaftsinformatik, TypeScript, DP-700/Fabric).
+- One weekly review session.
+- Can run alongside other learning tracks.
 
 ## Pillars
 | # | Pillar |
@@ -26,10 +26,10 @@ Become a consultant for always-on, long-running AI agents: agents that run multi
 | P8 | Evaluation and cost (trajectory evals, benchmarks, token economics) |
 
 ## Month 1: Foundations and power use
-- **W1:** Landscape of always-on agents (Grok Bot, Claude Cowork, OpenAI agents, Microsoft Copilot Cowork/Autopilot, Gemini). The ReAct loop. Case study v1: a multi-agent assistant team in daily use. [P2, P6, P7]
+- **W1:** Landscape of always-on agents (Grok Bot, Claude Cowork, OpenAI agents, Microsoft Copilot Cowork/Autopilot, Gemini). The ReAct loop. Portfolio case study (published only after approval). [P2, P6, P7]
 - **W2:** Microsoft 365 Copilot agents and Copilot Cowork (delegate, review plan and progress, scheduled tasks). AB-730 prep. [P5, P7]
 - **W3:** Exam AB-730 AI Business Professional. Hugging Face Agents Course, Unit 1. [P2, P4]
-- **W4:** Copilot Studio basics. DeepLearning.AI Agentic Design Patterns. Write-ups of 2 unattended ops cases: a file-filing routine (cloud drive to OneDrive, with an invoice handoff) and an email-triage routine. [P2, P7, P8]
+- **W4:** Copilot Studio basics. DeepLearning.AI Agentic Design Patterns. Write-ups of 2 unattended ops cases as portfolio case studies (each published only after approval). [P2, P7, P8]
 
 ## Month 2: Consulting core + weekly build
 - **W5:** Use-case discovery for long-running work and an opportunity assessment template. Build: ReAct loop with tool calls. [P2, P4]
@@ -42,7 +42,7 @@ Become a consultant for always-on, long-running AI agents: agents that run multi
 - **W10:** Reliability and evals (trajectory evals, failure taxonomy, context rot, OSWorld/WebArena). Build: mini eval suite. [P8]
 - **W11:** Service catalogue v1: Agent Readiness Assessment, Approval and Governance Design, Pilot-to-Production Roadmap, Cost and Reliability Review, Team Enablement. Pitch deck and LinkedIn post. Build: computer use 1 (Playwright, DOM vs accessibility tree). [P1]
 - **W12:** Mock client workshop: proposal, risk design, cost model, rollout roadmap. Build: computer use 2 (screenshot-reason-act loop). [P1]
-- **W13:** Review. Projektarbeit topic options for the Berufsprüfung Wirtschaftsinformatik.
+- **W13:** Review. Project topic options in agent consulting.
 
 ## Months 4-6: Build depth, certification, first client
 - Azure AI Foundry Agent Service, Semantic Kernel/AutoGen
@@ -51,26 +51,16 @@ Become a consultant for always-on, long-running AI agents: agents that run multi
 - Inbox/folder ops agent updating a tracker unattended [P2]
 - Cost and reliability dashboard (Power BI/Fabric) [P8]
 - Documented multi-hour runs with costs and failures
-- Certification: AI-103 Developing AI Apps and Agents on Azure (AI-102 retired 30 Jun 2026)
+- Certification: Microsoft Certified: Azure AI Apps and Agents Developer Associate (Exam AI-103: Developing AI Apps and Agents on Azure; AI-102 retired 30 Jun 2026)
 - Month 6: platform comparison v2, enterprise concerns checklist (security, residency, audit, change management), service catalogue v2, first pilot client
 
 ## Portfolio by month 6
-1. Multi-agent assistant team (live case study)
-2. File-filing ops agent
-3. Email-triage agent
+1. Portfolio case study: multi-agent setup (published only after approval)
+2. Portfolio ops case study 1 (published only after approval)
+3. Portfolio ops case study 2 (published only after approval)
 4. Dynamics 365 F&SCM unattended agent
 5. Long-running research agent with evals
 6. Platform comparison write-up
 7. Cost and reliability dashboard
 
-## Roles
-| Role | Responsibility |
-|---|---|
-| Learning lead agent | Plan owner, weekly milestones |
-| AI learning advisor | Governance and risk (P7) |
-| ERP learning advisor | Dynamics 365 case |
-| Engineering learning advisor | Build track |
-| Business-informatics learning advisor | Berufsprüfung link |
-| Storage agent | Repository and PRs |
-
-_Resources and exam codes will be verified and linked in the detailed version._
+_Resources and exam codes are verified in [detailed-plan.md](detailed-plan.md)._

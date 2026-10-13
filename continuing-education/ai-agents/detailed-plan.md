@@ -5,7 +5,7 @@ Status: active detailed plan (26 weeks, W1-W26).
 ## Goal and ground rules
 
 - Goal: become a consultant for always-on / long-running AI agents (multi-step, tool- and app-operating, running unattended, surfacing only for human judgment). Microsoft-first, use before build.
-- The learner: beginner in agents; ERP Solution Architect (Dynamics 365 F&SCM, Odoo, Joomla, .NET); currently on a TypeScript track.
+- The learner: beginner in agents, with a solution-architecture or ERP background and basic TypeScript.
 - Rhythm: 7 sessions of 50 min per week (about 5.8 h per week); each week runs Thu to Wed.
 - Month 1 (W1-W4): all 7 sessions are use/learn; Wednesday is a short review.
 - From month 2 (W5-W26): 2 build sessions (Sat, Sun) + 5 use/consulting/review sessions. Wednesday is always weekly review and spaced repetition (flashcards on pillars, exam topics and the previous weeks' key ideas).
@@ -160,7 +160,7 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 | Day | Session |
 | --- | --- |
 | Thu | Discovery canvas: frequency, rule clarity, risk, data access, human judgment points. |
-| Fri | List 10 candidate use cases from ERP/Odoo/Joomla practice. |
+| Fri | List 10 candidate use cases from ERP and business-application practice. |
 | Sat | Build: TypeScript project setup with OpenAI Agents SDK (JS/TS); first agent call. |
 | Sun | Build: ReAct loop with 2 tools and step logging. |
 | Mon | Score the 10 use cases on the canvas. |

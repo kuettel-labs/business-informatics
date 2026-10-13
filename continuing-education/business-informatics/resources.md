@@ -62,7 +62,6 @@ Zweite Quelle: Calibre-Bibliothek auf OneDrive (`Dokumente/Bibliothek/Calibre`, 
 | Titel | Autor | Warum / Hinweis |
 |---|---|---|
 | Enterprise Cloud Strategy (461) | Barry Briggs | Cloud-Strategie und Sourcing-Entscheide (a1, a4) |
-| Architecting Intelligent Agents in Azure (1843) | Hari Narayn | Agenten auf Azure; Lesespine des [AI-Agents-Lernplans](../ai-agents/) (a6, c1) |
 | Multi-Cloud Strategy for Cloud Architects (425) | Jeroen Mulder | Sourcing-Varianten vergleichen |
 | Everyday Enterprise Architecture (203) | Tom Graves | EA pragmatisch, gut für Fallstudien |
 | Modern Enterprise Architecture (199) | Jeroen Mulder | EA-Grundlagen, aktuell |

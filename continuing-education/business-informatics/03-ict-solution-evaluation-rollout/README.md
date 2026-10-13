@@ -39,14 +39,12 @@ Lücke: ITIL 4 und ISTQB-Grundlagen sind nicht in der Library (siehe [resources.
 - Alistair Cockburn: Writing Effective Use Cases (Anforderungen für die Evaluation)
 - Joseph Schmuller: UML in 24 Hours; Scott W. Ambler: The Elements of UML Style
 - Jeroen Mulder: Multi-Cloud Strategy for Cloud Architects (Lösungsvarianten)
-- Hari Narayn: Architecting Intelligent Agents in Azure (1843) (Lösungsvarianten für Agenten)
 
 Details: [resources.md](../resources.md#eigene-bibliothek-calibre)
 
 ## Übungen und Fallstudien
 
 - [ ] **Labor:** [ERPNext mit Docker](../../erp/erpnext-docker/) aufsetzen und als Evaluationskandidat gegen 10 Muss-Kriterien testen (c1, c2)
-- [ ] **Labor:** [AI-Agents-Lernplan, Woche 2](../../ai-agents/02-platform-choice/notes.md) — Copilot Studio, Microsoft Foundry und das Microsoft 365 Agents Toolkit als drei Lösungsvarianten vergleichen (c1)
 - [ ] **RE-Kurs:** [Use Case](../../requirements-engineering/course/09-use-case/) und [User Stories](../../requirements-engineering/course/06-user-stories/) als Basis für Testfälle (c2)
 - [ ] **Mini-Case c1:** Kriterienkatalog und Nutzwertanalyse für drei Offerten. *Platzhalter*
 - [ ] **Mini-Case c2:** Testkonzept für ein ERP-Upgrade (Umfang, Stufen, Rollen, Endekriterien). *Platzhalter*

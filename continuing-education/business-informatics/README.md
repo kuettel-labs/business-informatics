@@ -52,7 +52,6 @@ Weitere Ordner:
 | [Requirements Engineering – Kurs](../requirements-engineering/course/) | b1, b2, c1, c2 (Anforderungen erheben, spezifizieren, validieren) |
 | RE-Übungen: [Online-Anmeldung](../../exercises/requirements-engineering/marksman-event-registration/), [Chargenrückverfolgbarkeit](../../exercises/requirements-engineering/batch-traceability/) | Fallstudientraining im Prüfungsstil |
 | [Azure Fundamentals (AZ-900)](../azure-fundamentals-az-900/) | a6 (Trends/Cloud), c1 (Lösungsvarianten), e4 (Verfügbarkeit) |
-| [AI Agents – Lernplan](../ai-agents/) | a6 (Trend «Agenten» als Entscheidungsgrundlage), c1 (Copilot Studio, Foundry oder Toolkit) |
 | [ERPNext mit Docker](../erp/erpnext-docker/) | c1–c4 (Evaluation, Test, Einführung), d3 (Prozesse im ERP abbilden) |
 
 ## Lernfahrplan Oktober 2026 – Mai 2028

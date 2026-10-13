@@ -43,6 +43,7 @@ Weitere Quellen: [resources.md](../resources.md)
 - Barry Briggs: Enterprise Cloud Strategy (Sourcing, a1/a4)
 - Tom Graves: Everyday Enterprise Architecture; Eero Hosiaisluoma: ArchiMate Cookbook (Architektur)
 - Heinz-Dieter Knoll: Unternehmensführung mit SAP BI (Kennzahlen)
+- Hari Narayn: Architecting Intelligent Agents in Azure (1843) — Lesespine des [AI-Agents-Lernplans](../../ai-agents/) (a6)
 
 Details: [resources.md](../resources.md#eigene-bibliothek-calibre)
 

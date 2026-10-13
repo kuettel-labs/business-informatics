@@ -3,6 +3,12 @@
 Vorbereitung auf die Berufsprüfung Wirtschaftsinformatik mit eidg. Fachausweis, Handlungsfeld Requirements Engineering (Grundlage: IREB CPRE Foundation Level).
 Der Kurs ist **fallunabhängig**: Jeder Ordner behandelt einen typischen Aufgabentyp und zeigt, wie du ihn bei **jeder** Fallstudie löst. Pro Ordner gibt es eine **Anleitung** (`README.md`) und eine leere **Vorlage** (`vorlage.md`).
 
+In der Berufsprüfung kommt Requirements Engineering vor allem in den Handlungskompetenzen:
+- b1 Bedürfnisse von Anspruchsgruppen erheben
+- b2 Bedürfnisse in technische Anforderungen übersetzen
+- c1 ICT Systeme und Dienstleistungen evaluieren
+- c2 Die Erfüllung von Anforderungen von ICT Lösungen analysieren und beurteilen
+
 ## So arbeitest du mit dem Kurs
 
 1. **Fall lesen:** Lies die Fallstudie ganz durch und markiere Rollen, Abläufe, Regeln, Zahlen und Termine.

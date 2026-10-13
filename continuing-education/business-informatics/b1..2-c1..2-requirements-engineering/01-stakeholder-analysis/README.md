@@ -49,3 +49,72 @@ Du kannst die Stakeholder eines Systems systematisch finden, ihr zentrales Inter
 
 ## Zeitbudget
 1 Punkt ≈ 1 Minute. Bei 6 P: 2 Min. sammeln, 3 Min. Tabelle, 1 Min. Checkliste.
+---
+
+```mermaid
+flowchart TD
+
+    A["Stakeholderliste<br/>Wer ist betroffen?"]
+
+    P["Persona Canvas<br/>Ziele, Pain Points,<br/>Erwartungen, Nutzen"]
+
+    B["Einfluss-/Interesse-Matrix<br/>Wer hat Einfluss?"]
+
+    C{"Stakeholder<br/>richtig priorisiert?"}
+
+    D["Kommunikationsplan<br/>Wer erhält wann welche Informationen?"]
+
+    E{"Stakeholder genügend<br/>involviert?"}
+
+    F["Requirements Workshops<br/>Interviews<br/>Backlog Refinement"]
+
+    G{"Neue Stakeholder<br/>entdeckt?"}
+
+    H["RACI-Matrix<br/>Wer macht was?"]
+
+    I{"Rollen und<br/>Verantwortung klar?"}
+
+    J["Anforderungen erheben<br/>und priorisieren"]
+
+    K{"Anforderung<br/>verstanden?"}
+
+    L["Umsetzung<br/>Testing<br/>Abnahme"]
+
+    M{"Änderungen<br/>oder Konflikte?"}
+
+    N["Go-Live<br/>Betrieb"]
+
+    A --> P
+    P --> B
+    B --> C
+
+    C -- Nein --> A
+    C -- Ja --> D
+
+    D --> E
+
+    E -- Nein --> B
+    E -- Ja --> F
+
+    F --> G
+
+    G -- Ja --> A
+    G -- Nein --> H
+
+    H --> I
+
+    I -- Nein --> H
+    I -- Ja --> J
+
+    J --> K
+
+    K -- Nein --> F
+    K -- Ja --> L
+
+    L --> M
+
+    M -- Ja --> F
+    M -- Nein --> N
+
+    N -->|"Lessons Learned<br/>Neue Anforderungen"| A
+```

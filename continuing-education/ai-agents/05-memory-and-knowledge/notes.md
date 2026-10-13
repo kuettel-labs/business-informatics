@@ -1,6 +1,6 @@
 # Memory and knowledge
 
-**Week 5.** Module on the Azure path: *Build knowledge-enhanced AI agents with Foundry IQ*. Book: Narayn, chapters 3 and 4 (memory, then Azure AI Search). Confirm the titles against your copy.
+**Week 5.** Module on the Azure path: *Build knowledge-enhanced AI agents with Foundry IQ*. Book: Narayn, chapter 3 *Thain Learns to Remember*, then chapter 4 *Thain Connects the Dots Azure AI Search*. Titles checked against Calibre folder 1843 on 13 October 2026. Chapter 4 provisions Azure AI Search, which is a paid service. Delete the search resource when the lab log is written.
 
 ## Key concepts
 

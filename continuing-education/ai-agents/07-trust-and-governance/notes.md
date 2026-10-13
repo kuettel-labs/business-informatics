@@ -1,6 +1,6 @@
 # Trust and governance
 
-**Week 7.** Book: Narayn, chapters 6 and 8 (trust, then going live). Learning path: [Responsible AI business principles](https://learn.microsoft.com/en-us/training/paths/responsible-ai-business-principles/). Law text, read for scope only: [DSG](https://www.fedlex.admin.ch/eli/cc/2022/491/de).
+**Week 7.** Book: Narayn, chapter 6 *Thain Earns Trust*, then chapter 8 *Thain Goes Live*. Chapter 8 deploys the book's agent to Azure Container Apps. Read it for the go-live checklist. Do not create that environment this week; the capstone stays on lab resources you can delete. Module: [Embrace responsible AI principles and practices](https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai-principles-practices/). Law text, read for scope only: [DSG](https://www.fedlex.admin.ch/eli/cc/2022/491/de).
 
 ## Key concepts
 

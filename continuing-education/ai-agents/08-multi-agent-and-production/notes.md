@@ -11,7 +11,7 @@ When the single agent is solid, the Azure path continues with:
 
 Copilot Studio follow-on, only if the capstone lives there: [Design and build multi-agent solutions in Microsoft Copilot Studio](https://learn.microsoft.com/en-us/training/paths/design-build-multi-agent-solutions-copilot-studio/) (child agents, connected agents, A2A).
 
-Book: Narayn, chapters 7, 9, and 10. Skim 10 for cost and scale; do not stand up a second environment this week.
+Book: Narayn, chapter 7 *Thain Learns to Collaborate*, chapter 9 *Thain Learns from Us*, and chapter 10 *Thain at Scale*. Skim 10 for cost and scale; do not stand up a second environment this week.
 
 ## Key concepts
 

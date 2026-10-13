@@ -7,7 +7,7 @@
 
 The path lists the framework module after tools and knowledge. Do it now so you have a loop to hang tools on in week 6. Leave the tool, MCP, and Foundry IQ modules for weeks 5 and 6.
 
-Book: Narayn, chapter 2 (re-read while you build). Confirm the title against the Calibre copy (folder 1843).
+Book: Narayn, chapter 2, *Thain Meets the Agent Framework* (re-read while you build). Title checked against Calibre folder 1843 on 13 October 2026.
 
 ## Key concepts
 

@@ -4,7 +4,7 @@
 
 **Pace:** 5–7 hours a week, eight weeks. The dates below assume a start on 13 October 2026. Shift the dates if you start later; keep the order.
 
-**Prerequisite:** the [AZ-900 notes](../azure-fundamentals-az-900/) cover enough Azure to start. If generative AI itself is new, do [Get started with artificial intelligence on Azure](https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/) before week 4.
+**Prerequisite:** the [AZ-900 notes](../azure-fundamentals-az-900/) cover enough Azure to start. If generative AI itself is new, do [Get started with AI applications and agents on Azure](https://learn.microsoft.com/en-us/training/paths/get-started-ai-apps-agents/) before week 4.
 
 This folder is a personal study workspace. Module names were read from Microsoft Learn on 13 October 2026. Product names move; if a module title on the live page differs, follow the live page and note the change in that week's file.
 
@@ -29,7 +29,7 @@ Write the outcome, the success check, and the refusal cases before you build. We
 
 ## Book
 
-Reading spine: Hari Narayn, *Architecting Intelligent Agents in Azure* (Apress / Springer, ISBN 979-8-8688-2432-6). The Calibre copy is folder id 1843. Chapter titles below are the publisher table of contents on 13 October 2026. Confirm them against your copy before you treat a title as the chapter you read.
+Reading spine: Hari Narayn, *Architecting Intelligent Agents in Azure* (Apress / Springer, ISBN 979-8-8688-2432-6). The Calibre copy is folder id 1843. Chapter titles below match that copy, checked on 13 October 2026.
 
 | Weeks | Chapters |
 | --- | --- |

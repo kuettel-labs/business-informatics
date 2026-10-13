@@ -5,7 +5,7 @@
 1. Integrate custom tools into your agent
 2. Integrate MCP tools with Azure AI agents
 
-Book: Narayn, chapter 5. Protocol intro: [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro).
+Book: Narayn, chapter 5, *Thain Builds Its Toolkit*. Protocol intro: [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro).
 
 ## Key concepts
 

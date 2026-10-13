@@ -1,19 +1,19 @@
 # Always-On Agent Consultant: Detailed 6-Month Plan (W1-W26)
 
-Status: detailed plan based on approved outline v2. Start: Thu 15 Oct 2026. End: Wed 14 Apr 2027.
+Status: active detailed plan (26 weeks, W1-W26).
 
 ## Goal and ground rules
 
 - Goal: become a consultant for always-on / long-running AI agents (multi-step, tool- and app-operating, running unattended, surfacing only for human judgment). Microsoft-first, use before build.
-- The learner: beginner in agents; ERP Solution Architect (Dynamics 365 F&SCM, Odoo, Joomla, .NET); currently on a TypeScript track.
-- Rhythm (fixed): daily 19:00-19:50 (Zurich time), 7 sessions of 50 min per week, Thu to Wed (about 5.8 h per week). Start Thu 15 Oct 2026.
+- The learner: beginner in agents, with a solution-architecture or ERP background and basic TypeScript.
+- Rhythm: 7 sessions of 50 min per week (about 5.8 h per week); each week runs Thu to Wed.
 - Month 1 (W1-W4): all 7 sessions are use/learn; Wednesday is a short review.
 - From month 2 (W5-W26): 2 build sessions (Sat, Sun) + 5 use/consulting/review sessions. Wednesday is always weekly review and spaced repetition (flashcards on pillars, exam topics and the previous weeks' key ideas).
-- Exam days: Thu 15 Oct (AZ-900) is a light 50-min landscape overview. Exam sessions (AB-730 in W3, AI-103 in W22) replace that day's session; actual exam slot and length to verify at booking.
-- Christmas/New Year buffer: in W11 and W12, sessions marked (optional) can be skipped; missed core work rolls into W13.
-- Parallel tracks (protected, not scheduled here): Berufsprüfung Wirtschaftsinformatik, TypeScript, DP-700 (Fabric).
+- Exam days: exam sessions (AB-730 in W3, AI-103 in W22) replace that day's session; actual exam slot and length to verify at booking.
+- Holiday buffer: in W11 and W12, sessions marked (optional) can be skipped; missed core work rolls into W13.
+- Parallel tracks (not scheduled here) may run alongside, e.g. TypeScript or DP-700 (Fabric).
 - Builds: TypeScript/Node wherever possible. Python only where a course or Microsoft exam requires it.
-- Items marked "to verify" could not be confirmed at writing time (13 Oct 2026).
+- Items marked "to verify" could not be confirmed at writing time.
 
 ## Pillars
 
@@ -28,17 +28,17 @@ Status: detailed plan based on approved outline v2. Start: Thu 15 Oct 2026. End:
 | P7 | Safety / governance (approval gates, action recording, audit) |
 | P8 | Evaluation / cost (trajectory evals, benchmarks, token economics) |
 
-## Certification facts (verified 13 Oct 2026)
+## Certification facts (verified at writing time)
 
-- AB-730 "Microsoft Certified: AI Business Professional": no-code, business-user level. English version changes on 20 Oct 2026 from 3 to 4 skill areas; the new area is "Drive business outcomes by using agents" (prebuilt agents, Copilot Cowork). W3 falls after 20 Oct, so the learner takes the new version. Pass score 700. Price and duration: to verify on the booking page.
+- AB-730 "Microsoft Certified: AI Business Professional": no-code, business-user level. The English version moved from 3 to 4 skill areas from 20 Oct 2026; the new area is "Drive business outcomes by using agents" (prebuilt agents, Copilot Cowork). Check the study guide for the version that applies at booking. Pass score 700. Price and duration: to verify on the booking page.
   - Cert: https://learn.microsoft.com/en-us/credentials/certifications/ai-business-professional/
   - Study guide: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-730
-- AI-102 (Azure AI Engineer Associate) retired on 30 Jun 2026 (https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams). Current successor: AI-103 "Developing AI Apps and Agents on Azure", certification "Azure AI Apps and Agents Developer Associate". Skills as of 16 Apr 2026; largest area "Implement generative AI and agentic solutions" (30-35%); expects Python.
+- AI-102 (Azure AI Engineer Associate) retired on 30 Jun 2026 (https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams). Current successor: Exam AI-103 "Developing AI Apps and Agents on Azure", certification "Microsoft Certified: Azure AI Apps and Agents Developer Associate". Skills as of 16 Apr 2026; largest area "Implement generative AI and agentic solutions" (30-35%); expects Python.
   - Cert: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/
   - Study guide: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103
 - DP-700 (parallel track): https://learn.microsoft.com/en-us/credentials/certifications/fabric-data-engineer-associate/
 
-## Core resources (all checked reachable 13 Oct 2026)
+## Core resources (all checked reachable at writing time)
 
 | Resource | URL |
 | --- | --- |
@@ -63,7 +63,7 @@ Status: detailed plan based on approved outline v2. Start: Thu 15 Oct 2026. End:
 | MCP TypeScript SDK | https://github.com/modelcontextprotocol/typescript-sdk |
 | Playwright | https://playwright.dev/docs/intro |
 | WebArena | https://webarena.dev/ |
-| OSWorld | https://os-world.github.io/ (redirect seen; to verify final URL) |
+| OSWorld | https://os-world.github.io/ (official project page; code: https://github.com/xlang-ai/OSWorld) |
 | Swiss revDSG (FADP) | https://www.fedlex.admin.ch/eli/cc/2022/491/en |
 | EU AI Act explorer | https://artificialintelligenceact.eu/ |
 | Power BI overview | https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview |
@@ -74,29 +74,29 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 
 ## Month 1: Use and learn (W1-W4)
 
-### W1 (Thu 15 Oct - Wed 21 Oct 2026): Landscape and the ReAct loop
+### W1: Landscape and the ReAct loop
 - Goal: Map the always-on agent landscape and understand the basic agent loop.
 - Pillars: P2, P6, P7
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
-| Thu | Light (AZ-900 day): landscape overview; read "Building effective agents"; one line each on Grok Bot, Claude Cowork, OpenAI agents, Microsoft Copilot Cowork/Autopilot, Gemini. |
+| Thu | Landscape overview; read "Building effective agents"; one line each on Grok Bot, Claude Cowork, OpenAI agents, Microsoft Copilot Cowork/Autopilot, Gemini. |
 | Fri | ReAct loop (reason, act, observe): HF Agents Course Unit 0 and loop sketch. |
 | Sat | Read "Effective harnesses for long-running agents"; note state, retries, compaction. |
 | Sun | Landscape table v0: what each product runs unattended, approvals, pricing model (to verify). |
-| Mon | Case study v1, part 1: roles and reporting lines of a multi-agent assistant team in daily use. |
-| Tue | Case study v1, part 2: approval gates, unattended routines, what goes wrong. |
+| Mon | Portfolio case study, part 1: structure of a multi-agent setup (published only after approval). |
+| Tue | Portfolio case study, part 2: approval gates, unattended runs, what goes wrong. |
 | Wed | Review: explain the ReAct loop and 8 pillars aloud in 5 min; flashcards v1. |
 
 - Resources: Anthropic "Building effective agents"; Anthropic harness post; HF Agents Course Unit 0.
-- Deliverable: Landscape table v0 + case study v1 (2 pages, sanitized).
+- Deliverable: Landscape table v0 + portfolio case study (published only after approval).
 - Done when: The learner explains the ReAct loop and the 8 pillars in 5 minutes without notes.
 
-### W2 (Thu 22 Oct - Wed 28 Oct 2026): M365 Copilot agents, Copilot Cowork, AB-730 prep
+### W2: M365 Copilot agents, Copilot Cowork, AB-730 prep
 - Goal: Hands-on with M365 Copilot and prebuilt agents; cover AB-730 skill areas.
 - Pillars: P5, P7
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -112,10 +112,10 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: AB-730 gap list and exam booking for W3.
 - Done when: Practice assessment at or above 75 %.
 
-### W3 (Thu 29 Oct - Wed 04 Nov 2026): AB-730 exam, HF Agents Course Unit 1
+### W3: AB-730 exam, HF Agents Course Unit 1
 - Goal: Pass AB-730 (new English version with agents/Cowork domain); learn agent fundamentals.
 - Pillars: P2, P4
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -131,10 +131,10 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: AB-730 result + Unit 1 notes.
 - Done when: Exam passed (or retake booked) and Unit 1 quiz done.
 
-### W4 (Thu 05 Nov - Wed 11 Nov 2026): Copilot Studio basics, agentic patterns, ops case write-ups
+### W4: Copilot Studio basics, agentic patterns, ops case write-ups
 - Goal: First no-code agent; 4 agentic patterns; document 2 real unattended ops cases.
 - Pillars: P4, P7, P8
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -142,8 +142,8 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 | Fri | Copilot Studio: knowledge source and one action. |
 | Sat | DeepLearning.AI Agentic AI: reflection and tool use. |
 | Sun | DeepLearning.AI Agentic AI: planning and multi-agent. |
-| Mon | Write-up: cloud-drive-to-OneDrive filing routine with invoice handoff (trigger, tools, approvals, failures, cost). |
-| Tue | Write-up: email triage routine (same template). |
+| Mon | Write-up: portfolio ops case study 1 (trigger, tools, approvals, failures, cost; published only after approval). |
+| Tue | Write-up: portfolio ops case study 2 (same template). |
 | Wed | Review: month 1 recap; flashcards; check both cases use one template. |
 
 - Resources: Copilot Studio path and docs; DeepLearning.AI Agentic AI.
@@ -152,15 +152,15 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 
 ## Month 2: Consulting core + build (W5-W8)
 
-### W5 (Thu 12 Nov - Wed 18 Nov 2026): Use-case discovery | Build: ReAct loop
+### W5: Use-case discovery | Build: ReAct loop
 - Goal: Repeatable discovery method for unattended-agent use cases.
 - Pillars: P2, P8
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
 | Thu | Discovery canvas: frequency, rule clarity, risk, data access, human judgment points. |
-| Fri | List 10 candidate use cases from ERP/Odoo/Joomla practice. |
+| Fri | List 10 candidate use cases from ERP and business-application practice. |
 | Sat | Build: TypeScript project setup with OpenAI Agents SDK (JS/TS); first agent call. |
 | Sun | Build: ReAct loop with 2 tools and step logging. |
 | Mon | Score the 10 use cases on the canvas. |
@@ -171,14 +171,14 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: Discovery canvas v1 + `react-loop` folder.
 - Done when: The loop completes a 3-step task and logs every step.
 
-### W6 (Thu 19 Nov - Wed 25 Nov 2026): Governance and approval design | Build: least-privilege MCP tool
+### W6: Governance and approval design | Build: least-privilege MCP tool
 - Goal: Design approval gates and audit for agents under Swiss/EU rules.
 - Pillars: P4, P7
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
-| Thu | revDSG basics for agents (with AI Capability Advisor). |
+| Thu | revDSG basics for agents. |
 | Fri | EU AI Act risk classes and obligations. |
 | Sat | Build: MCP TS SDK: server with one read-only tool. |
 | Sun | Build: Add a write tool behind an approval token. |
@@ -190,10 +190,10 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: Approval and Governance Design template v1 + MCP tool.
 - Done when: The write tool refuses to run without an explicit approval token.
 
-### W7 (Thu 26 Nov - Wed 02 Dec 2026): Cost, ROI, pricing | Build: cost logging
+### W7: Cost, ROI, pricing | Build: cost logging
 - Goal: Price agent services and estimate run costs.
 - Pillars: P8
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -209,14 +209,14 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: ROI/pricing spreadsheet v1 + cost log.
 - Done when: Every run prints total tokens and estimated cost.
 
-### W8 (Thu 03 Dec - Wed 09 Dec 2026): D365 F&SCM unattended agent case | Build: persistent research agent
+### W8: D365 F&SCM unattended agent case | Build: persistent research agent
 - Goal: An ERP case the learner can pitch; first long-running agent.
 - Pillars: P2, P5, P7
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
-| Thu | D365 case design: Copilot Studio + Dataverse (with ERP Capability Advisor). |
+| Thu | D365 case design: Copilot Studio + Dataverse. |
 | Fri | Approval before posting: who approves, what is logged. |
 | Sat | Build: Research agent with state saved to disk. |
 | Sun | Build: Resume after restart; approval before finalising; 30-min run. |
@@ -230,10 +230,10 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 
 ## Month 3: Positioning and computer use (W9-W13)
 
-### W9 (Thu 10 Dec - Wed 16 Dec 2026): Platform comparison v1 | Build: sandbox basics
+### W9: Platform comparison v1 | Build: sandbox basics
 - Goal: Compare always-on platforms on architecture, approvals, pricing, limits.
 - Pillars: P3, P7, P8
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -249,10 +249,10 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: Platform comparison v1 + sandboxed run.
 - Done when: Every claim in the comparison has a source link.
 
-### W10 (Thu 17 Dec - Wed 23 Dec 2026): Evals | Build: mini eval suite
+### W10: Evals | Build: mini eval suite
 - Goal: Measure agent reliability.
 - Pillars: P2, P8
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -268,10 +268,10 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: Failure taxonomy + eval suite.
 - Done when: Suite runs with one command and reports pass rate and cost.
 
-### W11 (Thu 24 Dec - Wed 30 Dec 2026): LIGHT (holiday) Service catalogue v1 | Build: computer use 1
+### W11: LIGHT (holiday) Service catalogue v1 | Build: computer use 1
 - Goal: Define the 5 services; first browser automation.
 - Pillars: P1, P7
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -287,10 +287,10 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: Catalogue v1, deck outline, post draft, Playwright script.
 - Done when: Script completes a form fill using role-based locators.
 
-### W12 (Thu 31 Dec 2026 - Wed 06 Jan 2027): LIGHT (holiday) Mock client workshop | Build: computer use 2
+### W12: LIGHT (holiday) Mock client workshop | Build: computer use 2
 - Goal: Rehearse a discovery workshop; screenshot-reason-act loop.
 - Pillars: P1, P7
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -306,10 +306,10 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: Workshop kit + computer-use prototype.
 - Done when: Prototype completes a 5-step web task with approvals logged.
 
-### W13 (Thu 07 Jan - Wed 13 Jan 2027): Review and Projektarbeit topic options
-- Goal: Consolidate the 90-day core; link to the Berufsprüfung.
+### W13: Review and project topic options
+- Goal: Consolidate the 90-day core.
 - Pillars: All
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -318,19 +318,19 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 | Sat | Build: Clean up repos, READMEs for all build folders. |
 | Sun | Build: Re-run eval suite; fix one failure. |
 | Mon | Portfolio review: update case studies and comparison. |
-| Tue | 3 Projektarbeit topic options in agent consulting (with Business Technology Advisor). |
+| Tue | 3 project topic options in agent consulting. |
 | Wed | Review: 90-day review: flashcards over all pillars; retrospective. |
 
 - Resources: All previous.
 - Deliverable: 90-day review + 3 topic options.
-- Done when: Topic options checked against the exam rules by Business Technology Advisor.
+- Done when: 90-day retrospective written and 3 project topic options in agent consulting documented, each with scope, client problem and a linked portfolio item.
 
 ## Months 4-6: Build depth, certification, first pilot (W14-W26)
 
-### W14 (Thu 14 Jan - Wed 20 Jan 2027): Azure AI Foundry Agent Service 1
+### W14: Azure AI Foundry Agent Service 1
 - Goal: Deploy a first Foundry agent with tools.
 - Pillars: P2, P4
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -346,10 +346,10 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: Foundry demo agent.
 - Done when: Agent answers via TS client with tracing on.
 
-### W15 (Thu 21 Jan - Wed 27 Jan 2027): Semantic Kernel / Agent Framework / AutoGen
+### W15: Semantic Kernel / Agent Framework / AutoGen
 - Goal: Understand Microsoft code frameworks for multi-agent.
 - Pillars: P6
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -365,10 +365,10 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: Framework comparison page.
 - Done when: Recommendation per client scenario written.
 
-### W16 (Thu 28 Jan - Wed 03 Feb 2027): Multi-agent system with handoffs
+### W16: Multi-agent system with handoffs
 - Goal: Manager + 2 workers (research, writer) with handoffs.
 - Pillars: P6, P2
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -377,17 +377,17 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 | Sat | Build: OpenAI Agents SDK JS: manager and 2 workers. |
 | Sun | Build: Handoff trace logging; end-to-end run. |
 | Mon | Failure modes of multi-agent teams. |
-| Tue | Map to the case study v1 team. |
+| Tue | Map to the W1 portfolio case study. |
 | Wed | Review: Multi-agent flashcards. |
 
 - Resources: OpenAI Agents SDK JS.
 - Deliverable: `multi-agent` v1.
 - Done when: End-to-end run with a logged handoff trace.
 
-### W17 (Thu 04 Feb - Wed 10 Feb 2027): Teach-once skill system
+### W17: Teach-once skill system
 - Goal: Turn one demonstration into a reusable skill.
 - Pillars: P5
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -403,10 +403,10 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: Skill system v1.
 - Done when: Skill succeeds on 2 unseen variants.
 
-### W18 (Thu 11 Feb - Wed 17 Feb 2027): Inbox/folder ops agent
+### W18: Inbox/folder ops agent
 - Goal: Unattended ops agent that watches a folder or inbox and updates a tracker.
 - Pillars: P2, P4, P7
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -422,10 +422,10 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: Ops agent v1.
 - Done when: Runs unattended for 24 h with a clean audit log.
 
-### W19 (Thu 18 Feb - Wed 24 Feb 2027): Cost and reliability dashboard
+### W19: Cost and reliability dashboard
 - Goal: Dashboard over cost logs and eval results (Power BI/Fabric; links to DP-700).
 - Pillars: P8
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -441,10 +441,10 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: Dashboard v1.
 - Done when: Shows cost per task, pass rate, failures by category.
 
-### W20 (Thu 25 Feb - Wed 03 Mar 2027): Documented multi-hour runs
+### W20: Documented multi-hour runs
 - Goal: Evidence of reliability over hours.
 - Pillars: P2, P8
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -460,10 +460,10 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: 2 run reports.
 - Done when: Each report states duration, cost, failures and fixes.
 
-### W21 (Thu 04 Mar - Wed 10 Mar 2027): AI-103 prep 1
+### W21: AI-103 prep 1
 - Goal: Cover AI-103 skill areas (Python needed here).
 - Pillars: P2, P4, P7
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -479,10 +479,10 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: Gap list.
 - Done when: All 5 skill areas started.
 
-### W22 (Thu 11 Mar - Wed 17 Mar 2027): AI-103 prep 2 and exam
+### W22: AI-103 prep 2 and exam
 - Goal: Pass AI-103.
 - Pillars: P2, P4, P7
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -498,10 +498,10 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: AI-103 result.
 - Done when: Passed or retake booked.
 
-### W23 (Thu 18 Mar - Wed 24 Mar 2027): Platform comparison v2
+### W23: Platform comparison v2
 - Goal: Updated comparison with own measured runs.
 - Pillars: P1, P3, P7, P8
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -517,10 +517,10 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: Comparison v2.
 - Done when: Includes own eval/cost data.
 
-### W24 (Thu 25 Mar - Wed 31 Mar 2027): Enterprise concerns checklist
+### W24: Enterprise concerns checklist
 - Goal: Security, data residency (Switzerland/EU), audit, change management.
 - Pillars: P3, P7
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -529,17 +529,17 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 | Sat | Build: Automated checklist report from agent config. |
 | Sun | Build: Apply to ops agent. |
 | Mon | Audit requirements. |
-| Tue | Change management; peer review with AI Capability Advisor. |
+| Tue | Change management; peer review. |
 | Wed | Review: Flashcards; apply checklist to D365 case. |
 
 - Resources: revDSG; EU AI Act explorer; Foundry docs.
 - Deliverable: Checklist v1.
 - Done when: Applied to the D365 case.
 
-### W25 (Thu 01 Apr - Wed 07 Apr 2027): Service catalogue v2
+### W25: Service catalogue v2
 - Goal: Priced, evidence-backed offer.
 - Pillars: All
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -555,10 +555,10 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 - Deliverable: Catalogue v2 + deck v2.
 - Done when: Each service links to a portfolio proof.
 
-### W26 (Thu 08 Apr - Wed 14 Apr 2027): First pilot client
+### W26: First pilot client
 - Goal: Agent Readiness Assessment with a first (friendly) pilot client.
 - Pillars: All
-- Sessions (50 min each, 19:00-19:50):
+- Sessions (50 min each):
 
 | Day | Session |
 | --- | --- |
@@ -580,9 +580,9 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 
 | # | Item | Week | Pillars | Public? |
 | --- | --- | --- | --- | --- |
-| 1 | Case study v1: multi-agent assistant team | W1 | P2, P6, P7 | after approval |
-| 2 | Ops case: cloud-drive-to-OneDrive filing + invoice handoff | W4 | P2, P4, P7 | sanitized |
-| 3 | Ops case: email triage routine | W4 | P2, P7 | sanitized |
+| 1 | Portfolio case study: multi-agent setup | W1 | P2, P6, P7 | after approval |
+| 2 | Portfolio ops case study 1 | W4 | P2, P4, P7 | after approval |
+| 3 | Portfolio ops case study 2 | W4 | P2, P7 | after approval |
 | 4 | Discovery canvas + governance template | W5-W6 | P7 | yes |
 | 5 | ROI and pricing model | W7 | P8 | partial |
 | 6 | D365 F&SCM unattended agent case | W8 | P5, P7 | yes |
@@ -598,15 +598,6 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 | 16 | Enterprise concerns checklist | W24 | P3, P7 | yes |
 | 17 | Pilot assessment report | W26 | all | sanitized |
 
-## Roles
+## Approvals
 
-| Role | Responsibility |
-| --- | --- |
-| People Development Manager | Owner of this plan, progress reviews, weekly adjustments |
-| AI Capability Advisor | P7 safety/governance, revDSG / EU AI Act, approval design reviews |
-| ERP Capability Advisor | D365 F&SCM case (W8), ERP use cases |
-| AI Engineering Advisor | Build sessions (TypeScript), frameworks, evals, AI-103 prep |
-| Business Technology Advisor | Link to the Berufsprüfung Wirtschaftsinformatik, Projektarbeit topic (W13) |
-| Platform Engineer | Repo: files plan and artefacts under continuing-education/ai-agents/ via feature-branch PRs |
-
-All approvals (publishing, merges, calendar bookings, exam bookings) go through the learner's Chief of Staff agent.
+Publishing, merges and bookings happen only after the learner's approval.

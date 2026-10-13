@@ -119,3 +119,11 @@ A. Azure Policy  B. Microsoft Purview  C. Defender for Cloud  D. Tags
 **Q13.** (Multiple choice) Which factor typically does NOT increase an Azure bill?
 A. Outbound data transfer  B. Inbound data transfer  C. Larger VM size  D. GRS instead of LRS
 <details><summary>Answer</summary>B. Inbound data transfer is generally free.</details>
+
+**Q14.** (Yes/No) Is each of these an Azure Advisor recommendation category?
+1. Cost  2. Security  3. Licensing  4. Operational excellence
+<details><summary>Answer</summary>1 Yes 2 Yes 3 No 4 Yes. Advisor categories are reliability, security, performance, cost and operational excellence.</details>
+
+**Q15.** (Multiple choice) A team wants to package policies, role assignments and templates for new subscriptions today. What is the current recommendation?
+A. Create a new Azure Blueprint  B. Use Deployment Stacks and template specs with Azure Policy  C. Use resource locks only  D. Use Service Health
+<details><summary>Answer</summary>B. Azure Blueprints is legacy and retiring (no new definitions since 31 Jul 2026); Deployment Stacks and template specs replace it.</details>

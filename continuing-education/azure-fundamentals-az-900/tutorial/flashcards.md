@@ -53,5 +53,5 @@
 | Query logs (KQL)? | Log Analytics |
 | App performance monitoring? | Application Insights |
 | Composite SLA? | Multiply dependent SLAs; result is lower |
-| Blueprints? | Legacy, retiring 31 Jan 2027 |
+| Blueprints? | Legacy, retiring 31 Jan 2027; replaced by Deployment Stacks (and template specs) |
 | Pass score? | 700 |

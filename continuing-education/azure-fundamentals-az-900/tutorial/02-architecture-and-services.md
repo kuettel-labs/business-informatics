@@ -82,6 +82,7 @@ Largest domain. Further reading: Cheshire, Exam Ref AZ-900 3rd ed., Ch. 2 (Skill
 
 ## Commonly confused
 
+- **Web apps vs containers vs VMs (hosting):** App Service web app = PaaS, deploy code, no OS to manage. Containers (ACI, Container Apps, AKS) = package app and dependencies, portable, fast start. VMs = full OS control, most management effort; choose for legacy or custom software.
 - **Region vs region pair vs availability zone:** location vs two regions for regional disaster and staged updates vs separate datacenters inside one region.
 - **Availability set vs zone:** racks in one datacenter (VM SLA 99.95%) vs separate datacenters (VM SLA 99.99%).
 - **NSG vs Azure Firewall:** both are stateful. NSG = free layer 3/4 allow/deny rules per subnet or NIC. Azure Firewall = paid central managed firewall with FQDN filtering and threat intelligence.

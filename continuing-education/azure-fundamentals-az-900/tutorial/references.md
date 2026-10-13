@@ -7,7 +7,7 @@ Books for further reading (newest first). Page numbers refer to the PDF edition.
 | Author | Title | Edition | Use for |
 | --- | --- | --- | --- |
 | Jim Cheshire | Exam Ref AZ-900 Microsoft Azure Fundamentals | 3rd ed., Pearson/Microsoft Press, 2023 | Main reference; chapters mirror the current outline |
-| Scott Duffy | AZ-900 Microsoft Azure Fundamentals (course slides) | v3, 2022 (exam version May 2022) | Quick visual recap |
+| Scott Duffy | AZ-900 Microsoft Azure Fundamentals (course slides) | v3, 2022 (exam version May 2022) | Quick visual recap. **Warning:** built for the older May 2022 outline; uses old names (Azure AD) and may miss current items. Check against the study guide |
 | Jim Boyce | Microsoft Certified Azure Fundamentals Study Guide: Exam AZ-900 | 1st ed., Sybex/Wiley, 2021 | Older outline; background only |
 
 ## Exam Ref 3rd ed. (Cheshire) by domain

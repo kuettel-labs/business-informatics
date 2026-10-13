@@ -52,7 +52,7 @@ Details: [resources.md](../resources.md#eigene-bibliothek-calibre)
 - [ ] **Mini-Case a2/a3:** TCO und Kapitalwert einer Cloud- vs. On-Premises-Variante über 5 Jahre rechnen (Bezug: [AZ-900, Governance & Kosten](../../azure-fundamentals-az-900/)). *Platzhalter*
 - [ ] **Mini-Case a4:** Aus Auslastungsdaten Schwellwerte und eine Kapazitätsmassnahme ableiten. *Platzhalter*
 - [ ] **Mini-Case a5:** SLA für einen ERP-Service entwerfen inkl. KPI, Messmethode und Reporting. *Platzhalter*
-- [ ] **Mini-Case a6:** Trendbericht «Generative KI im ERP-Umfeld» als Entscheidungsgrundlage (1 Seite). *Platzhalter*
+- [ ] **Mini-Case a6:** Trendbericht «Generative KI im ERP-Umfeld» als Entscheidungsgrundlage (1 Seite). Rohmaterial aus dem [AI-Agents-Lernplan](../../ai-agents/) (Capstone, Woche 8). *Platzhalter*
 
 ## Selbstcheck
 

@@ -5,7 +5,7 @@ Status: active detailed plan (26 weeks, W1-W26).
 ## Goal and ground rules
 
 - Goal: become a consultant for always-on / long-running AI agents (multi-step, tool- and app-operating, running unattended, surfacing only for human judgment). Microsoft-first, use before build.
-- The learner: beginner in agents; ERP Solution Architect (Dynamics 365 F&SCM, Odoo, Joomla, .NET); currently on a TypeScript track.
+- The learner: beginner in agents, with a solution-architecture or ERP background and basic TypeScript.
 - Rhythm: 7 sessions of 50 min per week (about 5.8 h per week); each week runs Thu to Wed.
 - Month 1 (W1-W4): all 7 sessions are use/learn; Wednesday is a short review.
 - From month 2 (W5-W26): 2 build sessions (Sat, Sun) + 5 use/consulting/review sessions. Wednesday is always weekly review and spaced repetition (flashcards on pillars, exam topics and the previous weeks' key ideas).
@@ -63,7 +63,7 @@ Status: active detailed plan (26 weeks, W1-W26).
 | MCP TypeScript SDK | https://github.com/modelcontextprotocol/typescript-sdk |
 | Playwright | https://playwright.dev/docs/intro |
 | WebArena | https://webarena.dev/ |
-| OSWorld | https://os-world.github.io/ (redirect seen; to verify final URL) |
+| OSWorld | https://os-world.github.io/ (project page; currently redirects to osworld-v1.xlang.ai, to verify) |
 | Swiss revDSG (FADP) | https://www.fedlex.admin.ch/eli/cc/2022/491/en |
 | EU AI Act explorer | https://artificialintelligenceact.eu/ |
 | Power BI overview | https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview |
@@ -86,7 +86,7 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 | Sat | Read "Effective harnesses for long-running agents"; note state, retries, compaction. |
 | Sun | Landscape table v0: what each product runs unattended, approvals, pricing model (to verify). |
 | Mon | Portfolio case study, part 1: structure of a multi-agent setup (published only after approval). |
-| Tue | Portfolio case study, part 2: approval gates, unattended routines, what goes wrong. |
+| Tue | Portfolio case study, part 2: approval gates, unattended runs, what goes wrong. |
 | Wed | Review: explain the ReAct loop and 8 pillars aloud in 5 min; flashcards v1. |
 
 - Resources: Anthropic "Building effective agents"; Anthropic harness post; HF Agents Course Unit 0.
@@ -323,7 +323,7 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 
 - Resources: All previous.
 - Deliverable: 90-day review + 3 topic options.
-- Done when: 3 topic options written, each with scope and a portfolio link.
+- Done when: 90-day retrospective written and 3 project topic options in agent consulting documented, each with scope, client problem and a linked portfolio item.
 
 ## Months 4-6: Build depth, certification, first pilot (W14-W26)
 

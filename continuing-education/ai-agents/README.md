@@ -5,7 +5,7 @@
 ## Goal
 Become a consultant for always-on, long-running AI agents: agents that run multi-step work over hours or days, operate tools and apps unattended, and surface only for human judgment. The approach is Microsoft-first and use-before-build.
 
-**Positioning:** help companies run AI agents reliably over hours and days: unattended, governed, cost-controlled, with humans only for judgment. Domain angle: solution architecture and ERP (e.g. Dynamics 365 F&SCM).
+**Positioning (kuettel-labs):** help companies run AI agents reliably over hours and days: unattended, governed, cost-controlled, with humans only for judgment. Domain angle: Solution Architect + ERP (Dynamics 365 F&SCM, Odoo).
 
 ## Rhythm
 - 7 x 50 min per week.

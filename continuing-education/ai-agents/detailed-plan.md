@@ -5,7 +5,7 @@ Status: active detailed plan (26 weeks, W1-W26).
 ## Goal and ground rules
 
 - Goal: become a consultant for always-on / long-running AI agents (multi-step, tool- and app-operating, running unattended, surfacing only for human judgment). Microsoft-first, use before build.
-- The learner: beginner in agents, with a solution-architecture or ERP background and basic TypeScript.
+- The learner: beginner in agents; ERP Solution Architect (Dynamics 365 F&SCM, Odoo, Joomla, .NET); currently on a TypeScript track.
 - Rhythm: 7 sessions of 50 min per week (about 5.8 h per week); each week runs Thu to Wed.
 - Month 1 (W1-W4): all 7 sessions are use/learn; Wednesday is a short review.
 - From month 2 (W5-W26): 2 build sessions (Sat, Sun) + 5 use/consulting/review sessions. Wednesday is always weekly review and spaced repetition (flashcards on pillars, exam topics and the previous weeks' key ideas).
@@ -30,7 +30,7 @@ Status: active detailed plan (26 weeks, W1-W26).
 
 ## Certification facts (verified at writing time)
 
-- AB-730 "Microsoft Certified: AI Business Professional": no-code, business-user level. The English version moved from 3 to 4 skill areas in October 2026; the new area is "Drive business outcomes by using agents" (prebuilt agents, Copilot Cowork). Check the study guide for the version that applies at booking. Pass score 700. Price and duration: to verify on the booking page.
+- AB-730 "Microsoft Certified: AI Business Professional": no-code, business-user level. The English version moved from 3 to 4 skill areas from 20 Oct 2026; the new area is "Drive business outcomes by using agents" (prebuilt agents, Copilot Cowork). Check the study guide for the version that applies at booking. Pass score 700. Price and duration: to verify on the booking page.
   - Cert: https://learn.microsoft.com/en-us/credentials/certifications/ai-business-professional/
   - Study guide: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-730
 - AI-102 (Azure AI Engineer Associate) retired on 30 Jun 2026 (https://learn.microsoft.com/en-us/credentials/support/retired-certification-exams). Current successor: Exam AI-103 "Developing AI Apps and Agents on Azure", certification "Microsoft Certified: Azure AI Apps and Agents Developer Associate". Skills as of 16 Apr 2026; largest area "Implement generative AI and agentic solutions" (30-35%); expects Python.
@@ -63,7 +63,7 @@ Status: active detailed plan (26 weeks, W1-W26).
 | MCP TypeScript SDK | https://github.com/modelcontextprotocol/typescript-sdk |
 | Playwright | https://playwright.dev/docs/intro |
 | WebArena | https://webarena.dev/ |
-| OSWorld | https://os-world.github.io/ (project page; currently redirects to osworld-v1.xlang.ai, to verify) |
+| OSWorld | https://os-world.github.io/ (official project page; code: https://github.com/xlang-ai/OSWorld) |
 | Swiss revDSG (FADP) | https://www.fedlex.admin.ch/eli/cc/2022/491/en |
 | EU AI Act explorer | https://artificialintelligenceact.eu/ |
 | Power BI overview | https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview |
@@ -90,7 +90,7 @@ To verify: official Microsoft Copilot Cowork and Copilot Autopilot documentation
 | Wed | Review: explain the ReAct loop and 8 pillars aloud in 5 min; flashcards v1. |
 
 - Resources: Anthropic "Building effective agents"; Anthropic harness post; HF Agents Course Unit 0.
-- Deliverable: Landscape table v0 + case study v1 (2 pages, sanitized).
+- Deliverable: Landscape table v0 + portfolio case study (published only after approval).
 - Done when: The learner explains the ReAct loop and the 8 pillars in 5 minutes without notes.
 
 ### W2: M365 Copilot agents, Copilot Cowork, AB-730 prep

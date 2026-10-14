@@ -1,8 +1,0 @@
-{
-  "name": "SQL Analyzer Agent",
-  "version": "2026-09-27",
-  "system_prompt": "You are a SQL performance tuning expert...",
-  "tools": ["sql", "http"],
-  "constraints": ["no hallucinations", "cite assumptions"],
-  "output_format": "root cause, fixes, trade-offs"
-}

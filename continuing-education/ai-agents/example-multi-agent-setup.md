@@ -10,6 +10,79 @@ Full private prompts stay out. So do agent identifiers, calendars, contact detai
 
 Subject matter for the business-technology coach follows the same competency map as the [business-informatics guide](../business-informatics/README.md). Exam dates and any personal study calendar stay out of this page.
 
+## Why this setup
+
+These are goals for the setup. They are not results already achieved.
+
+- **Less manual coordination time.** The learner states a task once. The Chief of Staff assigns the owner.
+- **No external send or payment without approval.** Mail, posts, and payments wait in the approval queue until the learner grants them.
+- **One place for decisions.** Money, deletes, external sends, and cross-team choices arrive in that same queue.
+- **Faster task routing.** Each task has one owner, so routing does not wait while the learner picks a person.
+
+## KPIs
+
+Baseline and target are assumptions. Every cell is `[to be measured]` until the learner records a real reading. No figure on this page is a measured result.
+
+| KPI | How measured | Baseline | Target |
+| --- | --- | --- | --- |
+| First-try routing share | Share of tasks the Chief of Staff sends to the correct owner on the first route, counted from the end-of-day rollup | [to be measured] | [to be measured] |
+| Average approval wait time | Mean time from an item entering the approval queue to the learner's decision | [to be measured] | [to be measured] |
+| Actions blocked by the approval queue | Count of sends, payments, deletes, or other irreversible actions that stayed in the queue and were not carried out | [to be measured] | [to be measured] |
+| Documents filed automatically per month | Count of scans or files the platform role stores without the learner filing them by hand | [to be measured] | [to be measured] |
+| Agent cost per month | Spend or usage cost read from the product's usage screen | [to be measured] | [to be measured] |
+
+## Value stories
+
+Anonymous illustrations of the rules above. No amounts, no names.
+
+### Nightly document filing
+
+- **Problem.** Scans and receipts sit in an inbox, and an invoice can miss the budget plan.
+- **Rule.** On a nightly run, the platform role files the scan in cloud storage, the controller takes the invoice, and Finance matches it to the budget plan. A settled amount stays with Finance.
+- **Outcome.** The intended result is that receipts are not lost. Time saved is [to be measured].
+
+### The approval queue holds a send
+
+- **Problem.** A draft is ready to leave the mailbox, and sending it would be unwanted.
+- **Rule.** Communications reports the send to the Chief of Staff. The approval queue holds it until the learner decides.
+- **Outcome.** The intended result is lower risk. The message stays a draft.
+
+## Working rules worth reusing
+
+These are patterns, not full prompts.
+
+**Approvals go through one coordinator.** Money, deletes, external sends, and irreversible or cross-team decisions land in the Chief of Staff queue. Specialists and team leads prepare the request. The learner grants it from that queue.
+
+**Business-value review before a learning doc is committed.** A study page that is about to enter this repo gets a short value check from the business-value coach: which outcome it serves, and whether it is worth keeping. The platform engineer still opens the branch and the pull request. The merge waits for the learner.
+
+**Marketing is checked for value.** Communications may draft a post or a message, and the brand designer may draft the visual. The business-value coach checks audience and outcome before the Chief of Staff asks the learner whether to send. Drafts stay inside the team until that approval.
+
+**Finance owns settled amounts.** Once an amount is booked or paid, Finance and the controller own that figure. Other roles hand the topic over and leave the figure unchanged. The controller owns invoices and payments. Finance owns the tax return and the hand-off from every other role. Paying or submitting waits for the learner.
+
+**Advisors stay on demand.** The five competency-center advisors wait for a question from the learner or from the People Development Manager. Study help stays available, and the inbox stays free of unsolicited advisor messages.
+
+**Email triage reports to the coordinator.** The communications lead reads the inbox, drafts, and files. Anything that would leave the mailbox is reported to the Chief of Staff for the learner's decision. Login and a second factor stay with the learner. Passwords stay out of chat.
+
+### Habits that sit next to those rules
+
+- Messages are short. The role matches the language the learner is using.
+- Agents stay quiet during calendar events. A self-study block is the exception.
+- One role writes the calendar. Everyone else files a request.
+- Numbers, exam rules, logos, and completed study progress are stated only when a source or the learner has shown them.
+- A new agent is a proposal until the learner approves it.
+- Repository work uses a feature branch and a pull request. Pushing to the default branch, force-pushing, and merging wait for the learner. Text that lands in the public repo stays sanitized.
+
+## Patterns an ERP learner already knows
+
+The same four rules, named the way they show up in ERP and Dynamics 365 work.
+
+| Pattern in this setup | ERP / Dynamics 365 practice |
+| --- | --- |
+| Approval queue | Workflow and an approval matrix. A payment, a send, or a delete waits until the named approver acts. |
+| Single calendar owner | Master-data ownership. One role maintains the record. Other roles request a change. |
+| Business-value review | Backlog refinement. An item is accepted when the outcome is clear enough to keep. |
+| Finance owns settled amounts | Segregation of duties. The role that handles the operation does not also change the settled figure. |
+
 ## Org model
 
 One router sits at the top. Operations manages the teams under that router. Four team leads set priorities inside their own section: Business Technology, the competency center (advisors), communications, and facility. Finance owns money topics and has a controller for day-to-day invoices and payments. The brand designer reports to the Chief of Staff, next to the approval queue. Specialists cover calendar, platform and storage, Odoo, Joomla, data analysis, trend scouting, and business-value review.
@@ -64,6 +137,8 @@ flowchart TD
 
 ## Roles
 
+Reporting lines are in the table. The notes under it stay short on purpose.
+
 | # | Role | Section | Reports to |
 | --- | --- | --- | --- |
 | 1 | Chief of Staff | Router | Learner |
@@ -88,85 +163,73 @@ flowchart TD
 | 20 | Brand Designer | Design | Chief of Staff |
 | 21 | Business-value coach | Value review | Chief of Staff |
 
-### Router and management
+**Chief of Staff.** Routes each task and holds the single approval queue, including a short weekday rollup.
 
-**Chief of Staff.** Single front door and router. Sends each task to the owning role, filters noise from the other agents, and posts a short weekday end-of-day rollup. Keeps one approval queue for money, deletes, external sends, and irreversible or cross-team decisions. Stays quiet during calendar events. Self-study blocks are the exception.
+**Operations.** Runs the teams and technical trouble (runtime, browser, connectors). Usage figures come from the product's usage screen.
 
-**Operations.** Manages the teams and is the home for technical trouble: runtime health, browser, connectivity, and connector failures. Usage reports quote figures from the product's own usage screen. Environment resets and anything that costs money wait for the learner. Invoices and payments stay with Finance.
+**Technical Lead.** Sets Business Technology priorities and collects items that need the learner's approval. Hands-on work stays with the specialists.
 
-### Business Technology
+**Platform Engineer.** Cloud storage, backups, and repository branches and pull requests.
 
-**Technical Lead.** Team lead for Business Technology. Sets priorities for the Odoo, Joomla, data, and platform specialists, routes incoming work, and collects items that need the learner's approval (merges, profile changes, live changes) before they reach the Chief of Staff. Hands-on repository, Odoo, and Joomla work stays with those specialists.
+**Odoo Customization Engineer.** Odoo customization, such as a point-of-sale learning case. Live changes wait for approval.
 
-**Platform Engineer.** Cloud drives, backups, and space hygiene, plus a sanitized description of the agent org kept current when roles change. Also does repository work for this learning repo: branches, pull requests, and CI, under the technical lead's priorities. Deletes wait for approval. Payments are out of scope. Public pages stay free of personal data.
+**Joomla Extension Developer.** Joomla extensions and end-to-end checks on a learning-case site, using test accounts only.
 
-**Odoo Customization Engineer.** Odoo customization, for example a point-of-sale flow used as a learning case. Priority comes from the technical lead. Changes that go live wait for the learner's approval through the Chief of Staff.
+**Data Analyst.** Summaries from operational data, such as form submissions on that learning-case site.
 
-**Joomla Extension Developer.** Joomla extensions and end-to-end checks on a learning-case community site. Test accounts only. Live event settings and deletes wait for approval.
+**People Development Manager.** Leads the five advisors and proposes new agents. The learner approves a new agent.
 
-**Data Analyst.** Summaries and reports from operational data, for example form submissions on that same learning-case site. Checks the product documentation before claiming what a form tool can do. Live setting changes wait for approval.
+The five advisors work only when the learner or the People Development Manager asks.
 
-### Competency Center
+**Data Capability Advisor.** Data-platform and database study from official documentation.
 
-**People Development Manager.** Team lead for the competency center. Leads the five advisors below, sets their priorities, and owns talent topics: proposals for new agents, development, and how study tracks fit together. Deep tutoring stays with the advisors. A new agent is created only after the learner approves. Money topics go to Finance. Calendar writes go to the calendar owner.
+**AI Capability Advisor.** Workplace AI, governance, and a practical product lane such as Copilot Studio.
 
-The five advisors are on demand. Work starts when the learner or the People Development Manager asks. Calendar writes stay with the calendar owner. External mail stays with communications.
+**ERP Capability Advisor.** Dynamics 365 F&SCM tutoring. Employer-specific facts stay blank until the learner supplies them.
 
-**Data Capability Advisor.** Data-platform and database-engineering study, using official product documentation. Records only work the learner has shown.
+**AI Engineering Advisor.** TypeScript and Node tutoring, recorded only for progress the learner has shown.
 
-**AI Capability Advisor.** Workplace and generative AI, governance, and a practical product lane such as Copilot Studio or a foundry-style agent service. Data-platform depth, ERP product depth, and programming labs stay with the other advisors.
+**Business Technology Advisor.** Coaches the business-informatics competency map and ties it to ERP practice. Booking a course or an exam waits for the learner.
 
-**ERP Capability Advisor.** Microsoft Dynamics 365 tutoring, with an F&SCM application-manager angle. Uses ERP practice as examples. Employer-specific facts stay blank until the learner supplies them.
+**Customer Engagement Specialist.** Triages mail and drafts. A send goes to the Chief of Staff.
 
-**AI Engineering Advisor.** TypeScript and Node tutoring. Prefers official modules and labs. Records only progress the learner has demonstrated.
+**Facility Manager.** Household and home checklists. Billing goes to the controller. Calendar writes go to the calendar owner.
 
-**Business Technology Advisor.** Coaches the business-informatics competency map: ICT strategy, economics and budget, requirements, solution evaluation and rollout, processes, and operations. Ties theory to ERP practice. May suggest an external course as an option. Booking a course or registering for an exam waits for the learner. A progress note, when asked, is a few lines to the People Development Manager.
+**Finance.** Owns money topics other roles hand over, including a tax return taken from official instructions. Paying or submitting waits for the learner.
 
-### Communications, facility, and finance
+**Financial Controller.** Invoices, billing, and subscription cost. A plan change waits for the learner.
 
-**Customer Engagement Specialist.** Team lead for communications. Triages mail, writes digests and drafts, and files messages. A send, a post, or an outbound message goes to the Chief of Staff, who asks the learner. Invoices go to the controller, tax questions to Finance, visuals to the brand designer, and file storage to the platform engineer.
+**Event Program Manager.** Sole writer of calendar events. Other roles file a request. A private calendar stays off this page.
 
-**Facility Manager.** Team lead for facility topics: household tasks, maintenance, supplies, and home appointments, written as checklists. Billing goes to the controller, outbound messages to communications, and calendar writes to the calendar owner. Paid bookings and irreversible changes wait for approval.
+**Trend Analyst.** Short briefs of digital-product ideas from public sources, each with a citation. Buying, listing, and posting stay with the learner.
 
-**Finance.** Owns financial topics that the other agents hand over, including a personal tax return guided by official cantonal instructions. Day-to-day invoices and billing stay with the controller. Submitting a return, paying, deleting a return, or sharing filing access waits for the learner. Figures come from the learner's documents and official sources.
+**Brand Designer.** Slides, layout, and logos, reporting to the Chief of Staff. External sharing waits for the learner.
 
-**Financial Controller.** Invoices, billing, and spend signals, including subscriptions and usage that show up as cost. Pays, cancels, or changes a plan only after the learner approves. Reports figures from real sources and flags gaps.
+**Business-value coach.** Checks a learning page for a stated outcome, and a marketing draft for audience and outcome, before the learner approves a commit or a send.
 
-### Specialists beside the teams
+## Costs and risks
 
-**Event Program Manager.** Sole owner of calendar writes. Other roles request a change with title, timezone, start, end, attendees, and notes. A private calendar stays off this page.
+**Running cost.** Cost per agent per month is `[to be measured]`. Read it from the product's usage screen. The placeholder is an assumption, not a quote.
 
-**Trend Analyst.** Watches public marketplace, search, and seasonal signals and returns a short brief of digital-product ideas. Each idea cites a source. Missing numbers stay missing. Buying, listing, and posting stay with the learner.
+**Failure modes.**
 
-**Brand Designer.** Slides, layout, and logos, reporting to the Chief of Staff. Keeps a copy before replacing an original. Logos come from marks the learner already has. External sharing waits for the learner's approval.
+- **Connector outage.** Mail, storage, or calendar tools stop. The agent reports the gap and leaves the filing or the send unfinished.
+- **Notification noise.** Several agents message the learner about the same task. The Chief of Staff filters the queue, advisors stay on demand, and messages wait out calendar events other than self-study blocks.
 
-**Business-value coach.** Reports to the Chief of Staff so the review sits outside the team that drafted the work. Before a learning page is committed, the coach checks that it serves a stated learning outcome. Before a marketing draft moves on, the coach checks that it has a clear audience and a clear outcome. The verdict goes back to the Chief of Staff. The learner still approves the commit or the send.
+**When to skip this setup.**
 
-## Working rules worth reusing
-
-These are patterns, not full prompts.
-
-**Approvals go through one coordinator.** Money, deletes, external sends, and irreversible or cross-team decisions land in the Chief of Staff queue. Specialists and team leads prepare the request. The learner grants it from that queue.
-
-**Business-value review before a learning doc is committed.** A study page that is about to enter this repo gets a short value check from the business-value coach: which outcome it serves, and whether it is worth keeping. The platform engineer still opens the branch and the pull request. The merge waits for the learner.
-
-**Marketing is checked for value.** Communications may draft a post or a message, and the brand designer may draft the visual. The business-value coach checks audience and outcome before the Chief of Staff asks the learner whether to send. Drafts stay inside the team until that approval.
-
-**Finance owns settled amounts.** Once an amount is booked or paid, Finance and the controller own that figure. Other roles hand the topic over and leave the figure unchanged. The controller owns invoices and payments. Finance owns the tax return and the hand-off from every other role. Paying or submitting waits for the learner.
-
-**Advisors stay on demand.** The five competency-center advisors wait for a question from the learner or from the People Development Manager. Study help stays available, and the inbox stays free of unsolicited advisor messages.
-
-**Email triage reports to the coordinator.** The communications lead reads the inbox, drafts, and files. Anything that would leave the mailbox is reported to the Chief of Staff for the learner's decision. Login and a second factor stay with the learner. Passwords stay out of chat.
-
-### Habits that sit next to those rules
-
-- Messages are short. The role matches the language the learner is using.
-- Agents stay quiet during calendar events. A self-study block is the exception.
-- One role writes the calendar. Everyone else files a request.
-- Numbers, exam rules, logos, and completed study progress are stated only when a source or the learner has shown them.
-- A new agent is a proposal until the learner approves it.
-- Repository work uses a feature branch and a pull request. Pushing to the default branch, force-pushing, and merging wait for the learner. Text that lands in the public repo stays sanitized.
+- Recurring tasks are few, so the routing and approval overhead is larger than the hand-offs it saves.
+- The same work fits in one sitting, with less setup than the org costs to run.
+- The work has no approval boundary: nothing is sent, paid, or deleted.
 
 ## How this fits the 6-month plan
 
-Week 1 of the [plan](README.md) asks for a portfolio sketch of a multi-agent setup: structure, approval gates, and what runs unattended. This page is that sketch in teaching form. It is safe to read and reuse as a pattern. A write-up that adds real client names, real inboxes, or real calendars still waits for the learner's approval before it is published, as the plan already requires.
+Week 1 of the [plan](README.md) asks for a portfolio sketch of a multi-agent setup: structure, approval gates, and what runs unattended. This page is that sketch in teaching form.
+
+The Week 1 sketch is done when:
+
+- The KPIs in the table above are defined: name, how measured, baseline, and target.
+- At least one KPI has been measured once, and the source is named. A cell that still says `[to be measured]` is still an assumption.
+- Approval gates have been tested. A send or a payment stops in the queue and continues only after the learner grants it.
+
+A later write-up that adds real client names, real inboxes, or real calendars still waits for the learner's approval before it is published, as the plan already requires.

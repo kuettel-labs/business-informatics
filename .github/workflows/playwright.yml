@@ -1,3 +1,25 @@
+name: Playwright Tests
+
+# Manual only: the tests in tests/playwright target a Joomla site at
+# http://localhost/joomla, which does not exist on GitHub-hosted runners.
+on:
+  workflow_dispatch:
+
 env:
   J_ADMIN_USER: ${{ secrets.J_ADMIN_USER }}
   J_ADMIN_PASS: ${{ secrets.J_ADMIN_PASS }}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: tests/playwright
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+      - run: npm ci
+      - run: npx playwright install --with-deps
+      - run: npx playwright test

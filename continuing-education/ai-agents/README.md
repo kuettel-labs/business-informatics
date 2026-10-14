@@ -1,6 +1,6 @@
 # Always-On Agent Consultant: 6-Month Learning Plan
 
-> **Status:** Active learning plan. Details: [detailed-plan.md](detailed-plan.md)
+> **Status:** Active learning plan. Details: [detailed-plan.md](detailed-plan.md). Anonymous example org (roles and working rules): [example-multi-agent-setup.md](example-multi-agent-setup.md).
 
 ## Goal
 Become a consultant for always-on, long-running AI agents: agents that run multi-step work over hours or days, operate tools and apps unattended, and surface only for human judgment. The approach is Microsoft-first and use-before-build.
@@ -64,3 +64,7 @@ Become a consultant for always-on, long-running AI agents: agents that run multi
 7. Cost and reliability dashboard
 
 _Resources and exam codes are verified in [detailed-plan.md](detailed-plan.md)._
+
+## Example
+
+An anonymous multi-agent org for pillar P6, with short role notes and reusable approval rules: [example-multi-agent-setup.md](example-multi-agent-setup.md).

@@ -30,11 +30,11 @@ Der Leitfaden folgt dem offiziellen **Qualifikationsprofil** mit fünf Handlungs
 
 | Bereich | Offizielle Bezeichnung (Qualifikationsprofil) | Handlungskompetenzen | Orientierungsmodule* | Ordner |
 |---|---|---|---|---|
-| a | Bei der Umsetzung der ICT Strategie mitwirken | a1–a6 | 646, 647, 648, 649, 650, 688, 690 | [01-ict-strategy](01-ict-strategy/) |
-| b | ICT Projekte leiten | b1–b6 | 647, 648, 656, 674, 687, 689, 690 | [02-ict-project-leadership](02-ict-project-leadership/) |
-| c | ICT Lösungen evaluieren und einführen | c1–c5 | 648, 649, 650, 687, 689 | [03-ict-solution-evaluation-rollout](03-ict-solution-evaluation-rollout/) |
-| d | Geschäftsprozesse optimieren | d1–d3 | 644, 645 | [04-business-process-optimization](04-business-process-optimization/) |
-| e | Den Betrieb von ICT-Lösungen steuern | e1–e4 | 650, 655, 656 | [05-ict-operations-control](05-ict-operations-control/) |
+| a | Bei der Umsetzung der ICT Strategie mitwirken | a1–a6 | 646, 647, 648, 649, 650, 688, 690 | [a1..6-ict-strategy](a1..6-ict-strategy/) |
+| b | ICT Projekte leiten | b1–b6 | 647, 648, 656, 674, 687, 689, 690 | [b1..6-ict-project-leadership](b1..6-ict-project-leadership/) |
+| c | ICT Lösungen evaluieren und einführen | c1–c5 | 648, 649, 650, 687, 689 | [c1..5-ict-solution-evaluation-rollout](c1..5-ict-solution-evaluation-rollout/) |
+| d | Geschäftsprozesse optimieren | d1–d3 | 644, 645 | [d1..3-business-process-optimization](d1..3-business-process-optimization/) |
+| e | Den Betrieb von ICT-Lösungen steuern | e1–e4 | 650, 655, 656 | [e1..4-ict-operations-control](e1..4-ict-operations-control/) |
 
 \* Zuordnung gemäss Abbildung in Anhang 1 zur Wegleitung (Version Januar 2024). Die Module (Modulbaukasten ICT-Berufsbildung) dienen **nur zur Orientierung**; geprüft werden die Handlungskompetenzen. In der Abbildung heissen die Bereiche teils anders (z. B. c «Steuern des Lebenszyklus' von ICT Lösungen», e «Sicherstellen der Qualität von ICT-Lösungen»); massgebend sind die Namen im Qualifikationsprofil.
 

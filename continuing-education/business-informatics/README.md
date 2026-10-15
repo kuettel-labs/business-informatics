@@ -44,6 +44,7 @@ Weitere Ordner:
 - [exam-strategy](exam-strategy/) – Vorgehen für Fallstudien/Mini-Cases (Teil 2) und Critical Incidents (Teil 3)
 - [resources.md](resources.md) – offizielle Dokumente und Library-Empfehlungen
 - **[preparation-courses.md](preparation-courses.md) – Vorbereitungskurse: Lehrgänge, Digicomp-Einzelkurse ([digicomp-courses.md](digicomp-courses.md)) oder Selbststudium, inkl. Bundesbeiträge**
+- [c3..4-e1..4-parameterization](c3..4-e1..4-parameterization/) – Geführte Parametrisierung im ERP (Beispiel: D365 Finance / Supply Chain Management) (c3–c4, e1–e4)
 
 ## Bestehende Lernbereiche im Repo
 

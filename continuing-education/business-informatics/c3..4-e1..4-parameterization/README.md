@@ -1,5 +1,12 @@
 # Geführte Parametrisierung im ERP (Beispiel: D365 Finance / Supply Chain Management)
 
+## Inhalt
+- [README (Übersicht)](README.md)
+- [Geführte Parametrisierung im Detail](gefuehrte-parametrisierung.md)
+- [Parameterregister und Dokumentation](parameterregister.md)
+- [Change Control mit Backlog-Item](change-control.md)
+- [Risikobeurteilung](risikobeurteilung.md)
+
 ## Ziel und Einordnung
 Diese Lerneinheit richtet sich an Lernende mit ERP-Hintergrund. Sie zeigt, wie Parameter kontrolliert, nachvollziehbar und wiederholbar verwaltet werden. Parameter sind Setup-Daten wie Buchungsprofile, Nummernkreise, Workflows und Modulparameter.
 
@@ -26,6 +33,8 @@ Die Lernenden können …
 4. Rollenzuweisungen auf SoD-Konflikte **prüfen**. *(e3)*
 5. einen Governance-Baustein einer Handlungskompetenz **zuordnen** und die Zuordnung **begründen**. *(c3, c4, e1–e4)*
 
+> Die Tabelle im Abschnitt Kompetenzbezug geht über die Lernziele hinaus und nennt zusätzlich die sekundären Kompetenzen b4, c2 und d3.
+
 ## Begriffe
 - **Konfigurationsdaten:** Parameter und Referenzdaten, die das Verhalten von Prozessen steuern.
 - **Stammdaten:** Debitoren, Kreditoren und Produkte.
@@ -38,7 +47,7 @@ Die Lernenden können …
 Parameter werden wie Code behandelt:
 - Es gibt eine einzige Quelle.
 - Jede Änderung hat einen Owner, eine Begründung und eine Freigabe.
-- Ausgeliefert wird als versioniertes Paket über Dev → Test → Prod.
+- Ausgeliefert wird als versioniertes Paket über Dev → Golden Config → Test/UAT → Prod.
 - Ein Audit-Trail ist vorhanden.
 - Regelmässig wird geprüft, ob Prod noch der Golden Config entspricht.
 
@@ -75,26 +84,23 @@ Typische Risiken ungesteuerter Änderungen (keine gemessenen Werte):
 - **Schlank genügt:** bei einer Gesellschaft mit wenigen, seltenen Änderungen. Dann reichen ein Register, das Vier-Augen-Prinzip und der Database Log.
 
 ## Methode in D365 F/SCM
-1. **Golden Config.** Eine nicht-produktive Umgebung ist die Referenz für alle Parameter.
+Vertiefung: [Geführte Parametrisierung im Detail](gefuehrte-parametrisierung.md).
+
+1. **Golden Config.** Eine nicht-produktive Umgebung ist die Referenz für alle Parameter ([Details](gefuehrte-parametrisierung.md)).
 2. **Vorlagen und Datenpakete.** Setup-Daten werden mit Data management (DMF) in der richtigen Reihenfolge exportiert und versioniert, zum Beispiel in der LCS-Asset-Library oder in Azure DevOps.
-3. **Change Control.** Jede Änderung braucht ein Backlog-Item, eine Risikobeurteilung und die Freigabe des Prozess-Owners. Ausgeliefert wird nur als Paket. Data task automation macht das Laden wiederholbar.
+3. **Change Control** ([Details](change-control.md), [Risikobeurteilung](risikobeurteilung.md)). Jede Änderung braucht ein Backlog-Item, eine Risikobeurteilung und die Freigabe des Prozess-Owners. Ausgeliefert wird nur als Paket. Data task automation macht das Laden wiederholbar.
 4. **Funktionstrennung.** Duties und Rollen werden über SoD-Regeln gegen Konflikte abgesichert. Nur eine eng definierte Rolle darf Parameter in Prod pflegen.
 5. **Audit und Drift.** Der Database Log läuft auf kritischen Setup-Tabellen. Vor jedem Release laufen RSAT-Regressionstests in Azure DevOps.
-6. **Mehrere Gesellschaften.** Referenzdaten werden über Cross-company data sharing geteilt oder mit «Copy into legal entity» kopiert. Grenzen von Cross-company data sharing gemäss Microsoft Learn (verifiziert):
-   - keine Transaktionsdaten,
-   - keine Felder mit Finanzdimensionen,
-   - höchstens 2 Mio. Datensätze pro Job (ab 10.0.10),
-   - höchstens 300 Gesellschaften pro Policy (ab 10.0.10),
-   - nicht mit Dual-write kombinierbar.
+6. **Mehrere Gesellschaften.** Referenzdaten werden über Cross-company data sharing geteilt oder mit «Copy into legal entity» kopiert. Die Grenzen von Cross-company data sharing stehen gesammelt unter [Mehrere Gesellschaften](gefuehrte-parametrisierung.md#mehrere-gesellschaften) (nicht verifiziert).
 
-Ergänzend gilt: Jede Einstellung wird in einem **Parameterregister** dokumentiert, mit Wert, Owner, Begründung, Datum und Verweis auf die Änderung.
+Ergänzend gilt: Jede Einstellung wird in einem **[Parameterregister](parameterregister.md)** dokumentiert, mit Wert, Owner, Begründung, Datum und Verweis auf die Änderung.
 
 ## Kompetenzbezug
 | Baustein | Handlungskompetenz | Begründung |
 |---|---|---|
 | Golden Config | c3, c4, e4 | Eine einzige Referenz ermöglicht eine kontrollierte Einführung und einen stabilen Betrieb. |
 | Datenpakete / Versionierung | e1, c4 | Die Pakete sind die Release-Artefakte. |
-| Change Control Dev→Test→Prod | e1, b4, b5 | Releasemanagement, Projektsteuerung und Risikobeurteilung. |
+| Change Control Dev → Golden Config → Test/UAT → Prod | e1, b4, b5 | Releasemanagement, Projektsteuerung und Risikobeurteilung. |
 | Funktionstrennung (SoD) | e3 | Internes Kontrollsystem (IKS) und Compliance. |
 | Database Log / Drift-Check | e2, e3 | Audit-Trail und Kontrolle der Datenqualität. |
 | RSAT-Regressionstests | c2, e1, e4 | Die Anforderungen sind auch nach dem Release erfüllt. |
@@ -129,7 +135,7 @@ Ergänzend gilt: Jede Einstellung wird in einem **Parameterregister** dokumentie
 1. Konfigurationsdaten steuern das Verhalten von Prozessen. Stammdaten beschreiben Geschäftsobjekte.
 2. Pakete machen Änderungen nachvollziehbar, testbar und wiederholbar und verhindern Drift.
 3. e1: Pakete werden als Releases ausgeliefert. e2: Drift-Prüfung und Register sichern die Datenqualität. e3: SoD und Database Log decken die Compliance ab.
-4. Keine Transaktionsdaten, keine Finanzdimensionen, Mengengrenzen bei Datensätzen und Gesellschaften, kein Dual-write.
+4. Keine Transaktionsdaten, keine Finanzdimensionen, Mengengrenzen bei Datensätzen und Gesellschaften, kein Dual-write (nicht verifiziert).
 5. Die aufgezeichneten Tests laufen vor jedem Release über Azure DevOps. Ist ein Test rot, wird nicht ausgeliefert.
 6. Beispiel: «Als Prozess-Owner Kreditoren möchte ich das Buchungsprofil X anpassen, damit Y korrekt gebucht wird.» Akzeptanzkriterien: Testbuchung korrekt, RSAT grün, Register aktualisiert.
 </details>

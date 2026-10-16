@@ -37,30 +37,9 @@ theme:
     scheme: default
 
 nav:
-  - Home: index.md
-  - Über mich:
-    - Über: about.md
-  - Roadmap: roadmap.md
-  - Kompetenzen:
-    - Strategie: skills/a-strategie/index.md
-    - Projekte: skills/b-projekte/index.md
-    - Lösungen: skills/c-loesungen/index.md
-    - Prozesse: skills/d-prozesse/index.md
-    - Betrieb: skills/e-betrieb/index.md
-  - Prüfung:
-    - Teil 1 ICT Konzept: exam/teil1-ict-konzept/projektidee.md
-    - Teil 2 Management & Operations: exam/teil2-management-operations/cases.md
-    - Teil 3 Führung: exam/teil3-fuehrung/critical-incidents.md
-  - Projekte:
-    - D365 Rollout: projects/d365-rollout.md
-    - Integrationen: projects/integration-projects.md
-    - Hypercare: projects/hypercare.md
-  - Portfolio:
-    - CV: portfolio/cv.md
-    - Zertifikate: portfolio/certifications.md
-    - Kompetenzen: portfolio/competencies.md
-    - Referenzen: portfolio/references.md
-  - Journal: journal/2026-11.md
+  - Odoo Kasse:
+    - Überblick: odoo-kasse/README.md
+    - Benutzerhandbuch: odoo-kasse/Kasse-Benutzerhandbuch.md
 
 extra_css:
   - 'assets/css/extra.css'

@@ -1,0 +1,42 @@
+@page { size: A4; margin: 22mm 20mm 22mm 22mm;
+  @bottom-center { content: "Seite " counter(page) " / " counter(pages); font-size: 8.5pt; color: #777; }
+  @top-right { content: "Kasse – Benutzerhandbuch"; font-size: 8.5pt; color: #999; } }
+@page :first { @bottom-center { content: none; } @top-right { content: none; } }
+html { font-family: "Noto Sans", "DejaVu Sans", sans-serif; font-size: 10.5pt; line-height: 1.45; color: #222; }
+body { margin: 0; hyphens: auto; }
+#title-block-header { page: title; height: 230mm; display: flex; flex-direction: column; justify-content: center;
+  border-left: 6mm solid #714B67; padding-left: 12mm; break-after: page; }
+#title-block-header .title { font-size: 34pt; font-weight: 700; color: #714B67; margin: 0 0 4mm 0; line-height: 1.15; }
+#title-block-header .subtitle { font-size: 15pt; color: #444; margin: 0 0 30mm 0; font-weight: 400; }
+#title-block-header .author, #title-block-header .date { font-size: 12pt; color: #555; margin: 1mm 0; }
+nav#TOC { break-after: auto; }
+nav#TOC h2 { font-size: 20pt; font-weight: 700; color: #714B67; margin: 0 0 6mm 0; }
+nav#TOC ul { list-style: none; padding-left: 0; margin: 0; }
+nav#TOC ul ul { padding-left: 8mm; }
+nav#TOC > ul > li { margin-top: 2.5mm; font-weight: 600; }
+nav#TOC ul ul li { font-weight: 400; margin-top: 1mm; }
+nav#TOC a { color: #222; text-decoration: none; }
+nav#TOC a::after { content: leader(".") target-counter(attr(href), page); font-weight: 400; }
+nav#TOC .toc-section-number { display: inline-block; min-width: 9mm; }
+h1 { font-size: 18pt; color: #714B67; border-bottom: 1.5pt solid #714B67; padding-bottom: 1.5mm; margin: 0 0 4mm 0; break-before: page; break-after: avoid; }
+h2 { font-size: 13.5pt; color: #4a3044; margin: 7mm 0 2.5mm 0; break-after: avoid; }
+h3 { font-size: 11.5pt; color: #4a3044; margin: 5mm 0 2mm 0; break-after: avoid; }
+.header-section-number { margin-right: 3mm; }
+p { margin: 0 0 2.5mm 0; orphans: 3; widows: 3; }
+ol, ul { margin: 0 0 3mm 0; padding-left: 7mm; }
+li { margin-bottom: 1.2mm; }
+strong { color: #111; }
+table { border-collapse: collapse; width: 100%; margin: 2mm 0 4mm 0; font-size: 9.5pt; }
+tr { break-inside: avoid; }
+thead { display: table-header-group; }
+th { background: #efe8ee; text-align: left; font-weight: 600; }
+th, td { border: 0.5pt solid #c9bcc6; padding: 1.4mm 2mm; vertical-align: top; }
+blockquote { margin: 3mm 0 4mm 0; padding: 2.5mm 4mm; background: #f6f1f5; border-left: 3pt solid #714B67; break-inside: avoid; }
+blockquote p { margin: 0; }
+figure { margin: 4mm 0 5mm 0; text-align: center; break-inside: avoid; }
+figure img { max-width: 100%; max-height: 175mm; height: auto; border: 0.5pt solid #bbb; }
+figcaption { font-size: 9pt; color: #555; font-style: italic; margin-top: 1.5mm; }
+div.hinweis { margin: 8mm 0 0 0; padding: 4mm 5mm; background: #fff6e8; border: 1.25pt solid #c47d00;
+  border-left: 5pt solid #c47d00; break-inside: avoid; break-before: avoid; hyphens: none; }
+div.hinweis p { margin: 0; }
+div.hinweis strong { color: #8a4b00; }

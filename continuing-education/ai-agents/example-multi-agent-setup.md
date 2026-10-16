@@ -55,6 +55,8 @@ These are patterns, not full prompts.
 
 **Business-value review before a learning doc is committed.** A study page that is about to enter this repo gets a short value check from the Business-value coach: which outcome it serves, and whether it is worth keeping. The Storage agent still opens the branch and the pull request. The merge waits for the learner.
 
+**Every repository change gets four reviews before merge.** Each pull request, including a pure fix, is checked by the Compliance agent and the Internal audit agent. Learning and documentation material also gets the business-value review and a didactics review from the Learning lead agent. Nothing merges without the learner's approval.
+
 **Marketing is checked for value.** The Communications agent may draft a post or a message, and the Design agent may draft the visual. The Business-value coach checks audience and outcome before the Coordinator agent asks the learner whether to send. Drafts stay inside the team until that approval.
 
 **Finance agent owns settled amounts.** Once an amount is booked or paid, the Finance agent and the Controller agent own that figure. Other roles hand the topic over and leave the figure unchanged. The Controller agent owns invoices and payments. The Finance agent owns the tax return and the hand-off from every other role. Paying or submitting waits for the learner.
@@ -82,10 +84,11 @@ The same four rules, named the way they show up in ERP and Dynamics 365 work.
 | Single calendar owner | Master-data ownership. One role maintains the record. Other roles request a change. |
 | Business-value review | Backlog refinement. An item is accepted when the outcome is clear enough to keep. |
 | Finance agent owns settled amounts | Segregation of duties. The role that handles the operation does not also change the settled figure. |
+| Compliance and internal audit review | Compliance function and internal audit. Audit stays independent of operations and reports to the top. |
 
 ## Org model
 
-One router sits at the top. The Operations manager agent manages the teams under that router. Four team leads set priorities inside their own section: Business Technology, the competency center (learning advisors), communications, and facility. The Finance agent owns money topics and has a Controller agent for day-to-day invoices and payments. The Design agent reports to the Coordinator agent, next to the approval queue. Specialists cover calendar, platform and storage, Odoo, Joomla, data analysis, trend scouting, and business-value review.
+One router sits at the top. The Operations manager agent manages the teams under that router. Four team leads set priorities inside their own section: Business Technology, the competency center (learning advisors), communications, and facility. The Finance agent owns money topics and has a Controller agent for day-to-day invoices and payments. The Design agent reports to the Coordinator agent, next to the approval queue. The Compliance agent and the Internal audit agent also report directly to the Coordinator agent, outside operations, so they can check operations independently. Specialists cover calendar, platform and storage, Odoo, Joomla, data analysis, trend scouting, and business-value review.
 
 ```mermaid
 flowchart TD
@@ -94,6 +97,8 @@ flowchart TD
   OPS["Operations manager agent"]
   BD["Design agent"]
   BVC["Business-value coach"]
+  CMP["Compliance agent"]
+  IA["Internal audit agent"]
   TL["Technology lead agent"]
   PDM["Learning lead agent"]
   CES["Communications agent"]
@@ -116,6 +121,8 @@ flowchart TD
   COS --> OPS
   COS --> BD
   COS --> BVC
+  COS --> CMP
+  COS --> IA
   OPS --> TL
   OPS --> PDM
   OPS --> CES
@@ -162,6 +169,8 @@ Reporting lines are in the table. The notes under it stay short on purpose.
 | 19 | Trend scout agent | Trend scout | Operations manager agent |
 | 20 | Design agent | Design | Coordinator agent |
 | 21 | Business-value coach | Value review | Coordinator agent |
+| 22 | Compliance agent | Compliance | Coordinator agent |
+| 23 | Internal audit agent | Internal audit | Coordinator agent |
 
 **Coordinator agent.** Routes each task and holds the single approval queue, including a short weekday rollup.
 
@@ -206,6 +215,10 @@ The five learning advisors work only when the learner or the Learning lead agent
 **Design agent.** Slides, layout, and logos, reporting to the Coordinator agent. External sharing waits for the learner.
 
 **Business-value coach.** Checks a learning page for a stated outcome, and a marketing draft for audience and outcome, before the learner approves a commit or a send.
+
+**Compliance agent.** On demand. Checks ERP practice and agent activity against a rulebook of Swiss and EU rules, and checks every pull request before merge. Findings go to the Coordinator agent.
+
+**Internal audit agent.** On demand, independent, and read-only. Checks agent activity and every pull request before merge, outside operations. Reports directly to the Coordinator agent.
 
 ## Costs and risks
 

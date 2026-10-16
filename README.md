@@ -1,8 +1,14 @@
-# GitHubProject161
+# WI EFA Portfolio (MkDocs)
 
-## System Overview
+Diese Website ist dein persönliches Lern‑Board und Portfolio für die Berufsprüfung "Wirtschaftsinformatiker/in EFA".
 
-The following diagram shows the end‑to‑end workflow across DEV/Test, UAT, and PROD, including
-GitHub Actions, Playwright verification, database synchronization, and deployment pipelines.
+Inhalt:
+- Lernmaterialien nach Handlungskompetenzbereichen (a–e)
+- Prüfungsdokumentation für die drei Teile
+- Projekte, Wissen, Portfolio und Journal
 
-![System Architecture](docs/architecture/overview.png)
+Lokale Vorschau:
+
+```bash
+pip install -r requirements.txt
+mkdocs serve

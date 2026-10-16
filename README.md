@@ -11,5 +11,5 @@ Lokale Vorschau:
 
 ```bash
 pip install -r requirements.txt
-mkdocs serve
+NO_MKDOCS_2_WARNING=1 mkdocs serve
 ```

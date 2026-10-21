@@ -1,87 +1,161 @@
-# Lernleitfaden Berufsprüfung Wirtschaftsinformatiker/in mit eidg. Fachausweis
+# Realistische berufliche Alternativen für ICT-Fachpersonen Ü50 in der Schweiz
 
-Persönlicher Lernleitfaden für die eidgenössische Berufsprüfung **Wirtschaftsinformatikerin / Wirtschaftsinformatiker mit eidg. Fachausweis** (Prüfungsordnung ab 2023, Trägerschaft ICT-Berufsbildung Schweiz).
-Der Leitfaden folgt dem offiziellen **Qualifikationsprofil** mit fünf Handlungskompetenzbereichen (a–e). Jeder Ordner ist ein Bereich mit Lernzielen, Schlüsselkonzepten, Literatur, Übungen, Selbstcheck und Checkliste.
+Dieses Dokument bietet eine klare, strukturierte Übersicht über realistische berufliche Alternativen für erfahrene ICT-Fachpersonen in der Schweiz, die sich in einer anspruchsvollen Arbeitsmarktsituation befinden.  
+Die Inhalte basieren auf typischen Karrierewegen, Weiterbildungsoptionen und Quereinstiegsmodellen, die sich in der Praxis bewährt haben.
 
-> Alle Lernziele sind **eigene Zusammenfassungen** des Qualifikationsprofils. Massgebend sind immer die Originaldokumente (siehe [Quellen](resources.md)).
+---
 
-## Prüfungsstruktur
+## 1. Lehrperson Sekundarstufe I (PH FHNW und andere PHs) - Eine zweite berufliche Säule (strategischen Zweitkarriere)
 
-| Teil | Bezeichnung | Form | Dauer | Gewicht | Geprüfte Bereiche |
-|---|---|---|---|---|---|
-| 1 | ICT Konzept | Projektarbeit (schriftlich, vorgängig) + Präsentation und Fachgespräch (mündlich) | 15 + 30 Min. | 50 % | frei wählbar: mind. 4 Handlungskompetenzen aus mind. 2 Bereichen |
-| 2 | ICT Management & Operations | Fallstudie(n) und Mini-Cases, schriftlich | 240 Min. | 25 % | a, c, d, e |
-| 3 | Projektmanagement und Führung | Critical Incidents, mündlich (30 Min. Vorbereitung, 30 Min. Gespräch) | 60 Min. | 25 % | b |
+### Beschreibung
+Quereinstieg in die pädagogische Ausbildung zur Lehrperson für Sekundarstufe I, insbesondere für die Fächer Informatik oder Medien & Informatik.
 
-**Bestehen** (Prüfungsordnung Ziff. 6.41): Gesamtnote mind. 4.0 **und** Teil 1 mind. 4.0 **und** Teile 2 und 3 je mind. 3.0. Nicht bestandene Teile können zweimal wiederholt werden.
+### Gründe für Realismus
+- Berufserfahrung wird hoch geschätzt  
+- Sur-dossier-Zulassung möglich  
+- Stabile Nachfrage nach Informatiklehrpersonen  
+- Klare berufliche Identität und langfristige Perspektive
+- Du erfüllst alle Zulassungsbedingungen
+- Du hast starke ICT‑Praxis → ideal für Informatikunterricht
+- Du hast eine ruhige, sachliche Art → ideal für Schule
+- Du bekommst eine klare berufliche Identität
+- Du hast eine stabile Nachfrage
+- Du kannst parallel weiterhin ICT‑Stellen suchen
+- Du kannst ab Jahr 2 wieder Einkommen generieren
 
-### Termine (Planungsdaten)
+| Kriterium | ICT-Karriere (PO/BA/ERP) | Lehrer Sek I (PH FHNW) |
+|---|---|---|
+| **Realistische Chance Ü50** | Mittel bis tief | Hoch |
+| **Marktnachfrage** | Schwankend | Stabil |
+| **Zulassung / Einstieg** | Schwierig ohne Abschluss | Klar geregelt, sur dossier |
+| **Zeit bis Einkommen** | Unklar | Ab Jahr 2 sicher |
+| **Berufliche Identität** | Oft unscharf | Klar definiert |
+| **Wettbewerb** | Hoch | Moderat |
+| **Passung zu deinem Profil** | Gut | Sehr gut |
+| **Langfristige Sicherheit** | Mittel | Hoch |
+| **Kosten** | Weiterbildung nötig | Studium, aber bezahlbar |
+| **Persönliche Eignung** | Hoch | Sehr hoch |
 
-| Meilenstein | Datum |
-|---|---|
-| Anmeldung | 8.12.2027 – 16.1.2028 |
-| Abgabe Projektarbeit (Teil 1) | 31.3.2028 |
-| Schriftliche Prüfung (Teil 2) | 13.5.2028 |
-| Mündliche Prüfungen (Teile 1 und 3) | 18.–22.5.2028 |
+### Anforderungen
+- Mindestalter 27 Jahre  
+- 300 % Berufserfahrung  
+- Abschluss Sek II oder sur dossier  
+- [Aufnahmeverfahren der PH](https://www.fhnw.ch/++api++/de/ph/studium/angebot/info-anlaesse/folien-infofenster-studienvarianten-quereinstieg-ph-fhnw/@@inline-file/file)
 
-> Das sind **Planungsdaten**, abgeleitet vom Muster der Ausschreibung 2026 (Abgabe 31.3., schriftlich 13.5., mündlich 18.–22.5., Anmeldeschluss 16.1.). **Zu prüfen** gegen die offizielle Prüfungsausschreibung 2028 auf ict-berufsbildung.ch (Ausschreibung mind. 5 Monate vor der Prüfung). Ebenfalls zu prüfen: Frist für die Prüfungsgebühr (2026: bis 31.3.) und Aufgebot (2026: bis 14.4.).
+---
 
-## Handlungskompetenzbereiche und Module
+## 2. Berufsbildung (ohne PH-Studium)
 
-| Bereich | Offizielle Bezeichnung (Qualifikationsprofil) | Handlungskompetenzen | Orientierungsmodule* | Ordner |
-|---|---|---|---|---|
-| a | Bei der Umsetzung der ICT Strategie mitwirken | a1–a6 | 646, 647, 648, 649, 650, 688, 690 | [a1..6-ict-strategy](a1..6-ict-strategy/) |
-| b | ICT Projekte leiten | b1–b6 | 647, 648, 656, 674, 687, 689, 690 | [b1..6-ict-project-leadership](b1..6-ict-project-leadership/) |
-| c | ICT Lösungen evaluieren und einführen | c1–c5 | 648, 649, 650, 687, 689 | [c1..5-ict-solution-evaluation-rollout](c1..5-ict-solution-evaluation-rollout/) |
-| d | Geschäftsprozesse optimieren | d1–d3 | 644, 645 | [d1..3-business-process-optimization](d1..3-business-process-optimization/) |
-| e | Den Betrieb von ICT-Lösungen steuern | e1–e4 | 650, 655, 656 | [e1..4-ict-operations-control](e1..4-ict-operations-control/) |
+### Optionen
+- Unterricht an Berufsfachschulen (Informatik, Mediamatik, KV)  
+- ÜK-Instruktor bei ICT-Berufsbildung Schweiz  
+- Kursleitung in der Erwachsenenbildung (KV Business School, Klubschule, private Anbieter)
 
-\* Zuordnung gemäss Abbildung in Anhang 1 zur Wegleitung (Version Januar 2024). Die Module (Modulbaukasten ICT-Berufsbildung) dienen **nur zur Orientierung**; geprüft werden die Handlungskompetenzen. In der Abbildung heissen die Bereiche teils anders (z. B. c «Steuern des Lebenszyklus' von ICT Lösungen», e «Sicherstellen der Qualität von ICT-Lösungen»); massgebend sind die Namen im Qualifikationsprofil.
+### Gründe für Realismus
+- Einstieg oft ohne pädagogisches Studium möglich  
+- Fokus auf Praxis statt Theorie  
+- Hohe Nachfrage nach ICT-Ausbildenden
 
-Weitere Ordner:
+---
 
-- [project-work](project-work/) – Leitfaden und Vorlagen für die Projektarbeit (Teil 1)
-- [exam-strategy](exam-strategy/) – Vorgehen für Fallstudien/Mini-Cases (Teil 2) und Critical Incidents (Teil 3)
-- [resources.md](resources.md) – offizielle Dokumente und Library-Empfehlungen
-- **[preparation-courses.md](preparation-courses.md) – Vorbereitungskurse: Lehrgänge, Digicomp-Einzelkurse ([digicomp-courses.md](digicomp-courses.md)) oder Selbststudium, inkl. Bundesbeiträge**
-- [c3..4-e1..4-parameterization](c3..4-e1..4-parameterization/) – Geführte Parametrisierung im ERP (Beispiel: D365 Finance / Supply Chain Management) (c3–c4, e1–e4)
+## 3. ICT-Weiterbildung mit Rollenwechsel
 
-## Bestehende Lernbereiche im Repo
+### Typische Weiterbildungen
+- Höhere Fachschule Wirtschaftsinformatik (HF)  
+- [Eidg. Fachausweis (EFA)](learning-path-wirtschaftsinformatiker.md)
+- CAS/DAS/MAS an FHs
+- [Indivudal Courses](digicomp-courses.md)
+- Spezialisierungen in Power Platform, Dynamics 365, ERP
 
-| Ordner | Bezug zur Prüfung |
-|---|---|
-| [Requirements Engineering – Kurs](../requirements-engineering/course/) | b1, b2, c1, c2 (Anforderungen erheben, spezifizieren, validieren) |
-| RE-Übungen: [Online-Anmeldung](../../exercises/requirements-engineering/marksman-event-registration/), [Chargenrückverfolgbarkeit](../../exercises/requirements-engineering/batch-traceability/) | Fallstudientraining im Prüfungsstil |
-| [Azure Fundamentals (AZ-900)](../azure-fundamentals-az-900/) | a6 (Trends/Cloud), c1 (Lösungsvarianten), e4 (Verfügbarkeit) |
-| [ERPNext mit Docker](../erp/erpnext-docker/) | c1–c4 (Evaluation, Test, Einführung), d3 (Prozesse im ERP abbilden) |
+### Gründe für Realismus
+- Formale Qualifikation erhöht Chancen im Bewerbungsprozess  
+- Gute Passung für erfahrene ICT-Fachpersonen  
+- Öffnet Türen zu Rollen wie Product Owner, Business Analyst, Applikationsmanager
 
-## Lernfahrplan Oktober 2026 – Mai 2028
+---
 
-Richtwert: 5–7 Stunden pro Woche, berufsbegleitend.
+## 4. Öffentliche Verwaltung (Bund, Kantone, Gemeinden)
 
-| Phase | Zeitraum | Schwerpunkt | Ergebnis |
-|---|---|---|---|
-| 0 Start | Okt 2026 | Standortbestimmung: alle 24 Handlungskompetenzen mit eigener Praxis abgleichen (stark / mittel / Lücke); Entscheid Lehrgang vs. Selbststudium ([preparation-courses.md](preparation-courses.md)) | Kompetenz-Matrix, Lernplan |
-| 1 | Nov 2026 – Jan 2027 | **d** Geschäftsprozesse + RE-Kurs (b1, b2); optional Digicomp IREB CPRE (statt HERMES, falls RE schwach), BPMN | 2 Prozessmodelle (BPMN), RE-Übungen gelöst |
-| 2 | Feb – Apr 2027 (Lehrgangsentscheid bis Feb 2027) | **a** ICT-Strategie, Budget, Wirtschaftlichkeit, SLA, Trends | Budget- und Investitionsrechnung, SLA-Entwurf |
-| 3 | Mai – Jul 2027 | **c** Evaluation, Test, ITSM-Prozesse, Einführung, KPI; Digicomp ITIL 5 (Basispaket) | Kriterienkatalog, Testkonzept, Rollout-Plan |
-| 4 | Aug – Okt 2027 | **e** Release, Datenqualität, Compliance, Betriebsstabilität; optional Digicomp ISO 27001, DSG | DQ-Konzept, Compliance-Check, BCP-Skizze |
-| 5 | Sep – Nov 2027 (parallel) | **b** Projektleitung und Führung, erste Critical Incidents; Digicomp HERMES (Basispaket), optional PSM I | 6 Incidents mündlich geübt |
-| 6 Projektarbeit | Sep 2027 – 31.3.2028 | Thema, Kompetenzauswahl, Projektantrag, Schreiben, Abgabe | siehe [project-work](project-work/) |
-| 7 Simulation | Jan – Mai 2028 | Teil-2-Simulationen (240 Min.), Teil-3-Gespräche, Präsentation und Fachgespräch | 3 Vollsimulationen, Fehlerliste |
-| Prüfung | 13.5. und 18.–22.5.2028 | | |
+### Typische Rollen
+- ICT-Koordinator  
+- Applikationsverantwortlicher  
+- Projektleiter Digitalisierung  
+- Schul-ICT-Support  
+- Prozessmanager
 
-Anmeldung **8.12.2027 – 16.1.2028** im Kalender eintragen (Phase 6).
+### Gründe für Realismus
+- Erfahrung wird stärker gewichtet als Alter  
+- Stabiler Arbeitsmarkt  
+- Viele offene Stellen in Aargau, Zürich, Luzern, Bern
 
-## Fortschritts-Checkliste
+---
 
-- [ ] Standortbestimmung erstellt
-- [ ] a – ICT Strategie (a1–a6)
-- [ ] b – ICT Projekte leiten (b1–b6)
-- [ ] c – ICT Lösungen evaluieren und einführen (c1–c5)
-- [ ] d – Geschäftsprozesse optimieren (d1–d3)
-- [ ] e – Betrieb von ICT-Lösungen steuern (e1–e4)
-- [ ] Projektarbeit: Thema und 4+ Handlungskompetenzen festgelegt
-- [ ] Angemeldet (bis 16.1.2028, zu prüfen)
-- [ ] Projektarbeit abgegeben (31.3.2028)
-- [ ] 3 Vollsimulationen Teil 2, 6+ Critical Incidents Teil 3
+## 5. Bildungstechnologie (EdTech)
+
+### Typische Rollen
+- Schul-ICT-Betreuer  
+- LMS-Administrator (Moodle, Teams, OneNote)  
+- Digital Learning Specialist  
+- Support für Lernplattformen
+
+### Gründe für Realismus
+- Kombination aus ICT und Bildung ist stark gefragt  
+- Einstieg oft ohne pädagogische Ausbildung möglich
+
+---
+
+## 6. Selbstständigkeit / Teilselbstständigkeit
+
+### Mögliche Tätigkeiten
+- ICT-Beratung für KMU  
+- Power Platform Automatisierungen  
+- Datenanalyse und Reporting  
+- ERP-Optimierung  
+- Schulungen für Firmen  
+- Support für kleine Unternehmen
+
+### Gründe für Realismus
+- Hohe Nachfrage nach spezialisierten Dienstleistungen  
+- Kombination mit Teilzeitstelle möglich  
+- RAV unterstützt teilweise den Einstieg
+
+---
+
+## 7. Temporäre Übergangslösungen
+
+### Beispiele
+- Stellvertretungen an Schulen (Informatik, Medien & Informatik)  
+- Temporäre ICT-Support-Rollen  
+- Projektmitarbeit  
+- Schul-ICT-Administration  
+- Assistenzrollen in Digitalisierungsprojekten
+
+### Gründe für Realismus
+- Schneller Einstieg  
+- Erfahrung zählt mehr als Diplome  
+- Gute Möglichkeit, wieder Fuss zu fassen
+
+---
+
+## 8. Strategien im Umgang mit dem RAV
+
+### Erfolgreiche Ansätze
+- Weniger Bewerbungen, dafür gezielt  
+- Netzwerk aktivieren  
+- Weiterbildung beantragen  
+- Praktika oder Arbeitseinsätze nutzen  
+- Kombination aus Teilzeit und Weiterbildung  
+- Stellvertretungen als Einstieg in Bildung
+
+---
+
+## Fazit
+
+Für erfahrene ICT-Fachpersonen Ü50 gibt es in der Schweiz mehrere realistische Wege, die berufliche Zukunft neu zu gestalten.  
+Die drei stärksten Optionen sind:
+
+1. Quereinstieg als Lehrperson Sek I  
+2. Berufsbildung / Erwachsenenbildung  
+3. ICT-Weiterbildung mit Rollenwechsel
+
+Diese Wege bieten stabile Perspektiven, klare Rollen und realistische Chancen auf Wiedereinstieg.

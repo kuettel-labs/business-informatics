@@ -1,15 +1,7 @@
-# Learning Path: Always-On Agent Systems with Shared Cloud Compute, Workflow Learning & Multi-Bot Coordination
+# Autonomous Agent Systems Architecture
+Always-On Agent Systems with Shared Cloud Compute, Workflow Learning & Multi-Bot Coordination
 
-## Key Corrections to Copilot’s Recommendations
-
-- The current associate is **[AI-103](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/?practice-assessment-type=certification): Azure AI Apps and Agents Developer Associate**. The expert path is **AI-103 → [AI-500](https://learn.microsoft.com/de-de/credentials/certifications/multi-agent-ai-solutions-expert) (Multi-Agent AI Solutions Expert)**. 
-- **AutoGen is largely historical** for enterprise work. Microsoft’s current stack is the **Microsoft Agent Framework** + Foundry (with migration guides from AutoGen/Semantic Kernel).
-- **Workflow learning** in production systems is primarily demonstration → skills/SOPs → routines/schedules + evaluation/memory updates, not pure reinforcement learning. RL is useful background but rarely the first production mechanism.
-- Missing the strongest immediate always-on lab: **Grok Bots** (persistent shared cloud computer, multi-bot group chats/handoffs, Teach-a-Task / routines for workflow learning).
-- Distributed systems theory (e.g., full MIT 6.824) is useful later; start with practical cloud + agent frameworks.
-- Strong free structured alternatives exist (AWS Strands Agents 14-video series, LangChain Academy, DeepLearning.AI courses).
-
-The path below is practical, balanced across Microsoft, AWS, open-source frameworks, and Grok Bots. Duration is flexible (roughly 6–12 months of focused part-time work). For each phase, solid online courses are listed with the one to take first.
+The path is practical, balanced across Microsoft, AWS, open-source frameworks, and Grok Bots. Duration is flexible (roughly 6–12 months of focused part-time work). For each phase, solid online courses are listed with the one to take first.
 
 ---
 # The specialization strategy
@@ -134,3 +126,13 @@ Security, governance, cost/latency control, human-in-the-loop, end-to-end system
 - Supplement with official docs (LangGraph, Strands, Microsoft Agent Framework, Grok Bot docs) and the Saucedo always-on guide.
 
 This corrected path is more accurate, balanced, and immediately actionable than the original Copilot versions.
+
+
+## Key Corrections to Copilot’s Recommendations
+
+- The current associate is **[AI-103](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-apps-and-agents-developer-associate/?practice-assessment-type=certification): Azure AI Apps and Agents Developer Associate**. The expert path is **AI-103 → [AI-500](https://learn.microsoft.com/de-de/credentials/certifications/multi-agent-ai-solutions-expert) (Multi-Agent AI Solutions Expert)**. 
+- **AutoGen is largely historical** for enterprise work. Microsoft’s current stack is the **Microsoft Agent Framework** + Foundry (with migration guides from AutoGen/Semantic Kernel).
+- **Workflow learning** in production systems is primarily demonstration → skills/SOPs → routines/schedules + evaluation/memory updates, not pure reinforcement learning. RL is useful background but rarely the first production mechanism.
+- Missing the strongest immediate always-on lab: **Grok Bots** (persistent shared cloud computer, multi-bot group chats/handoffs, Teach-a-Task / routines for workflow learning).
+- Distributed systems theory (e.g., full MIT 6.824) is useful later; start with practical cloud + agent frameworks.
+- Strong free structured alternatives exist (AWS Strands Agents 14-video series, LangChain Academy, DeepLearning.AI courses).

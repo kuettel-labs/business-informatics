@@ -1,7 +1,13 @@
 {
   "blockedTerms": ["ExampleAgentName", "AnotherExampleBot"],
   "blockedEmails": ["someone@example.invalid"],
-  "allowedPaths": ["node_modules/", "dist/", "package-lock.json", "test/", "sanitize.config.example.json"],
+  "allowedPaths": [
+    "tools/efficiency-pilot/node_modules/",
+    "tools/efficiency-pilot/dist/",
+    "tools/efficiency-pilot/package-lock.json",
+    "tools/efficiency-pilot/test/",
+    "tools/efficiency-pilot/sanitize.config.example.json"
+  ],
   "caseInsensitive": true,
   "checkDashes": true
 }

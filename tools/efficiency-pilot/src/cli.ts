@@ -3,6 +3,7 @@ import { execFileSync } from "node:child_process";
 import { readFile } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
 import { ConfigError, loadConfig, type SanitizeConfig } from "./config.js";
+import { gitRoot, normalizeScanPath, toPosix } from "./paths.js";
 import { formatFinding, isAllowedPath, isBinary, scanText, type Finding } from "./scan.js";
 
 const USAGE = `usage: sanitize-check [--config <file>] [--files <path>... | --stdin [--name <path>]]
@@ -60,18 +61,21 @@ export async function run(argv: string[]): Promise<number> {
   }
   const findings: Finding[] = [];
   if (args.mode === "stdin") {
-    findings.push(...scanBuffer(args.name, await readStdin(), cfg));
+    findings.push(...scanBuffer(toPosix(args.name), await readStdin(), cfg));
   } else if (args.mode === "files") {
+    const cwd = process.cwd();
+    const root = gitRoot(cwd);
     for (const f of args.files) {
       let buf: Buffer;
       try { buf = await readFile(f); } catch { console.error(`cannot read file: ${f}`); return 2; }
-      findings.push(...scanBuffer(f, buf, cfg));
+      findings.push(...scanBuffer(normalizeScanPath(f, cwd, root), buf, cfg));
     }
   } else {
     let list: string;
     try {
       list = execFileSync("git", ["diff", "--cached", "--name-only", "--diff-filter=ACM", "-z"], { encoding: "utf8" });
     } catch { console.error("git diff failed (not a git repository?)"); return 2; }
+    // git diff --cached --name-only and git show :path both use repo-root-relative POSIX paths, from any subfolder.
     for (const f of list.split("\0").filter(Boolean)) {
       const buf = execFileSync("git", ["show", `:${f}`], { maxBuffer: 64 * 1024 * 1024 });
       findings.push(...scanBuffer(f, buf, cfg));

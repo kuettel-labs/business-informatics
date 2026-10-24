@@ -1,0 +1,39 @@
+# Place at <repo root>/.github/workflows/efficiency-pilot.yml
+name: efficiency-pilot
+
+on:
+  pull_request:
+    paths:
+      - "tools/efficiency-pilot/**"
+      - ".github/workflows/efficiency-pilot.yml"
+  push:
+    branches:
+      - "**"
+    paths:
+      - "tools/efficiency-pilot/**"
+      - ".github/workflows/efficiency-pilot.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: tools/efficiency-pilot
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: lts/*
+          cache: npm
+          cache-dependency-path: tools/efficiency-pilot/package-lock.json
+      - run: npm ci
+      - run: npm run check
+      - run: npm run build
+      - run: npm test
+      - name: Self-scan tracked package files with the example config
+        run: |
+          cp sanitize.config.example.json sanitize.config.json
+          git ls-files -z . | xargs -0 node dist/src/cli.js --config sanitize.config.json --files

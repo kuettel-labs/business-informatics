@@ -9,10 +9,32 @@ A small, self-contained pilot with two parts:
 
 Node.js LTS (20 or later). No runtime dependencies; dev dependencies are only `typescript` and `@types/node`.
 
-## Install, build, test
+## Setup
+
+In the target repo this package lives at `tools/efficiency-pilot/`. Do this once per clone:
 
 ```sh
-npm install
+cd tools/efficiency-pilot
+cp sanitize.config.example.json sanitize.config.json   # git-ignored: never commit it
+# edit sanitize.config.json locally and fill in the real terms and email addresses
+npm ci && npm run build
+chmod +x .githooks/pre-commit
+cd ../..                                               # back to the repo root
+git config core.hooksPath tools/efficiency-pilot/.githooks
+```
+
+Exit codes (CLI and hook):
+
+- `0`: clean, the commit goes ahead
+- `1`: findings, the commit is blocked; each finding is printed with the match masked
+- `2`: usage or setup error (missing build, missing or invalid config, not a git repo); the commit is blocked to fail safe
+
+CI uses `sanitize.config.example.json` (placeholders only), never real terms.
+
+## Develop
+
+```sh
+npm ci
 npm run check   # type check only (tsc --noEmit)
 npm run build   # compile to dist/
 npm test        # build, then run node:test on the compiled output
@@ -20,22 +42,15 @@ npm test        # build, then run node:test on the compiled output
 
 ## Configure
 
-Real block terms live only in a local, git-ignored file:
-
-```sh
-cp sanitize.config.example.json sanitize.config.json
-# then edit sanitize.config.json with the real terms (never commit it)
-```
-
 | Field | Type | Default | Meaning |
 |---|---|---|---|
 | `blockedTerms` | string[] | required | Names matched as whole words |
 | `blockedEmails` | string[] | required | Addresses matched literally, case-insensitive |
-| `allowedPaths` | string[] | `[]` | Path prefixes to skip (a trailing `*` or `**` is ignored) |
+| `allowedPaths` | string[] | `[]` | Repo-root-relative path prefixes to skip (a trailing `*` or `**` is ignored) |
 | `caseInsensitive` | boolean | `true` | Case handling for `blockedTerms` |
 | `checkDashes` | boolean | `true` | Flag U+2014 and U+2013 in `.md` files |
 
-A missing or invalid config is a clear error with exit code 2.
+**Paths are always repo-root-relative POSIX paths.** Staged mode uses git's paths as is. `--files` resolves each path against the current directory and makes it relative to `git rev-parse --show-toplevel` (or to the current directory outside a git repo). So `allowedPaths` entries need the `tools/efficiency-pilot/` prefix, as in the example config.
 
 ## Run
 
@@ -52,25 +67,16 @@ Exit codes: `0` clean, `1` findings, `2` usage or config error. Binary files (NU
 
 ## Pre-commit hook
 
-The repo ships `.githooks/pre-commit`:
+`.githooks/pre-commit` (POSIX sh) resolves the repo root with `git rev-parse --show-toplevel`, uses `<root>/tools/efficiency-pilot` as the package dir (override with `SANITIZE_PKG_DIR`) and `<package>/sanitize.config.json` as the config (override with `SANITIZE_CONFIG`). If `dist/` or the config is missing it prints a one-line hint and exits 2. It runs the CLI from the repo root and scans staged content (`git show :path`), so it checks exactly what will be committed.
 
-```sh
-#!/bin/sh
-exec node "$(git rev-parse --show-toplevel)/dist/src/cli.js" --config "$(git rev-parse --show-toplevel)/sanitize.config.json"
-```
+## CI
 
-Enable it once per clone (after `npm run build`):
-
-```sh
-chmod +x .githooks/pre-commit
-git config core.hooksPath .githooks
-```
-
-The hook scans staged content (`git show :path`), not the working tree, so it checks exactly what will be committed.
+`ci/efficiency-pilot.yml` is meant for `<repo root>/.github/workflows/efficiency-pilot.yml`. It runs `npm ci`, `check`, `build` and `test` in `tools/efficiency-pilot`, then self-scans the package's tracked files with the example config.
 
 ## Layout
 
 - `src/config.ts`: config type guard and loader
+- `src/paths.ts`: path normalization to repo-root-relative POSIX form
 - `src/scan.ts`: pure functions (`scanText`, `mask`, `isBinary`, `isAllowedPath`)
 - `src/cli.ts`: argument parsing and I/O
-- `test/`: `node:test` suites (unit and CLI exit codes)
+- `test/`: `node:test` suites (unit, paths, CLI exit codes, staged mode)

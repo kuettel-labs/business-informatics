@@ -1,0 +1,7 @@
+{
+  "blockedTerms": ["ExampleAgentName", "AnotherExampleBot"],
+  "blockedEmails": ["someone@example.invalid"],
+  "allowedPaths": ["node_modules/", "dist/", "package-lock.json", "test/", "sanitize.config.example.json"],
+  "caseInsensitive": true,
+  "checkDashes": true
+}

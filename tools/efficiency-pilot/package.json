@@ -1,0 +1,19 @@
+{
+  "name": "efficiency-pilot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Rubrics and a pre-commit sanitize check for agent teams (pilot proposal).",
+  "type": "module",
+  "bin": { "sanitize-check": "dist/src/cli.js" },
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && node --test dist/test/",
+    "sanitize": "node dist/src/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.6.0"
+  }
+}

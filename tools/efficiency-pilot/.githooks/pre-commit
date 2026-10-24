@@ -1,0 +1,3 @@
+#!/bin/sh
+# Blocks commits whose staged content contains blocked terms, blocked emails or dashes in Markdown.
+exec node "$(git rev-parse --show-toplevel)/dist/src/cli.js" --config "$(git rev-parse --show-toplevel)/sanitize.config.json"

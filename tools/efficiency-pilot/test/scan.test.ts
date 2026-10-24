@@ -26,10 +26,15 @@ test("email match is literal and case-insensitive, with position", () => {
 });
 
 test("masking never prints full value", () => {
-  assert.equal(mask("ExampleAgentName"), "E***");
-  const line = formatFinding({ path: "a.md", line: 1, col: 1, type: "term", match: "ExampleAgentName" });
-  assert.equal(line, "a.md:1:1  term  E***");
-  assert.ok(!line.includes("ExampleAgentName"));
+  assert.equal(mask("term", 3), "term#3");
+  const line = formatFinding({ path: "a.md", line: 1, col: 1, type: "term", match: "ExampleAgentName", index: 1 });
+  assert.equal(line, "a.md:1:1  term  term#1");
+  assert.ok(!line.includes("ExampleAgentName") && !line.includes("E*"));
+});
+
+test("finding index is the 1-based position in the config list", () => {
+  const f = scanText("C++Bot then ExampleAgentName and someone@example.invalid", cfg);
+  assert.deepEqual(f.map((x) => formatFinding(x).split("  ")[2]), ["term#2", "term#1", "email#1"]);
 });
 
 test("dash detection in .md only, and can be turned off", () => {

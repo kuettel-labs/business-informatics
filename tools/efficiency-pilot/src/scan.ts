@@ -8,6 +8,8 @@ export interface Finding {
   col: number;
   type: FindingType;
   match: string;
+  /** 1-based position of the matching entry in its config list (0 for dashes). */
+  index: number;
 }
 
 const DASHES = /[\u2013\u2014]/gu;
@@ -16,9 +18,9 @@ export function escapeRegExp(s: string): string {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-/** First char plus ***, so CI logs never contain the full blocked value. */
-export function mask(s: string): string {
-  return s.length === 0 ? "***" : `${Array.from(s)[0]}***`;
+/** Rule type plus 1-based config index, e.g. term#3. No character of the match is ever shown. */
+export function mask(type: FindingType, index: number): string {
+  return `${type}#${index}`;
 }
 
 export function isBinary(buf: Uint8Array): boolean {
@@ -36,11 +38,11 @@ export function isAllowedPath(path: string, allowed: readonly string[]): boolean
   });
 }
 
-function pushMatches(re: RegExp, type: FindingType, path: string, lines: string[], out: Finding[]): void {
+function pushMatches(re: RegExp, type: FindingType, index: number, path: string, lines: string[], out: Finding[]): void {
   lines.forEach((text, i) => {
     re.lastIndex = 0;
     for (let m = re.exec(text); m !== null; m = re.exec(text)) {
-      out.push({ path, line: i + 1, col: m.index + 1, type, match: m[0] });
+      out.push({ path, line: i + 1, col: m.index + 1, type, match: m[0], index });
       if (m[0].length === 0) re.lastIndex++;
     }
   });
@@ -51,20 +53,20 @@ export function scanText(text: string, config: SanitizeConfig, path = "<stdin>")
   const out: Finding[] = [];
   const lines = text.split(/\r?\n/);
   const flags = config.caseInsensitive ? "giu" : "gu";
-  for (const term of config.blockedTerms) {
+  config.blockedTerms.forEach((term, i) => {
     const re = new RegExp(`(?<![\\p{L}\\p{N}_])${escapeRegExp(term)}(?![\\p{L}\\p{N}_])`, flags);
-    pushMatches(re, "term", path, lines, out);
-  }
-  for (const email of config.blockedEmails) {
-    pushMatches(new RegExp(escapeRegExp(email), "giu"), "email", path, lines, out);
-  }
+    pushMatches(re, "term", i + 1, path, lines, out);
+  });
+  config.blockedEmails.forEach((email, i) => {
+    pushMatches(new RegExp(escapeRegExp(email), "giu"), "email", i + 1, path, lines, out);
+  });
   if (config.checkDashes && path.toLowerCase().endsWith(".md")) {
-    pushMatches(new RegExp(DASHES.source, "gu"), "dash", path, lines, out);
+    pushMatches(new RegExp(DASHES.source, "gu"), "dash", 0, path, lines, out);
   }
   return out.sort((a, b) => a.line - b.line || a.col - b.col);
 }
 
 export function formatFinding(f: Finding): string {
-  const shown = f.type === "dash" ? `U+${f.match.codePointAt(0)?.toString(16).toUpperCase().padStart(4, "0")}` : mask(f.match);
+  const shown = f.type === "dash" ? `U+${f.match.codePointAt(0)?.toString(16).toUpperCase().padStart(4, "0")}` : mask(f.type, f.index);
   return `${f.path}:${f.line}:${f.col}  ${f.type}  ${shown}`;
 }

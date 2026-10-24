@@ -27,7 +27,7 @@ test("default staged mode: placeholder term exits 1, clean exits 0", { skip: has
   git(repo, "add", "bad.md");
   const bad = runCli();
   assert.equal(bad.status, 1, bad.stderr);
-  assert.match(bad.stdout, /bad\.md:1:6  term  E\*\*\*/);
+  assert.match(bad.stdout, /bad\.md:1:6  term  term#1/);
   assert.ok(!bad.stdout.includes("ExampleAgentName"));
 
   git(repo, "rm", "-q", "--cached", "bad.md");

@@ -24,9 +24,10 @@ test("--stdin clean exits 0", () => {
 test("--stdin with finding exits 1 and masks", () => {
   const r = run(["--stdin", "--config", good], "ask ExampleAgentName or someone@example.invalid");
   assert.equal(r.status, 1);
-  assert.match(r.stdout, /<stdin>:1:5  term  E\*\*\*/);
-  assert.match(r.stdout, /email  s\*\*\*/);
+  assert.match(r.stdout, /<stdin>:1:5  term  term#1\n/);
+  assert.match(r.stdout, /email  email#1\n/);
   assert.ok(!r.stdout.includes("ExampleAgentName") && !r.stdout.includes("someone@"));
+  assert.ok(!/\b[Es]\*/.test(r.stdout), "no leading character is exposed");
 });
 
 test("--stdin --name x.md enables dash check", () => {

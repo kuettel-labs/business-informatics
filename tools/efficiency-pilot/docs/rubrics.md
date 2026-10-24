@@ -28,7 +28,7 @@ Without proof, say what was attempted and what is still unverified.
 - [ ] Correct and sourced: every fact comes from a real source or tool result opened this session, and nothing is invented.
 - [ ] In scope: it answers what was asked, nothing more, nothing missing.
 - [ ] Owner's format rules followed (see below).
-- [ ] Approvals routed correctly: any irreversible or outbound action (send, post, merge, pay, delete) waits for owner approval via the designated approver agent.
+- [ ] Approvals routed correctly: any irreversible or outbound action (send, post, merge, pay, delete) waits for the owner's own approval on the approval card, routed through the chief-of-staff agent after the auditor check.
 - [ ] Length fits the channel (chat is short, docs can be longer).
 
 ### Owner's format rules

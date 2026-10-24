@@ -26,7 +26,7 @@ git config core.hooksPath tools/efficiency-pilot/.githooks
 Exit codes (CLI and hook):
 
 - `0`: clean, the commit goes ahead
-- `1`: findings, the commit is blocked; each finding is printed with the match masked
+- `1`: findings, the commit is blocked; each finding is printed as rule type plus index (e.g. `term#3`)
 - `2`: usage or setup error (missing build, missing or invalid config, not a git repo); the commit is blocked to fail safe
 
 CI uses `sanitize.config.example.json` (placeholders only), never real terms.
@@ -61,7 +61,7 @@ echo "text" | node dist/src/cli.js --stdin    # add --name x.md to enable the da
 node dist/src/cli.js --config other.json --stdin
 ```
 
-Output is one line per finding, `path:line:col  type  match`, with the match masked (first character plus `***`) so logs never contain the full value. Dashes are shown as their code point.
+Output is one line per finding, `path:line:col  type  match`, with the match replaced by its rule type and index, e.g. `term#3` or `email#1`, so logs contain no character of the value. The index is 1-based: `term#3` is the third entry in `blockedTerms`, `email#1` the first entry in `blockedEmails`. Dashes are shown as their code point, e.g. `U+2014`.
 
 Exit codes: `0` clean, `1` findings, `2` usage or config error. Binary files (NUL byte in the first 8000 bytes) are skipped.
 
@@ -71,7 +71,7 @@ Exit codes: `0` clean, `1` findings, `2` usage or config error. Binary files (NU
 
 ## CI
 
-`ci/efficiency-pilot.yml` is meant for `<repo root>/.github/workflows/efficiency-pilot.yml`. It runs `npm ci`, `check`, `build` and `test` in `tools/efficiency-pilot`, then self-scans the package's tracked files with the example config.
+The workflow lives at `.github/workflows/efficiency-pilot.yml` in the repo root. It runs `npm ci`, `check`, `build` and `test` in `tools/efficiency-pilot`, then self-scans the package's tracked files with the example config.
 
 ## Layout
 
@@ -80,3 +80,19 @@ Exit codes: `0` clean, `1` findings, `2` usage or config error. Binary files (NU
 - `src/scan.ts`: pure functions (`scanText`, `mask`, `isBinary`, `isAllowedPath`)
 - `src/cli.ts`: argument parsing and I/O
 - `test/`: `node:test` suites (unit, paths, CLI exit codes, staged mode)
+
+## Pilot measurement
+
+Timebox: 2 weeks from the merge. Baselines are placeholders until measured on real work; no numbers are filled in before they are counted.
+
+| Metric | Baseline | Target |
+| --- | --- | --- |
+| Review rounds until GO | TBD | lower than baseline |
+| Fix commits after review | TBD | lower than baseline |
+| Sanitize findings before commit (caught by the hook) | TBD | tracked |
+| Sanitize findings after push | TBD | 0 |
+| Credits per deliverable | TBD | lower than baseline |
+| Share of clones with `core.hooksPath` set | TBD | 100% |
+
+At the end of the timebox the owner decides whether to keep, adjust or drop the pilot.
+

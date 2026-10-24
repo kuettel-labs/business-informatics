@@ -2,6 +2,7 @@
   "name": "efficiency-pilot",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "description": "Rubrics and a pre-commit sanitize check for agent teams (pilot proposal).",
   "type": "module",
   "bin": { "sanitize-check": "dist/src/cli.js" },

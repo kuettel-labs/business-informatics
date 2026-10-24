@@ -430,3 +430,6 @@ FodyWeavers.xsd
 
 # secrets
 .env
+
+# efficiency-pilot local sanitize config (contains real blocked terms)
+**/sanitize.config.json

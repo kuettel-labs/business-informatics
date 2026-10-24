@@ -1,5 +1,6 @@
 # 🧩 Academic & Open Knowledge
 ## 📘 Academic Open‑Access Libraries
+- [The Open University – Deine kostenlose Lernplattform](https://www.open.edu/)
 - [arXiv — Open-access research papers in physics, CS, math, AI](https://arxiv.org)
 - [Directory of Open Access Journals — Search engine for peer‑reviewed open-access journals](https://doaj.org)
 - [OER Commons — Repository of free teaching and learning materials](https://www.oercommons.org)
@@ -20,6 +21,9 @@
 ---
 
 # 🧠 AI, Agents & Automation
+## 🎓 AI Education
+- [An introduction to artificial intelligence — Open University](https://www.open.edu/openlearn/education-development/ai-matters/content-section-overview)
+- [AI Essentials -  Open University](https://www.open.edu/openlearncreate/enrol/index.php?id=17916)
 ## 🤖 AI‑Focused Learning Platforms
 - [AWS AI Agent Learning Series — Build production‑grade AI agents on AWS](https://aws.amazon.com/marketplace/build-learn/ai-agent-learning-series)
 - [DeepLearning.AI — Hands‑on AI engineering and LLM courses](https://www.deeplearning.ai)
@@ -39,6 +43,7 @@
 - [x.ai Bot Marketplace — Marketplace for autonomous AI agents](http://x.ai/bot/marketplace)
 
 ## 🔧 Automation & AI Builder Community
+- [Agentic AI Community — Agentic AI Discussions](https://community.deeplearning.ai/)
 - [Make Community — Automation workflows and AI agent building](https://community.make.com/)
 - [Zapier Community — Automation, integrations, and AI workflow support](https://community.zapier.com/)
 

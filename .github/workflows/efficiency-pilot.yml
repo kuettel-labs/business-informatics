@@ -1,0 +1,38 @@
+name: efficiency-pilot
+
+on:
+  pull_request:
+    paths:
+      - "tools/efficiency-pilot/**"
+      - ".github/workflows/efficiency-pilot.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "tools/efficiency-pilot/**"
+      - ".github/workflows/efficiency-pilot.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: tools/efficiency-pilot
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: lts/*
+          cache: npm
+          cache-dependency-path: tools/efficiency-pilot/package-lock.json
+      - run: npm ci
+      - run: npm run check
+      - run: npm run build
+      - run: npm test
+      - name: Self-scan tracked package files with the example config
+        run: |
+          cp sanitize.config.example.json sanitize.config.json
+          git ls-files -z . | xargs -0 node dist/src/cli.js --config sanitize.config.json --files

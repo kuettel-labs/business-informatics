@@ -1,0 +1,24 @@
+#!/bin/sh
+# Pre-commit sanitize check. Blocks staged content containing configured
+# names, email addresses, or em/en dashes in Markdown.
+# Install once per clone, from the repo root:
+#   git config core.hooksPath tools/efficiency-pilot/.githooks
+set -u
+
+ROOT=$(git rev-parse --show-toplevel) || { echo "sanitize-check: not inside a git repository" >&2; exit 2; }
+PKG=${SANITIZE_PKG_DIR:-"$ROOT/tools/efficiency-pilot"}
+CONFIG=${SANITIZE_CONFIG:-"$PKG/sanitize.config.json"}
+CLI="$PKG/dist/src/cli.js"
+
+if [ ! -f "$CLI" ]; then
+  echo "sanitize-check: $CLI not found; run 'npm ci && npm run build' in $PKG" >&2
+  exit 2
+fi
+
+if [ ! -f "$CONFIG" ]; then
+  echo "sanitize-check: config $CONFIG not found; see the Setup section in $PKG/README.md (commit blocked to fail safe)" >&2
+  exit 2
+fi
+
+cd "$ROOT" || exit 2
+exec node "$CLI" --config "$CONFIG"

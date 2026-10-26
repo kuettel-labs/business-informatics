@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="4.0" group="system" method="upgrade">
+    <name>Logout Redirect</name>
+    <files>
+        <filename plugin="logoutredirect">logoutredirect.php</filename>
+    </files>
+</extension>

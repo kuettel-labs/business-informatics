@@ -35,17 +35,25 @@
   - [AI Application Backend & Infrastructure](#10-ai-application-backend--infrastructure)
   - [Developer Learning & Discovery](#11-developer-learning--discovery)
 - [Events](#12-events)
+- [Model Cost](#model-cost)
+  - [Major LLM API Cost Comparison](#-major-llm-api-cost-comparison-usd-per-1m-tokens)
+  - [Cheapest Models by Input Cost](#-cheapest-models-by-input-cost)
+  - [Frontier Model Cost Comparison](#-frontier-model-cost-comparison)
+  - [Claude Family Cost Comparison](#-claude-family-cost-comparison)
+  - [Cost per 100M Input Tokens](#-cost-per-100m-input-tokens)
+  - [Open-Source / Self-Hosted Models](#-open-source--self-hosted-models)
+- [Privacy, Data Protection, Compliance, and Security Considerations](#privacy-data-protection-compliance-and-security-considerations)
 
 ## 🚀 Frontier / Flagship Models
 - [OpenAI](https://openai.com) [Models](https://developers.openai.com/api/docs/models?utm_source=chatgpt.com) (Astra, Sol, Luna, Terra)
 - [Anthropic Models](https://www.anthropic.com/news/models) - [Claude Family](https://claude.ai) (Sonnet, Opus, Haiku)
-- [Google Gemini 1.5 Pro / Ultra / Flash](https://gemini.google.com)
-- [Meta Llama 3.1 / 3.2 / 405B](https://ai.meta.com/llama)
+- [Google Gemini Pro / Ultra / Flash](https://gemini.google.com)
+- [Meta Llama](https://ai.meta.com/llama)
 - [Microsoft Copilot](https://copilot.microsoft.com)
-- [xAI Grok 2](https://x.ai)
+- [xAI Grok](https://x.ai)
 - [Mistral Large / Medium](https://mistral.ai)
 - [Cohere Command R+ / Command R](https://cohere.com)
-- [Alibaba Qwen 2.5](https://qwenlm.ai)
+- [Alibaba Qwen](https://qwenlm.ai)
 - [Tencent Hunyuan](https://hunyuan.tencent.com)
 - [Baidu ERNIE Bot](https://yiyan.baidu.com)
 - [Huawei Pangu](https://www.huaweicloud.com/intl/en-us/product/pangu)
@@ -81,28 +89,27 @@
 
 
 ## 🧩 Open‑Source Models
-- [Llama 3 / 3.1 / 3.2](https://github.com/meta-llama)
-- [Mixtral 8x7B / 8x22B](https://mistral.ai)
-- [Mistral 7B](https://mistral.ai)
-- [Qwen 2 / Qwen 2.5](https://github.com/QwenLM)
+- [Llama](https://github.com/meta-llama)
+- [Mixtral](https://mistral.ai)
+- [Qwen](https://github.com/QwenLM)
 - [Phi‑3 (Mini, Small, Medium)](https://github.com/microsoft/phi-3)
-- [Gemma 2](https://ai.google.dev/gemma)
-- [Yi (01.AI)](https://github.com/01-ai)
-- [Jais (G42)](https://www.inceptioniai.org/jais)
-- [StarCoder / StarCoder2](https://huggingface.co/bigcode)
-- [DeepSeek V2 / V3](https://github.com/deepseek-ai)
+- [Gemma](https://ai.google.dev/gemma)
+- [Yi](https://github.com/01-ai)
+- [Jais](https://www.inceptioniai.org/jais)
+- [StarCoder](https://huggingface.co/bigcode)
+- [DeepSeek](https://github.com/deepseek-ai)
 - [OpenHermes](https://huggingface.co/teknium)
 - [Nous Hermes](https://huggingface.co/NousResearch)
 - [Falcon](https://huggingface.co/tiiuae)
-- [GPT‑NeoX / GPT‑J](https://github.com/EleutherAI)
+- [GPT‑NeoX](https://github.com/EleutherAI)
 
 ## 🧪 Domain‑Specialized Models
 
 ### Coding
-- [OpenAI o1 / o3](https://openai.com)
+- [OpenAI](https://openai.com)
 - [DeepSeek‑Coder](https://github.com/deepseek-ai)
 - [CodeLlama](https://ai.meta.com/llama)
-- [StarCoder2](https://huggingface.co/bigcode)
+- [StarCoder](https://huggingface.co/bigcode)
 
 ### Medical
 - [Med‑PaLM](https://sites.research.google/med-palm)
@@ -115,15 +122,15 @@
 
 ## 📱 Lightweight / Mobile Models
 - [Phi‑3 Mini / Small / Medium](https://github.com/microsoft/phi-3)
-- [Gemma 2 Nano](https://ai.google.dev/gemma)
-- [Llama 3.2 3B / 1B](https://github.com/meta-llama)
-- [Qwen 2.5 Tiny / Small](https://github.com/QwenLM)
+- [Gemma](https://ai.google.dev/gemma)
+- [Llama](https://github.com/meta-llama)
+- [Qwen Tiny / Small](https://github.com/QwenLM)
 
 ## 🎨 Multimodal Models (Text + Vision + Audio)
 - [GPT‑4o](https://openai.com)
-- [Claude 3.5 Sonnet Vision](https://www.anthropic.com)
-- [Gemini 1.5 Pro](https://gemini.google.com)
-- [Llama 3.2 Vision](https://github.com/meta-llama)
+- [Claude Sonnet Vision](https://www.anthropic.com)
+- [Gemini Pro](https://gemini.google.com)
+- [Llama Vision](https://github.com/meta-llama)
 - [Grok‑Vision](https://x.ai)
 - [Qwen‑VL](https://github.com/QwenLM/Qwen-VL)
 
@@ -296,3 +303,160 @@ OpenAI GPT models, plus Anthropic Claude in some features
 
 ## 12. Events
 - [OpenAI DevDay](https://openai.com/de-DE/devday/)
+
+---
+
+# Model Cost
+
+## 💰 Major LLM API Cost Comparison (USD per 1M Tokens)
+
+| Provider | Model | Input ($/1M) | Output ($/1M) | Tier |
+|-----------|---------|------------:|-------------:|----------|
+| OpenAI | GPT-6 Astra | 10.00 | 50.00 | Frontier |
+| OpenAI | GPT-6.1 Sol | 2.00 | 10.00 | Production |
+| OpenAI | GPT-6 Luna | 0.10 | 0.50 | Budget |
+| Anthropic | Claude Opus 5.5 | 4.00 | 20.00 | Frontier |
+| Anthropic | Claude Sonnet 5.5 | 2.00 | 10.00 | Production |
+| Anthropic | Claude Haiku 5.5 | 0.10 | 0.50 | Budget |
+| Google | Gemini 2.5 Pro | 1.25 | 10.00 | Frontier |
+| Google | Gemini 2.5 Flash | 0.30 | 2.50 | Production |
+| Google | Gemini 2.5 Flash-Lite | 0.10 | 0.40 | Budget |
+| xAI | Grok 4.7 | 2.00 | 6.00 | Frontier |
+| xAI | Grok 4.3 | 1.25 | 2.50 | Production |
+| xAI | Grok Build 0.1 | 1.00 | 2.00 | Coding |
+| Mistral | Mistral Medium 3.5 | 1.50 | 7.50 | Frontier |
+| Mistral | Mistral Large 4 | 1.36 | 4.18 | Production |
+| Mistral | Mistral Small 4 | 0.15 | 0.60 | Budget |
+| Cohere | Command R+ | 2.50 | 10.00 | Enterprise |
+| Cohere | Command R | 0.50 | 1.50 | Enterprise Budget |
+| Alibaba | Qwen 3.8 Max | 2.00 | 6.00 | Frontier |
+| Alibaba | Qwen 3.8 Flash | 0.15 | 0.47 | Budget |
+| Alibaba | Qwen 3.7 Plus | 0.40 | 1.60 | Production |
+| DeepSeek | V4.1 Flash | 0.15-0.30 | 0.60-1.20 | Budget |
+| DeepSeek | V4 Pro | 0.66-1.32 | 1.98-3.96 | Frontier |
+| DeepSeek | R1 | 0.50 | 2.15 | Reasoning |
+| TypeSafe AI | Jev 1.14 | 0.042 | Free | Decision Model |
+
+---
+
+## 🏆 Cheapest Models by Input Cost
+
+| Rank | Model | Input ($/1M) | Output ($/1M) |
+|------|--------|------------:|-------------:|
+| 🥇 | Jev 1.14 | 0.042 | Free |
+| 🥈 | GPT-6 Luna | 0.10 | 0.50 |
+| 🥈 | Claude Haiku 5.5 | 0.10 | 0.50 |
+| 🥈 | Gemini 2.5 Flash-Lite | 0.10 | 0.40 |
+| 🥉 | Mistral Small 4 | 0.15 | 0.60 |
+| 🥉 | Qwen 3.8 Flash | 0.15 | 0.47 |
+| 🥉 | DeepSeek V4.1 Flash (off-peak) | 0.15 | 0.60 |
+
+---
+
+## 🚀 Frontier Model Cost Comparison
+
+| Vendor | Flagship Model | Input ($/1M) | Output ($/1M) | Relative Cost |
+|----------|---------------|------------:|-------------:|---------------|
+| OpenAI | GPT-6 Astra | 10.00 | 50.00 | $$$$$ |
+| Anthropic | Claude Opus 5.5 | 4.00 | 20.00 | $$$$ |
+| Google | Gemini 2.5 Pro | 1.25 | 10.00 | $$$ |
+| xAI | Grok 4.7 | 2.00 | 6.00 | $$$ |
+| Mistral | Medium 3.5 | 1.50 | 7.50 | $$$ |
+| Cohere | Command R+ | 2.50 | 10.00 | $$$ |
+| Alibaba | Qwen 3.8 Max | 2.00 | 6.00 | $$$ |
+| DeepSeek | V4 Pro | 0.66-1.32 | 1.98-3.96 | $$ |
+
+---
+
+## 🧠 Claude Family Cost Comparison
+
+| Model | Input ($/1M) | Output ($/1M) | Intelligence | Speed | Cost |
+|----------|------------:|-------------:|--------------|-------|------|
+| Claude Opus 5.5 | 4.00 | 20.00 | ⭐⭐⭐⭐⭐ | ⭐⭐ | 💰💰💰 |
+| Claude Sonnet 5.5 | 2.00 | 10.00 | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | 💰💰 |
+| Claude Haiku 5.5 | 0.10 | 0.50 | ⭐⭐ | ⭐⭐⭐⭐⭐ | 💰 |
+
+---
+
+## 🧮 Cost per 100M Input Tokens
+
+| Model | Cost for 100M Input Tokens |
+|---------|------------------------:|
+| Jev 1.14 | $4.20 |
+| GPT-6 Luna | $10 |
+| Claude Haiku 5.5 | $10 |
+| Gemini 2.5 Flash-Lite | $10 |
+| Mistral Small 4 | $15 |
+| Qwen 3.8 Flash | $15 |
+| Gemini 2.5 Flash | $30 |
+| Claude Sonnet 5.5 | $200 |
+| GPT-6.1 Sol | $200 |
+| Claude Opus 5.5 | $400 |
+| GPT-6 Astra | $1,000 |
+
+---
+
+## 🔓 Open-Source / Self-Hosted Models
+
+| Model Family | Licence | API Cost | Self-Hosting |
+|--------------|----------|----------|--------------|
+| Llama | Open Weights | Varies by provider | ✅ |
+| Gemma | Open Weights | Varies | ✅ |
+| Mixtral | Open Weights | Varies | ✅ |
+| Qwen | Open + Commercial | Varies | ✅ |
+| Phi | Open Weights | Varies | ✅ |
+| Falcon | Open Weights | Varies | ✅ |
+| DeepSeek | Open Weights | Optional API | ✅ |
+| StarCoder | Open Weights | Varies | ✅ |
+| GPT-NeoX | Open Weights | Varies | ✅ |
+| OpenHermes | Open Weights | Varies | ✅ |
+| Nous Hermes | Open Weights | Varies | ✅ |
+
+> For open-source models, cost depends on GPU infrastructure rather than token pricing.
+
+# Privacy, data protection, compliance, and security considerations
+
+| Model Family | Provider | Hosting Type | Swedish Gov. Position* | Primary Privacy/Security Concerns | Relative Enterprise Privacy Risk |
+|-------------|----------|--------------|------------------------|----------------------------------|---------------------------------|
+| ChatGPT / GPT-4o / GPT-6 Family | OpenAI | Cloud (Closed) | Restricted/Blocked | Users may submit confidential data; data residency concerns; risk of sensitive information entering provider systems; requires enterprise agreement and governance controls | Medium |
+| Claude (Opus, Sonnet, Haiku) | Anthropic | Cloud (Closed) | Restricted/Blocked | Similar concerns to OpenAI; confidential information leakage through prompts; data retention and auditability concerns if unmanaged | Medium |
+| Gemini (Pro, Ultra, Flash) | Google | Cloud (Closed) | Not mentioned | Data processing within Google ecosystem; cross-service integration concerns; residency/compliance requirements for regulated sectors | Medium |
+| Microsoft Copilot / M365 Copilot | Microsoft | Cloud Enterprise | Approved Alternative | Access to organisational content requires strict permissions management; risk from over-permissioned users rather than model itself | Low-Medium |
+| Grok | xAI | Cloud (Closed) | Not mentioned | Limited enterprise governance maturity compared with hyperscalers; social platform integration concerns | Medium-High |
+| Mistral Large / Medium / Mixtral | Mistral | Cloud & Self-Hosted | Not mentioned | Cloud versions have standard SaaS risks; self-hosting significantly reduces third-party exposure | Low-Medium |
+| Cohere Command R / R+ | Cohere | Cloud Enterprise | Not mentioned | Enterprise-focused but still requires control of transmitted data and retention policies | Low-Medium |
+| Qwen Family | Alibaba | Cloud & Open Models | Not mentioned | Cross-border data transfer concerns; jurisdictional risk depending on deployment location | Medium-High |
+| Hunyuan | Tencent | Cloud | Not mentioned | Data sovereignty and regulatory concerns for government workloads | High |
+| ERNIE Bot | Baidu | Cloud | Not mentioned | Government and compliance concerns around data jurisdiction and transparency | High |
+| Pangu | Huawei | Cloud | Not mentioned | Regulatory and geopolitical concerns in public sector deployments | High |
+| DeepSeek | DeepSeek AI | Cloud & Open Models | Restricted/Blocked | Data protection concerns; government scrutiny regarding handling of user information; data sovereignty concerns | High |
+| Llama Family | Meta | Open Weight | Not mentioned | Self-hosted deployments offer strong control; public hosted versions inherit provider risks | Low (self-hosted) / Medium (hosted) |
+| Phi-3 Family | Microsoft | Open Weight | Not mentioned | Generally low risk when deployed locally; responsibility shifts to operator security practices | Low |
+| Gemma | Google | Open Weight | Not mentioned | Self-hosted deployment reduces third-party exposure; model misuse remains organisation responsibility | Low |
+| Yi | 01.AI | Open Weight | Not mentioned | Data governance depends entirely on deployment architecture | Low-Medium |
+| Falcon | TII | Open Weight | Not mentioned | Security largely determined by hosting environment | Low |
+| GPT-NeoX | EleutherAI | Open Source | Not mentioned | Self-hosted control but less enterprise governance tooling | Low |
+| OpenHermes | Teknium | Open Source | Not mentioned | Open-source deployment reduces vendor privacy concerns; operational security remains critical | Low |
+| Nous Hermes | Nous Research | Open Source | Not mentioned | Same as other self-hosted OSS models | Low |
+| StarCoder | BigCode | Open Source | Not mentioned | Source-code exposure becomes primary risk if prompts contain proprietary code | Low-Medium |
+| CodeLlama | Meta | Open Weight | Not mentioned | Risk of proprietary code disclosure if used through external services | Low-Medium |
+| DeepSeek-Coder | DeepSeek AI | Open/Cloud | Not mentioned | Same concerns as DeepSeek plus possible source-code exposure | Medium-High |
+| Med-PaLM | Google | Medical Domain | Not mentioned | Potential processing of protected health information (PHI); healthcare compliance requirements | High |
+| MedGemini | Google | Medical Domain | Not mentioned | PHI handling; patient-data governance; HIPAA/GDPR considerations | High |
+| BioGPT | Microsoft | Research Model | Not mentioned | Handling of biomedical datasets may introduce regulatory obligations | Medium |
+| BloombergGPT | Bloomberg | Finance Domain | Not mentioned | Financial-data confidentiality; market-sensitive information exposure | Medium |
+| FinGPT | Open Source | Finance Domain | Not mentioned | Depends on deployment; risk from proprietary financial data ingestion | Medium |
+| Jev 1.14 | TypeSafe AI | Decision Model | Not mentioned | Lower risk due to constrained outputs, but privacy depends on API deployment and logging practices | Low-Medium |
+| Qwen-VL | Alibaba | Multimodal | Not mentioned | Image uploads may contain sensitive metadata, documents, locations, or identities | Medium-High |
+| Llama Vision | Meta | Multimodal | Not mentioned | Visual data leakage; self-hosted deployment mitigates vendor exposure | Low-Medium |
+| Claude Vision | Anthropic | Multimodal | Restricted if using Claude service | Uploaded images may contain confidential documents or personally identifiable information | Medium |
+| Gemini Vision | Google | Multimodal | Not mentioned | Similar concerns for images, videos, and enterprise documents | Medium |
+| GPT-4o | OpenAI | Multimodal | Restricted if using ChatGPT service | Text, image, audio, and document uploads increase sensitive-data exposure surface | Medium |
+| Grok Vision | xAI | Multimodal | Not mentioned | Multimedia content may contain sensitive personal information and metadata | Medium-High |
+
+> The Swedish government's decision was not primarily about model quality, but about:
+Data Leakage Risk – employees inadvertently entering sensitive government information.
+Training Risk – information potentially being retained or used for model improvement.
+Lack of Enterprise Agreements – absence of contractual assurances and auditing capabilities.
+Shadow IT – staff using unapproved AI tools outside official governance processes.
+Data Sovereignty – uncertainty about where data is processed and stored.

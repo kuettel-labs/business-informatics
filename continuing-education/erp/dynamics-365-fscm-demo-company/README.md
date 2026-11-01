@@ -147,7 +147,106 @@ Manufacturing P&L
 Result:
 
 ```text
-Manufacturing ..._704
+Manufacturing Balance Sheet Structure
+Manufacturing Profit & Loss Structure
+```
+
+Save.
+
+---
+
+# Phase 4 - Financial Dimensions
+
+## Step 7 - Verify Financial Dimensions
+
+Navigate to:
+
+```text
+General ledger
+→ Chart of accounts
+→ Dimensions
+→ Financial dimensions
+```
+
+Verify existing values exist for:
+
+```text
+BusinessUnit
+Department
+CostCenter
+```
+
+Examples discovered:
+
+### BusinessUnit
+
+```text
+001 Home
+002 Auto
+003 Management Consulting Practice
+004 IT Consulting Practice
+005 Electronics
+```
+
+### Department
+
+```text
+022 Sales & Marketing
+023 Operations
+024 Finance
+025 IT Department
+026 Human Resources
+```
+
+### CostCenter
+
+```text
+010 Production
+011 Quality Control
+012 Logistics
+013 Procurement
+014 Administration
+```
+
+No additional setup required.
+
+---
+
+# Phase 5 - Journal Setup
+
+## Step 8 - Create Journal Name
+
+Navigate to:
+
+```text
+General ledger
+→ Journal setup
+→ Journal names
+```
+
+Create:
+
+```text
+Name         : GEN
+Description  : General Journal
+Journal type : Daily
+Account type : Ledger
+```
+
+---
+
+## Step 9 - Assign Voucher Series
+
+Voucher Series selected:
+
+```text
+Gene_704
+```
+
+Configure:
+
+```text
+Voucher series             : Gene_704
 New voucher                : One voucher number only
 Number allocation posting  : No
 Posting layer              : Current

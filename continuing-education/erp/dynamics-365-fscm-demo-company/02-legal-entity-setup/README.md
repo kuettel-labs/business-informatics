@@ -4,7 +4,7 @@
 
 ## Topics
 
-- Fictional entity: Contoso Demo AG, country CH, currency CHF
+- Fictional entity: Kuettel Labs AG (KLAB), country CH, currency CHF
 - Address and contact data (fictional)
 - Fiscal calendar and ledger currency
 - Basic CH VAT / sales tax setup

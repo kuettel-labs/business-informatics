@@ -1,62 +1,339 @@
-# Dynamics 365 F/SCM demo company
+# Kuettel Labs AG (KLAB) - Dynamics 365 Finance & Operations Manufacturing Demo Setup
 
-> Draft skeleton. Content pending subject-matter review. Do not treat any detail as version-specific fact until verified.
+## Objective
 
-## 1 Purpose and scope
+Create a new Swiss manufacturing legal entity:
 
-- Learning demo, non-production
-- Fictional company: Contoso Demo AG (CH, CHF)
-- Fictional data only
+```text
+Legal Entity ID : KLAB
+Name            : Kuettel Labs AG
+Country         : Switzerland
+Currency        : CHF
+Industry        : Manufacturing
+```
 
-## 2 Prerequisites
+---
 
-- Environment type (trial or sandbox), see 01
-- Licenses and security roles (to be confirmed)
-- Supported browser
+# Phase 1 - Legal Entity Setup
 
-## 3 Setup order and dependencies
+## Step 1 - Create Legal Entity
 
-Legal entity, then number sequences, then general ledger, then master data, then inventory and warehouse, then processes.
+Navigate to:
 
-1. [01-environment](01-environment/README.md)
-2. [02-legal-entity-setup](02-legal-entity-setup/README.md)
-3. [03-organization-and-number-sequences](03-organization-and-number-sequences/README.md)
-4. [04-general-ledger-and-financials](04-general-ledger-and-financials/README.md)
-5. [05-master-data](05-master-data/README.md)
-6. [06-inventory-and-warehouse](06-inventory-and-warehouse/README.md)
-7. [07-data-import](07-data-import/README.md)
-8. [08-procurement](08-procurement/README.md)
-9. [09-sales](09-sales/README.md)
-10. [10-production](10-production/README.md)
-11. [11-demo-scenarios](11-demo-scenarios/README.md)
-12. [12-validation](12-validation/README.md)
+```text
+Organization administration
+→ Organizations
+→ Legal entities
+```
 
-## 4 Naming conventions
+Create:
 
-- TODO: prefixes for entity, sites, warehouses, number sequences, accounts
+```text
+Legal entity ID : KLAB
+Name            : Kuettel Labs AG
+Country/Region  : Switzerland
+Language        : en-US
+```
 
-## 5 How to load demo data
+Optional Address:
 
-- See [07-data-import](07-data-import/README.md)
+```text
+Kuettel Labs AG
+Musterstrasse 1
+5620 Bremgarten
+Switzerland
+```
 
-## 6 Sample processes
+Save the record.
 
-- See [08-procurement](08-procurement/README.md), [09-sales](09-sales/README.md), [10-production](10-production/README.md), [11-demo-scenarios](11-demo-scenarios/README.md)
+---
 
-## 7 Validation checklist
+## Step 2 - Verify Company
 
-- See [12-validation](12-validation/README.md)
+Confirm:
 
-## 8 Known gaps and open decisions
+```text
+KLAB appears in the company selector.
+```
 
-- Trial environment limits: to be verified
-- Depth of WMS setup: open decision
-- CH localization coverage: to be verified, flag instead of guess
+Switch into:
 
-## 9 References
+```text
+KLAB
+```
 
-- See [references.md](references.md)
+---
 
-## 10 Changelog
+# Phase 2 - Fiscal Calendar
 
-- Initial draft skeleton
+## Step 3 - Create Fiscal Calendar
+
+Navigate to:
+
+```text
+General ledger
+→ Ledger setup
+→ Fiscal calendars
+```
+
+Create:
+
+```text
+Fiscal calendar : KLAB
+Name            : Kuettel Labs Fiscal Calendar
+```
+
+Save.
+
+---
+
+## Step 4 - Create Fiscal Year
+
+Generate:
+
+```text
+Fiscal year start : 01.01.2026
+Fiscal year end   : 31.12.2026
+```
+
+Result:
+
+```text
+Period 0  Opening
+Period 1  January
+Period 2  February
+...
+Period 12 December
+Period 13 Closing
+```
+
+---
+
+# Phase 3 - Ledger Setup
+
+## Step 5 - Configure Ledger
+
+Navigate to:
+
+```text
+General ledger
+→ Ledger setup
+→ Ledger
+```
+
+For company KLAB configure:
+
+```text
+Description         : Kuettel Labs AG
+Chart of accounts   : Standard
+Fiscal calendar     : KLAB
+Accounting currency : CHF
+Reporting currency  : CHF
+```
+
+Save.
+
+---
+
+## Step 6 - Configure Account Structures
+
+Add:
+
+```text
+Manufacturing B/S
+Manufacturing P&L
+```
+
+Result:
+
+```text
+Manufacturing ..._704
+New voucher                : One voucher number only
+Number allocation posting  : No
+Posting layer              : Current
+```
+
+Save.
+
+---
+
+# Phase 6 - Validate Financial Setup
+
+## Step 10 - Create First General Journal
+
+Navigate to:
+
+```text
+General ledger
+→ Journal entries
+→ General journals
+```
+
+Create new:
+
+```text
+Journal name : GEN
+```
+
+Result:
+
+```text
+Journal batch number : KLAB-000001
+Journal name         : GEN
+```
+
+Success criteria:
+
+✅ Journal created  
+✅ Number sequence works  
+✅ Voucher sequence works  
+✅ Ledger setup complete  
+✅ KLAB company operational
+
+---
+
+# Current Project Status
+
+Completed:
+
+```text
+✅ Legal Entity
+✅ Company Creation
+✅ Fiscal Calendar
+✅ Fiscal Year
+✅ Ledger
+✅ Manufacturing Account Structures
+✅ Financial Dimensions Validation
+✅ Journal Name GEN
+✅ Voucher Number Sequence
+✅ First Journal Creation
+```
+
+---
+
+# Next Phase - Manufacturing Setup
+
+## Step 11 - Create Site
+
+Navigate to:
+
+```text
+Inventory management
+→ Setup
+→ Inventory breakdown
+→ Sites
+```
+
+Create:
+
+```text
+Site ID : CH01
+Name    : Bremgarten Plant
+```
+
+Optional address:
+
+```text
+Kuettel Labs AG
+Musterstrasse 1
+5620 Bremgarten
+Switzerland
+```
+
+Save.
+
+---
+
+## Future Manufacturing Steps
+
+### Warehousing
+
+Create:
+
+```text
+Warehouse : MAIN
+Site      : CH01
+```
+
+### Vendors
+
+Create:
+
+```text
+SUI-001
+Swiss Components AG
+```
+
+### Customers
+
+Create:
+
+```text
+CUS-001
+Demo Customer AG
+```
+
+### Released Products
+
+Create:
+
+```text
+RAW-1001
+RAW-1002
+FG-1001
+```
+
+### Product Groups
+
+Configure:
+
+```text
+Raw Materials
+Finished Goods
+Services
+```
+
+### Manufacturing
+
+Create:
+
+```text
+BOM
+Routes
+Resource Groups
+Resources
+```
+
+### Production
+
+Create:
+
+```text
+Production Orders
+BOM Consumption
+Report as Finished
+Inventory Transactions
+```
+
+### Swiss Localization
+
+Configure:
+
+```text
+CHF Currency
+Swiss VAT Codes
+Bank Accounts
+Payment Formats
+```
+
+### Go-Live Validation
+
+Test:
+
+```text
+Purchase Order
+Production Order
+Sales Order
+Inventory Posting
+General Ledger Posting
+```

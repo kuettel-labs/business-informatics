@@ -113,11 +113,23 @@ Accounting currency : CHF
 Reporting currency  : CHF
 ```
 
-Save.
-
 ---
 
 ## Step 6 - Configure Account Structures
+
+The account structure defines 
+- Which dimensions can be used 
+- Which main accounts are valid 
+- Financial posting validation 
+- Journal posting behavior.  
+
+Without at least one account structure, the ledger cannot properly validate financial entries.
+
+For a manufacturing company, we need both:
+- Balance Sheet accounts
+- Profit & Loss accounts
+
+Without a P&L account structure, you'll later run into posting issues for revenue and expense accounts. We want to fix that before creating vendors, items, production orders, and warehouses.
 
 Add:
 
@@ -133,11 +145,24 @@ Manufacturing Balance Sheet Structure
 Manufacturing Profit & Loss Structure
 ```
 
-Save.
+This means KLAB can support both:
+
+- Balance Sheet postings
+- Profit & Loss postings
+- Manufacturing cost analysis
 
 ---
 
 # Phase 4 - Financial Dimensions
+
+Because the account structures use:
+- BusinessUnit
+- Department
+- CostCenter
+
+we need to create dimension values before posting transactions because the account structures require:
+- Balance Sheet (MainAccount-BusinessUnit-Department)
+- Profit & Loss (MainAccount-BusinessUnit-Department-CostCenter-ItemGroup)
 
 ## Step 7 - Verify Financial Dimensions
 
@@ -189,9 +214,6 @@ Examples discovered:
 013 Procurement
 014 Administration
 ```
-
-No additional setup required.
-
 ---
 
 # Phase 5 - Journal Setup

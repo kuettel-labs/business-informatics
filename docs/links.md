@@ -42,6 +42,24 @@
 - [deed.page — Permanent hosting for agent outputs](https://deed.page/)
 - [x.ai Bot Marketplace — Marketplace for autonomous AI agents](http://x.ai/bot/marketplace)
 
+## AI Tool Directories
+- [There's An AI For That (TAAFT)](https://theresanaiforthat.com): Largest standalone directory (thousands of tools). Strong task-based search.
+- [Toolify](https://www.toolify.ai): Huge catalog across many categories.
+- [Futurepedia](https://www.futurepedia.io): Curated list plus educational content.
+- [FutureTools](https://www.futuretools.io): Curated tools with video reviews.
+- [Product Hunt](https://www.producthunt.com): Best for new launches.
+- [Dang.ai](https://dang.ai): AI-focused, organized by use case.
+- [AIxploria](https://aixploria.com): Strong free/freemium focus.
+- [SaaSCity best AI directories list](https://saascity.io/best-ai-directories)
+- [GitHub list of AI tool directories](https://github.com/truvery/ai-tool-directories)
+
+### Microsoft-relevant
+- [Microsoft Foundry model catalog](https://ai.azure.com/catalog)
+- [Microsoft Marketplace](https://marketplace.microsoft.com)
+- [Copilot Studio docs](https://learn.microsoft.com/microsoft-copilot-studio/)
+- [Power Platform connector reference](https://learn.microsoft.com/connectors/connector-reference/)
+- [Hugging Face](https://huggingface.co)
+
 ## 🔧 Automation & AI Builder Community
 - [Agentic AI Community — Agentic AI Discussions](https://community.deeplearning.ai/)
 - [Make Community — Automation workflows and AI agent building](https://community.make.com/)

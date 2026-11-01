@@ -14,6 +14,18 @@ nav:
     - Überblick: odoo-kasse/README.md
     - Benutzerhandbuch: odoo-kasse/Kasse-Benutzerhandbuch.md
 
+markdown_extensions:
+  - md_in_html
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js
+  - assets/js/mermaid-init.js
+
 extra_css:
   - 'assets/css/extra.css'
 

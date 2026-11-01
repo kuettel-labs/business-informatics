@@ -4,6 +4,8 @@ Microsoft Learn only.
 
 - [Dynamics 365 Finance documentation](https://learn.microsoft.com/en-us/dynamics365/finance/)
 - [Dynamics 365 Supply Chain Management documentation](https://learn.microsoft.com/en-us/dynamics365/supply-chain/)
+- [Create and manage environments in the Power Platform admin center](https://learn.microsoft.com/en-us/power-platform/admin/create-environment)
+- [Pay-as-you-go plan overview](https://learn.microsoft.com/en-us/power-platform/admin/pay-as-you-go-overview)
 - [Organizations and organizational hierarchies](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies)
 - [Number sequences overview](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
 - [Plan your chart of accounts](https://learn.microsoft.com/en-us/dynamics365/finance/general-ledger/plan-chart-of-accounts)

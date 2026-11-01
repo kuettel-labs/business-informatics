@@ -40,7 +40,7 @@ Optional Address:
 ```text
 Kuettel Labs AG
 Musterstrasse 1
-5620 Bremgarten
+1234 Musterstadt
 Switzerland
 ```
 
@@ -327,7 +327,7 @@ Create:
 
 ```text
 Site ID : CH01
-Name    : Bremgarten Plant
+Name    : Musterstadt Plant
 ```
 
 Optional address:
@@ -335,7 +335,7 @@ Optional address:
 ```text
 Kuettel Labs AG
 Musterstrasse 1
-5620 Bremgarten
+1234 Musterstadt
 Switzerland
 ```
 

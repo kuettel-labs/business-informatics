@@ -90,7 +90,7 @@
 
 ## 🧩 Open‑Source Models
 - [Llama](https://github.com/meta-llama)
-- [Mixtral](https://mistral.ai)
+- [Mistral](https://mistral.ai)
 - [Qwen](https://github.com/QwenLM)
 - [Phi‑3 (Mini, Small, Medium)](https://github.com/microsoft/phi-3)
 - [Gemma](https://ai.google.dev/gemma)

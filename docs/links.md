@@ -183,7 +183,13 @@
 
 - [SAP S/4HANA – Enterprise manufacturing & supply chain ERP](https://learning.sap.com)
 - [Oracle JD Edwards – Manufacturing & distribution ERP](https://www.oracle.com/applications/jd-edwards-enterpriseone/)
+- [proALPHA – ERP for mid-sized manufacturing and industrial companies](https://www.proalpha.com)
+- [abas ERP – ERP for mid-sized manufacturing companies](https://abas-erp.com/de)
+- [ams.erp – ERP for project-oriented manufacturing](https://www.ams-erp.com)
+- [APplus – ERP for mid-sized companies](https://www.applus-erp.de)
+- [Kieselstein ERP – Open-source ERP for manufacturing SMEs](https://kieselstein-erp.org)
 - [IFS Applications – Manufacturing & service ERP](https://www.ifs.com)
+- [TimeLine ERP – Integrated ERP/PPS for mid-sized manufacturers](https://www.timeline-erp.com)
 - [Infor SyteLine (CSI) – Manufacturing ERP](https://www.infor.com/solutions/cloudsuite-industrial)
 - [Infor CloudSuite Learning – Cloud ERP training](https://www.infor.com/solutions/cloudsuite)
 - [Epicor Prophet 21 – Distribution ERP](https://www.epicor.com/en-us/products/prophet-21/)
@@ -217,6 +223,10 @@
 
 - [OpenBravo ERP – Retail‑focused open‑source ERP](https://www.openbravo.com)
 - [SelectLine ERP – SME ERP for trade & production 🇨🇭](https://www.selectline.ch)
+- [weclapp – Cloud ERP for SMEs, including CRM, inventory and accounting](https://www.weclapp.com)
+- [Xentral – Cloud ERP for e-commerce and growing businesses](https://xentral.com)
+- [Actindo – Digital commerce operations platform](https://www.actindo.com)
+- [JTL – E-commerce software, inventory management and logistics](https://www.jtl-software.com)
 - [Odoo Retail – POS & inventory](https://www.odoo.com/slides)
 - [ERPNext Retail – POS & inventory](https://erpnext.com/retail)
 - [Epicor Prophet 21 – Distribution ERP](https://www.epicor.com/en-us/products/prophet-21/)
@@ -224,6 +234,8 @@
 
 # Finance, Accounting & Professional Services
 
+- [DATEV – Tax, accounting and payroll software](https://www.datev.de)
+- [Lexware – Accounting, invoicing and business software for self-employed people and SMEs](https://www.lexware.de)
 - [Topal Solutions – Swiss accounting ERP 🇨🇭](https://www.topal.ch)
 - [Proffix ERP – Swiss SME ERP 🇨🇭](https://www.proffix.ch)
 - [Crésus – Swiss accounting & payroll ERP 🇨🇭](https://www.cresus.ch)
@@ -280,6 +292,8 @@
 # Multi‑Industry / General ERP
 
 - [Enventa ERP – Finance, logistics, CRM & industry 🇨🇭](https://www.enventa.ch)
+- [Scopevisio – Cloud ERP for mid-sized businesses](https://www.scopevisio.com)
+- [microtech ERP – ERP for purchasing, sales, inventory and business processes](https://www.microtech.de)
 - [SAP Business One – SME ERP](https://www.sap.com/products/business-one.html)
 - [SAP Business ByDesign – Mid‑market cloud ERP](https://www.sap.com/products/business-bydesign.html)
 - [Oracle E‑Business Suite – Enterprise ERP](https://www.oracle.com/applications/ebusiness/)

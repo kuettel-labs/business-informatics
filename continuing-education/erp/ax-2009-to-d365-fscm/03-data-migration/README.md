@@ -33,3 +33,11 @@ This section is written for an **ERP Project Specialist**: the hands on role tha
 | [defect-log.csv](templates/defect-log.csv) | Defects found in migration and testing |
 | [data-owner-signoff.md](templates/data-owner-signoff.md) | Formal acceptance per data object |
 | [status-report.md](templates/status-report.md) | Weekly data migration status for the project manager |
+
+## Handlungskompetenzbereiche
+
+Relevant competences from the official qualification profile of the Berufsprüfung Wirtschaftsinformatiker/in ([Wegleitung vom 2. Dezember 2024](https://www.ict-berufsbildung.ch/resources/20241202_WL_QP_FAWIR_de.pdf)):
+
+* **c4: Die Einführung von ICT Lösungen steuern** (Bereich c: ICT Lösungen evaluieren und einführen). Data migration is a core workstream of steering the introduction of the new ERP solution.
+* **e2: Datenqualität überwachen und steuern** (Bereich e: Den Betrieb von ICT-Lösungen steuern). Cleansing, validation and reconciliation monitor and steer data quality.
+* **b4: ICT Projektfortschritt steuern** (Bereich b: ICT Projekten leiten). The status report and backlog support the project manager in steering project progress.

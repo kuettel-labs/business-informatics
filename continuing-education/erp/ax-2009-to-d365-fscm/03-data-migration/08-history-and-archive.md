@@ -16,3 +16,10 @@ DMT migrates data, not the full history ([Learn: DMT](https://learn.microsoft.co
 - [ ] Archive tested with real user questions before go-live
 - [ ] Attachments: decide where documents from AX 2009 live
 - [ ] Decommission date for AX 2009 servers
+
+## Handlungskompetenzbereiche
+
+Relevant competences from the official qualification profile of the Berufsprüfung Wirtschaftsinformatiker/in ([Wegleitung vom 2. Dezember 2024](https://www.ict-berufsbildung.ch/resources/20241202_WL_QP_FAWIR_de.pdf)):
+
+* **e3: Compliance-Anforderungen überwachen** (Bereich e: Den Betrieb von ICT-Lösungen steuern). Archive and history access must satisfy retention and audit requirements.
+* **c1: ICT Systeme und Dienstleistungen evaluieren** (Bereich c: ICT Lösungen evaluieren und einführen). Choosing between archive, BYOD or migrating history evaluates alternative ICT solutions.

@@ -24,3 +24,11 @@ Goal: rebuild required gaps as extensions and rebuild integrations on supported 
 ## Deliverables
 
 Technical designs, extension code in source control, integration specifications, interface test evidence.
+
+## Handlungskompetenzbereiche
+
+Relevant competences from the official qualification profile of the Berufsprüfung Wirtschaftsinformatiker/in ([Wegleitung vom 2. Dezember 2024](https://www.ict-berufsbildung.ch/resources/20241202_WL_QP_FAWIR_de.pdf)):
+
+* **b2: Bedürfnisse in technische Anforderungen übersetzen** (Bereich b: ICT Projekten leiten). Technical designs translate approved gaps into technical requirements.
+* **c1: ICT Systeme und Dienstleistungen evaluieren** (Bereich c: ICT Lösungen evaluieren und einführen). Choosing integration patterns (OData, recurring integrations, package API) evaluates ICT services.
+* **e1: Releasemanagement betreiben** (Bereich e: Den Betrieb von ICT-Lösungen steuern). Extensions in source control and a code freeze prepare controlled release management.

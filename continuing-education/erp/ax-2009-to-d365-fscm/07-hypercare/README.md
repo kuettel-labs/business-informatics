@@ -18,3 +18,12 @@ Duration of 4 to 8 weeks is an assumption (**UNVERIFIED**).
 - [ ] No open severity 1 issues
 - [ ] Support team accepted the handover documentation
 - [ ] AX 2009 decommission plan agreed (read only retention)
+
+## Handlungskompetenzbereiche
+
+Relevant competences from the official qualification profile of the Berufsprüfung Wirtschaftsinformatiker/in ([Wegleitung vom 2. Dezember 2024](https://www.ict-berufsbildung.ch/resources/20241202_WL_QP_FAWIR_de.pdf)):
+
+* **e4: Betriebsstabilität managen** (Bereich e: Den Betrieb von ICT-Lösungen steuern). Hypercare stabilises operations after go-live.
+* **c3: ICT Betriebsprozesse erstellen und implementieren** (Bereich c: ICT Lösungen evaluieren und einführen). Handover to support implements the ICT operating processes.
+* **c5: Abgeleitet von Leistungskennzahlen (KPI) ICT Services überwachen und optimieren** (Bereich c: ICT Lösungen evaluieren und einführen). Issue triage by business impact prepares KPI based monitoring of the service.
+* **e2: Datenqualität überwachen und steuern** (Bereich e: Den Betrieb von ICT-Lösungen steuern). Residual data corrections are logged and controlled.

@@ -74,3 +74,25 @@ Microsoft Learn:
 2. Whether LCS Upgrade analysis still accepts AX 2009 models today; the book describes it ([Implementing D365 F&O Apps, ch. 3 'Lifecycle Services (LCS) and Tools']) but current availability was not confirmed.
 3. Phase timeline shares and hypercare duration.
 4. Concrete volume thresholds, durations and tolerances in the data migration templates (examples only).
+
+## Handlungskompetenzbereiche (Berufsprüfung Wirtschaftsinformatik)
+
+Mapping of the phases to the official Handlungskompetenzbereiche a to e:
+
+* a: Bei der Umsetzung der ICT Strategie mitwirken
+* b: ICT Projekten leiten
+* c: ICT Lösungen evaluieren und einführen
+* d: Geschäftsprozesse optimieren
+* e: Den Betrieb von ICT-Lösungen steuern
+
+| Phase | Handlungskompetenzbereiche | Kompetenzen |
+|---|---|---|
+| 1 Assessment | a, b, c, d | a1, b5, c1, d1 |
+| 2 Solution design | b, c, d, e | b1, b2, c1, d3, e3 |
+| 3 Data migration | a, b, c, d, e | a4, b1, b2, b3, b4, b5, b6, c1, c2, c4, d1, e2, e3 |
+| 4 Development and integration | b, c, e | b2, c1, e1 |
+| 5 Testing | b, c, e | b4, c2, e2 |
+| 6 Cutover and go-live | b, c | b5, c3, c4 |
+| 7 Hypercare | c, e | c3, c5, e2, e4 |
+
+Source: ICT-Berufsbildung Schweiz, Wegleitung und Qualifikationsprofil Berufsprüfung Wirtschaftsinformatiker/in, 2. Dezember 2024, https://www.ict-berufsbildung.ch/resources/20241202_WL_QP_FAWIR_de.pdf (linked from https://www.ict-berufsbildung.ch/berufspruefung-wirtschaftsinformatik-2026). Full titles per competence are in each phase README.

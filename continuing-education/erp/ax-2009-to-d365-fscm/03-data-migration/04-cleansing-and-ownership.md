@@ -37,3 +37,10 @@ N and other thresholds are business decisions (**UNVERIFIED** examples).
 3. Data owner decides: fix in source, transform in mapping, or exclude.
 4. Steward fixes; specialist re-profiles in the next iteration.
 5. Trend the open issue count in the status report.
+
+## Handlungskompetenzbereiche
+
+Relevant competences from the official qualification profile of the Berufsprüfung Wirtschaftsinformatiker/in ([Wegleitung vom 2. Dezember 2024](https://www.ict-berufsbildung.ch/resources/20241202_WL_QP_FAWIR_de.pdf)):
+
+* **e2: Datenqualität überwachen und steuern** (Bereich e: Den Betrieb von ICT-Lösungen steuern). Cleansing rules and data ownership directly monitor and steer data quality.
+* **d1: Geschäftsprozesse mit geeigneten Methoden analysieren** (Bereich d: Geschäftsprozesse optimieren). Cleansing exposes process weaknesses in the legacy system that are analysed with the data owners.

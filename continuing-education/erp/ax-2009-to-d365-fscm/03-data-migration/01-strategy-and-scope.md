@@ -39,3 +39,11 @@ Scope is confirmed per object in [templates/data-object-inventory.csv](templates
 * Start early: data work begins before the project and continues in every iteration ([Newell, ch. 2 'What to Do Before You Begin a Project']; [Newell, ch. 16]).
 * Clean in the source (AX 2009) where possible, transform in mapping only for structural changes.
 * Everything repeatable: no manual one off fixes without a logged rule.
+
+## Handlungskompetenzbereiche
+
+Relevant competences from the official qualification profile of the Berufsprüfung Wirtschaftsinformatiker/in ([Wegleitung vom 2. Dezember 2024](https://www.ict-berufsbildung.ch/resources/20241202_WL_QP_FAWIR_de.pdf)):
+
+* **b3: ICT Projekte anhand von geeigneten Vorgehensmodellen initiieren** (Bereich b: ICT Projekten leiten). Migration strategy and scope rules are part of initiating the workstream with a suitable approach.
+* **b5: Kosten-Nutzen sowie Risikobeurteilung von ICT Projekten erstellen, aktualisieren und überwachen** (Bereich b: ICT Projekten leiten). Deciding what not to migrate weighs effort against benefit and risk.
+* **e3: Compliance-Anforderungen überwachen** (Bereich e: Den Betrieb von ICT-Lösungen steuern). Retention of history that is not migrated must respect legal retention requirements (scope of this link to the chapter content is **UNVERIFIED**).

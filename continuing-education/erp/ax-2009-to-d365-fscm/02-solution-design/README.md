@@ -23,3 +23,13 @@ Goal: design the target on standard F&SCM ("in the box" first) and document gaps
 ## Deliverables
 
 Fit/gap list, blueprint, functional design documents, security matrix, environment plan, data design decisions log.
+
+## Handlungskompetenzbereiche
+
+Relevant competences from the official qualification profile of the Berufsprüfung Wirtschaftsinformatiker/in ([Wegleitung vom 2. Dezember 2024](https://www.ict-berufsbildung.ch/resources/20241202_WL_QP_FAWIR_de.pdf)):
+
+* **b1: Bedürfnisse von Anspruchsgruppen erheben und diese mit geeigneten Methoden abbilden** (Bereich b: ICT Projekten leiten). CRPs and the change management plan capture stakeholder needs with suitable methods.
+* **b2: Bedürfnisse in technische Anforderungen übersetzen** (Bereich b: ICT Projekten leiten). Fit/gap and functional design documents translate business needs into technical requirements.
+* **d3: Geschäftsprozesse mit geeigneten ICT-Mitteln modellieren und optimieren** (Bereich d: Geschäftsprozesse optimieren). Designing processes on standard F&SCM models and optimises the target business processes.
+* **c1: ICT Systeme und Dienstleistungen evaluieren** (Bereich c: ICT Lösungen evaluieren und einführen). Choosing standard functionality, ISV or extension per gap is an evaluation of ICT solutions.
+* **e3: Compliance-Anforderungen überwachen** (Bereich e: Den Betrieb von ICT-Lösungen steuern). Security design with roles, duties and segregation of duties addresses compliance requirements.

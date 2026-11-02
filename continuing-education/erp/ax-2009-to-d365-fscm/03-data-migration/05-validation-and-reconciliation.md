@@ -37,3 +37,11 @@ Tolerances are suggestions (**UNVERIFIED**); finance owners set the final values
 * Truncated text after field length change (EDT conversions, [Learn: DMT](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/data-migration-tool)).
 * Dimension values mapped to the wrong dimension.
 * Unit conversions missing, causing wrong quantities.
+
+## Handlungskompetenzbereiche
+
+Relevant competences from the official qualification profile of the Berufsprüfung Wirtschaftsinformatiker/in ([Wegleitung vom 2. Dezember 2024](https://www.ict-berufsbildung.ch/resources/20241202_WL_QP_FAWIR_de.pdf)):
+
+* **c2: Die Erfüllung von Anforderungen von ICT Lösungen analysieren und beurteilen** (Bereich c: ICT Lösungen evaluieren und einführen). Validation levels and reconciliation check whether the migrated solution meets its requirements.
+* **e2: Datenqualität überwachen und steuern** (Bereich e: Den Betrieb von ICT-Lösungen steuern). Reconciliation checklists are a data quality control.
+* **e3: Compliance-Anforderungen überwachen** (Bereich e: Den Betrieb von ICT-Lösungen steuern). Reconciled financial balances support audit and compliance evidence.

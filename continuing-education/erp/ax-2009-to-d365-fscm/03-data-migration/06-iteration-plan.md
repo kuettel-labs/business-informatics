@@ -21,3 +21,10 @@ Repeat iteration 3 or 4 if exit criteria fail. Durations per iteration are proje
 4. Export job history errors, classify (data, mapping, configuration, code), log defects.
 5. Reconcile; update the inventory status.
 6. Lessons learned and status report to the project manager.
+
+## Handlungskompetenzbereiche
+
+Relevant competences from the official qualification profile of the Berufsprüfung Wirtschaftsinformatiker/in ([Wegleitung vom 2. Dezember 2024](https://www.ict-berufsbildung.ch/resources/20241202_WL_QP_FAWIR_de.pdf)):
+
+* **b4: ICT Projektfortschritt steuern** (Bereich b: ICT Projekten leiten). Iterations with logs and metrics steer migration progress against plan.
+* **c2: Die Erfüllung von Anforderungen von ICT Lösungen analysieren und beurteilen** (Bereich c: ICT Lösungen evaluieren und einführen). Each iteration tests the loads against defined acceptance criteria.

@@ -1,0 +1,9 @@
+step,phase,planned_start,planned_duration_min,task,owner_role,predecessor,check_or_evidence,go_no_go_gate(Y/N),actual_start,actual_end,status,comment
+1,Pre,T-7d,,Configuration freeze,PM,,Freeze communicated,N,,,,
+2,Pre,T-3d,,Static master data loaded in production,Specialist,1,Counts reconciled,N,,,,
+7,Window,Fri 17:00,,Close AX 2009 for posting,Finance,6,No unposted journals,N,,,,
+8,Window,,,Run and sign AX 2009 baseline reports,Specialist,7,Reports archived,N,,,,
+11,Window,,,Load opening balances,Specialist,10,Totals equal baseline,Y,,,,
+12,Window,,,Load inventory on hand,Specialist,11,Quantity and value equal baseline,Y,,,,
+14,Window,,,Data owner sign off,Data owners,13,Signed forms,Y,,,,
+17,Window,,,Go / no go decision,Steering,16,Decision logged,Y,,,,

@@ -1,0 +1,2 @@
+defect_id,date_found,phase(iteration/SIT/UAT/cutover/hypercare),object_or_process,type(data/mapping/configuration/code/integration/performance),title,steps_to_reproduce,expected,actual,severity(1-4),owner_role,status,fix_version,retest_date,retest_result
+DEF-001,,Iteration 1,OBJ-040,mapping,Item names truncated,Load released products,Full name,Name cut at 60 characters,3,Specialist,Open,,,

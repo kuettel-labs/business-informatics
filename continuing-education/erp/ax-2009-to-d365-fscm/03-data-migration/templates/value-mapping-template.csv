@@ -1,0 +1,3 @@
+value_map_id,object_id,field,source_value,target_value,reason,approved_by_role,version
+VM-001,OBJ-030,CustomerGroup,DOM,DOMESTIC,Harmonised group codes,Sales owner,v1
+VM-001,OBJ-030,CustomerGroup,EXP,EXPORT,Harmonised group codes,Sales owner,v1

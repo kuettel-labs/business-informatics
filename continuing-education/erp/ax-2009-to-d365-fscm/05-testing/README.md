@@ -22,3 +22,11 @@
 - [ ] Reconciliation checklist passed in the last mock cutover
 - [ ] UAT sign off by process owners
 - [ ] Training delivered ([Implementing D365 F&O Apps, ch. 11])
+
+## Handlungskompetenzbereiche
+
+Relevant competences from the official qualification profile of the Berufsprüfung Wirtschaftsinformatiker/in ([Wegleitung vom 2. Dezember 2024](https://www.ict-berufsbildung.ch/resources/20241202_WL_QP_FAWIR_de.pdf)):
+
+* **c2: Die Erfüllung von Anforderungen von ICT Lösungen analysieren und beurteilen** (Bereich c: ICT Lösungen evaluieren und einführen). Unit, SIT, UAT and performance tests analyse and assess whether requirements are met.
+* **b4: ICT Projektfortschritt steuern** (Bereich b: ICT Projekten leiten). Defect tracking and exit criteria steer progress towards go-live.
+* **e2: Datenqualität überwachen und steuern** (Bereich e: Den Betrieb von ICT-Lösungen steuern). Data migration testing checks the quality of migrated data in every iteration.

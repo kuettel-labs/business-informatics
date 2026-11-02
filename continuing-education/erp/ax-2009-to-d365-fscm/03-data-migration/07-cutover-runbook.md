@@ -32,3 +32,10 @@ Rehearsed in the go-live iteration (mock cutover) ([Newell, ch. 16]; [Learn: Upg
 ## Rollback
 
 If go/no go fails, AX 2009 is reopened for posting; production target data is not used. Define the latest rollback point in time in advance.
+
+## Handlungskompetenzbereiche
+
+Relevant competences from the official qualification profile of the Berufsprüfung Wirtschaftsinformatiker/in ([Wegleitung vom 2. Dezember 2024](https://www.ict-berufsbildung.ch/resources/20241202_WL_QP_FAWIR_de.pdf)):
+
+* **c4: Die Einführung von ICT Lösungen steuern** (Bereich c: ICT Lösungen evaluieren und einführen). The cutover runbook steers the actual go-live of the solution.
+* **b5: Kosten-Nutzen sowie Risikobeurteilung von ICT Projekten erstellen, aktualisieren und überwachen** (Bereich b: ICT Projekten leiten). Rollback points and go/no go decisions manage cutover risks.

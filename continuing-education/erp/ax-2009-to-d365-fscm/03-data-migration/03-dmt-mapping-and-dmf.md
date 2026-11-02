@@ -84,3 +84,10 @@ Staging tables let you verify, clean up or convert data before it reaches the ta
 | Database backup and restore between environments | Move a fully loaded golden or migration environment | [Solution Architect, ch. 5] |
 | Excel workbook designer | Small manual data sets and corrections | [Solution Architect, ch. 5] |
 | Data sharing | Shared reference data across legal entities | [Solution Architect, ch. 5] |
+
+## Handlungskompetenzbereiche
+
+Relevant competences from the official qualification profile of the Berufsprüfung Wirtschaftsinformatiker/in ([Wegleitung vom 2. Dezember 2024](https://www.ict-berufsbildung.ch/resources/20241202_WL_QP_FAWIR_de.pdf)):
+
+* **b2: Bedürfnisse in technische Anforderungen übersetzen** (Bereich b: ICT Projekten leiten). Field and value mappings translate business data rules into technical specifications.
+* **c4: Die Einführung von ICT Lösungen steuern** (Bereich c: ICT Lösungen evaluieren und einführen). Entities, templates and data packages are the technical vehicle of the introduction.

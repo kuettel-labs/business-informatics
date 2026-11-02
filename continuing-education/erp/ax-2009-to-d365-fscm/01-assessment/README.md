@@ -26,3 +26,12 @@ Goal: understand what exists in AX 2009 and decide the approach (see the root RE
 ## Deliverables
 
 Assessment report, process list, customisation register, integration register, data profile, high level plan.
+
+## Handlungskompetenzbereiche
+
+Relevant competences from the official qualification profile of the Berufsprüfung Wirtschaftsinformatiker/in ([Wegleitung vom 2. Dezember 2024](https://www.ict-berufsbildung.ch/resources/20241202_WL_QP_FAWIR_de.pdf)):
+
+* **a1: Strategische und betriebswirtschaftliche Vorgaben analysieren und Massnahmen für die ICT ableiten** (Bereich a: Bei der Umsetzung der ICT Strategie mitwirken). The approach decision (reimplementation versus two-step upgrade) derives ICT measures from the end of AX 2009 support and business goals.
+* **c1: ICT Systeme und Dienstleistungen evaluieren** (Bereich c: ICT Lösungen evaluieren und einführen). Inventorying processes, customisations and integrations is an analysis of the existing ICT system as a basis for evaluating the target.
+* **d1: Geschäftsprozesse mit geeigneten Methoden analysieren** (Bereich d: Geschäftsprozesse optimieren). The process inventory (procure to pay, order to cash and others) analyses business processes with a structured method.
+* **b5: Kosten-Nutzen sowie Risikobeurteilung von ICT Projekten erstellen, aktualisieren und überwachen** (Bereich b: ICT Projekten leiten). The go or no go and high level plan require a first cost-benefit and risk view of the project.

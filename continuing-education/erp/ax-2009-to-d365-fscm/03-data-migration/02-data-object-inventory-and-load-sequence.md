@@ -33,3 +33,10 @@ The exact entity names must be checked in the target version in the Data managem
 AX 2009 table names in the template are illustrative examples from general product knowledge (**UNVERIFIED**); confirm them in the AX 2009 AOT.
 
 Use [templates/data-object-inventory.csv](templates/data-object-inventory.csv). Each row: object, source tables, target entity, wave, sequence, owner, volume, method, status. Update it after each iteration and attach it to the status report.
+
+## Handlungskompetenzbereiche
+
+Relevant competences from the official qualification profile of the Berufsprüfung Wirtschaftsinformatiker/in ([Wegleitung vom 2. Dezember 2024](https://www.ict-berufsbildung.ch/resources/20241202_WL_QP_FAWIR_de.pdf)):
+
+* **c4: Die Einführung von ICT Lösungen steuern** (Bereich c: ICT Lösungen evaluieren und einführen). The load sequence and dependencies plan how the solution is introduced step by step.
+* **a4: ICT-Ressourcen planen** (Bereich a: Bei der Umsetzung der ICT Strategie mitwirken). Volumes and load order feed the planning of people, environments and time.

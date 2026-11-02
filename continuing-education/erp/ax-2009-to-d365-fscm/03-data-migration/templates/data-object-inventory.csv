@@ -1,0 +1,12 @@
+object_id,object,domain,wave,sequence,source_tables_ax2009,target_entity,method,in_scope,scope_rule,data_owner_role,est_volume,dependencies,mapping_version,status,notes
+OBJ-001,Currencies and exchange rates,Finance,0,10,Currency;ExchRates,(confirm in Data management),Template,Y,All active,Finance owner,,,v0,Not started,
+OBJ-010,Main accounts,Finance,1,10,LedgerTable,(confirm),DMT,Y,Accounts with balance or used in last 2 years,Finance owner,,OBJ-001,v0,Not started,
+OBJ-020,Units and conversions,Supply chain,2,10,Unit;UnitConvert,(confirm),Template,Y,Used units only,Product owner,,,v0,Not started,
+OBJ-030,Customers,Sales,3,20,CustTable;Address,(confirm),DMT,Y,Active or open balance,Sales owner,,OBJ-010,v0,Not started,
+OBJ-031,Vendors,Purchasing,3,30,VendTable;Address,(confirm),DMT,Y,Active or open balance,Purchasing owner,,OBJ-010,v0,Not started,
+OBJ-040,Released products,Products,4,10,InventTable;InventTableModule,(confirm),DMT,Y,Stock or open orders or used in last 2 years,Product owner,,OBJ-020,v0,Not started,
+OBJ-050,BOMs,Engineering,5,20,BOMTable;BOMVersion;BOM,(confirm),DMT,Y,Active versions only,Engineering owner,,OBJ-040,v0,Not started,
+OBJ-051,Routes,Engineering,5,30,RouteTable;RouteVersion;Route,(confirm),DMT,Y,Active versions only,Production owner,,OBJ-040,v0,Not started,
+OBJ-070,GL opening balance,Finance,7,10,LedgerTrans (summarised),(confirm),Entity journal,Y,Balance at cutover,Finance owner,,OBJ-010,v0,Not started,
+OBJ-080,Inventory on hand,Inventory,8,10,InventSum;InventDim,(confirm),Entity journal,Y,Positive on hand at cutover,Inventory owner,,OBJ-040,v0,Not started,
+OBJ-090,Open purchase orders,Purchasing,9,10,PurchTable;PurchLine,(confirm),DMT,Y,Open lines only,Purchasing owner,,OBJ-031;OBJ-040,v0,Not started,

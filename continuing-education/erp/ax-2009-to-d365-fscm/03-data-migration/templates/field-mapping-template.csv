@@ -1,0 +1,4 @@
+mapping_id,object_id,source_table,source_field,source_type,target_entity,target_field,target_type,mandatory,transformation_rule,default_value,value_map_ref,business_rule_plain_language,approved_by_role,approved_date,version,test_result
+MAP-0001,OBJ-030,CustTable,AccountNum,String 20,(entity),CustomerAccount,String,Y,Copy,,,Keep customer numbers,Sales owner,,v1,
+MAP-0002,OBJ-030,CustTable,CustGroup,String 10,(entity),CustomerGroupId,String,Y,Value map,,VM-001,Old groups merged into new groups,Sales owner,,v1,
+MAP-0003,OBJ-030,(none),(none),,(entity),SalesCurrencyCode,String,Y,Default,<company currency>,,Default currency for customers without one,Finance owner,,v1,

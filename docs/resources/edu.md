@@ -79,6 +79,7 @@
 - [Meta Career Programs — Meta’s job‑ready certificates](https://www.coursera.org/meta)
 - [Microsoft Career Certificates — Microsoft professional certifications](https://learn.microsoft.com/en-us/certifications/)
 - [Pluralsight Skills — Skill‑based tech learning](https://www.pluralsight.com)
+- [SAP Learning — Official SAP training and product learning paths](https://learning.sap.com/)
 - [Udacity Nanodegrees — Project‑based nanodegrees](https://www.udacity.com)
 
 ## 🎓 Career & Credential Pathways

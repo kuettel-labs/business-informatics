@@ -166,6 +166,7 @@
 - [Microsoft Dynamics GP – Legacy ERP](https://dynamics.microsoft.com/gp/)
 
 ## SAP
+- [SAP Learning – Official SAP learning paths and product training](https://learning.sap.com/)
 - [SAP Learning Hub – Official training](https://learninghub.sap.com)
 - [SAP S/4HANA Learning – Modern ERP training](https://learning.sap.com)
 - [openSAP – Free SAP courses](https://open.sap.com)

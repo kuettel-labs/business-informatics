@@ -1,0 +1,2 @@
+iteration,environment,run_date,object_id,target_entity,mapping_version,source_count,excluded_count,staging_count,target_count,error_count,duration_minutes,reconciled(Y/N),defect_ids,notes
+0,DM sandbox,,OBJ-030,(entity),v1,,,,,,,,,

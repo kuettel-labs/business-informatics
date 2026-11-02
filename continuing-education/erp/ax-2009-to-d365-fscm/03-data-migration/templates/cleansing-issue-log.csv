@@ -1,0 +1,3 @@
+issue_id,object_id,found_in_iteration,rule,description,records_affected,severity,decision(fix_source/transform/exclude),owner_role,due_date,status,verified_in_iteration
+DQ-001,OBJ-030,0,Duplicates,Same tax ID on two customers,,Medium,fix_source,Sales owner,,Open,
+DQ-002,OBJ-040,0,Missing unit conversion,Items with purchase unit without conversion,,High,fix_source,Product owner,,Open,

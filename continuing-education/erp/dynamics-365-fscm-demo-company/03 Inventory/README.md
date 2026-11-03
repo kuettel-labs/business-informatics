@@ -998,144 +998,216 @@ Released Products
 
 ---
 
-# Current Project Status
+# Step 15 - Create Product Categories
+
+## Objective
+
+Create product categories for Kuettel Labs AG to organize products and support reporting, purchasing, inventory management, and manufacturing.
+
+Current released products:
 
 ```text
-✅ KLAB Legal Entity
-✅ Fiscal Calendar
-✅ Ledger (CHF)
-✅ Manufacturing Account Structures
-✅ Financial Dimensions
-✅ General Journal (GEN)
-✅ Voucher Series (Gene_704)
-✅ First Journal (KLAB-000001)
-
-✅ Site CH01
-✅ Warehouse MAIN
-
-✅ Item Model Group STD
-✅ Storage Dimension Group SiteWH
-✅ Tracking Dimension Group Batch-CP
-
-✅ Item Group RM
-✅ Item Group FG
-
-✅ Released Products
+RAW-1001  Aluminum Sheet
+RAW-1002  Electronic Controller
+FG-1001   Smart Sensor
 ```
 
 ---
 
-# Next Step
+## Why Product Categories?
+
+Product categories help:
 
 ```text
-Step 15 - Create Product Categories
-```
-
-Followed by:
-
-```text
-Step 16 - Create Bills of Material (BOM)
-Step 17 - Create Production Route
-Step 18 - Create Production Order
-```
-
-At that point Kuettel Labs AG will be capable of executing a complete end-to-end manufacturing process.
----
-
-## Next Step
-
-```text
-Step 14 - Create Product Number Group and Item Number Sequences
-```
-
-Then:
-
-```text
-Step 15 - Create Product Categories
-Step 16 - Create BOM for FG-1001
-Step 17 - Create Production Route
-Step 18 - Create Production Order
-```
-
-At that point Kuettel Labs AG will be capable of executing an end-to-end manufacturing scenario.
-
-These products will be used later for:
-
-```text
-Bills of Materials (BOM)
-Production Orders
-Inventory Transactions
-Purchase Orders
-Sales Orders
+Product Classification
+Procurement Analysis
+Inventory Reporting
+Manufacturing Reporting
+Future Commerce Integration
+Product Governance
 ```
 
 ---
 
-## Why Batch Tracking?
-
-Manufacturing companies frequently need to trace:
+## Navigate
 
 ```text
-Raw Material Lots
-Production Runs
-Quality Issues
-Supplier Deliveries
-Inventory Recalls
-```
-
-Example:
-
-```text
-RAW-1001
-Batch: RM2026-001
-
-FG-1001
-Batch: FG2026-001
-```
-
-This allows tracking from:
-
-```text
-Supplier
-    ↓
-Raw Material
-    ↓
-Production Order
-    ↓
-Finished Good
-    ↓
-Customer
+Product information management
+→ Setup
+→ Categories and attributes
+→ Category hierarchies
 ```
 
 ---
 
-## Product Dimension Framework
+## Create Category Hierarchy
+
+Click:
 
 ```text
-Item Model Group (STD)
-           ↓
-Storage Dimension Group (SiteWH)
-           ↓
-Tracking Dimension Group (KLAB)
-           ↓
-Released Product
+New
+```
+
+Create:
+
+```text
+Category hierarchy : KLAB
+Name               : Kuettel Labs Product Categories
+Purpose            : Procurement
+```
+
+Save.
+
+---
+
+## Create Root Category
+
+Create:
+
+```text
+Products
+```
+
+Hierarchy:
+
+```text
+Products
 ```
 
 ---
 
-## Example Manufacturing Flow
+## Create Raw Materials Category
+
+Under:
 
 ```text
-Purchase Order
-       ↓
-Raw Material Batch RM2026-001
-       ↓
-Production Order P000001
-       ↓
-Finished Goods Batch FG2026-001
-       ↓
-Sales Order
+Products
 ```
+
+Create:
+
+```text
+Raw Materials
+```
+
+Hierarchy:
+
+```text
+Products
+└── Raw Materials
+```
+
+---
+
+## Create Finished Goods Category
+
+Under:
+
+```text
+Products
+```
+
+Create:
+
+```text
+Finished Goods
+```
+
+Hierarchy:
+
+```text
+Products
+└── Finished Goods
+```
+
+---
+
+## Final Category Structure
+
+```text
+Products
+├── Raw Materials
+└── Finished Goods
+```
+
+---
+
+## Assign Products to Categories
+
+### Raw Materials
+
+Assign:
+
+```text
+RAW-1001 Aluminum Sheet
+RAW-1002 Electronic Controller
+```
+
+to:
+
+```text
+Raw Materials
+```
+
+### Finished Goods
+
+Assign:
+
+```text
+FG-1001 Smart Sensor
+```
+
+to:
+
+```text
+Finished Goods
+```
+
+---
+
+## Product Classification Matrix
+
+| Product | Category |
+|----------|----------|
+| RAW-1001 | Raw Materials |
+| RAW-1002 | Raw Materials |
+| FG-1001  | Finished Goods |
+
+---
+
+## Manufacturing Structure
+
+```text
+FG-1001 Smart Sensor
+│
+├── RAW-1001 Aluminum Sheet
+└── RAW-1002 Electronic Controller
+```
+
+Categories:
+
+```text
+Raw Materials
+├── RAW-1001
+└── RAW-1002
+
+Finished Goods
+└── FG-1001
+```
+
+---
+
+## Validation
+
+Verify:
+
+```text
+Products
+├── Raw Materials
+└── Finished Goods
+```
+
+and all three products are assigned correctly.
 
 ---
 
@@ -1145,241 +1217,26 @@ Sales Order
 ✅ KLAB Legal Entity
 ✅ Fiscal Calendar
 ✅ Ledger (CHF)
-✅ Manufacturing B/S
-✅ Manufacturing P&L
+✅ Manufacturing Account Structures
 ✅ Financial Dimensions
-✅ General Journal (GEN)
-✅ Voucher Series (Gene_704)
-✅ First Journal (KLAB-000001)
-✅ Site (CH01)
-✅ Warehouse (MAIN)
-✅ Item Model Group (STD)
-✅ Storage Dimension Group (SiteWH)
-✅ Tracking Dimension Group (KLAB)
+✅ Journal Setup
+✅ Site CH01
+✅ Warehouse MAIN
+
+✅ Item Model Group STD
+✅ Storage Dimension Group SiteWH
+✅ Tracking Dimension Group Batch-CP
+
+✅ Item Groups
+   ├── RM
+   └── FG
+
+✅ Released Products
+   ├── RAW-1001
+   ├── RAW-1002
+   └── FG-1001
+
+✅ Product Categories
 ```
 
 ---
-
-## Next Step
-
-```text
-Step 13 - Create Product Number Group
-```
-
-Used for automatic item numbering of:
-
-```text
-Raw Materials
-Finished Goods
-Spare Parts
-Packaging Materials
-```
-
-Example numbering:
-
-```text
-RAW-1001
-RAW-1002
-FG-1001
-FG-1002
-```
-
----
-
-## Why These Settings?
-
-For the Kuettel Labs manufacturing demo we only need:
-
-```text
-Site      = CH01
-Warehouse = MAIN
-```
-
-This provides a simple inventory structure without advanced warehouse management complexity.
-
----
-
-## Inventory Structure
-
-```text
-CH01 (Site)
-└── MAIN (Warehouse)
-```
-
----
-
-## Save
-
-Click:
-
-```text
-Save
-```
-
----
-
-## Expected Result
-
-```text
-Storage dimension group : STD
-Name                    : Standard Storage
-
-Dimensions:
-✔ Site
-✔ Warehouse
-✘ Location
-✘ License Plate
-✘ Inventory Status
-✘ Pallet ID
-```
-
----
-
-## Validation
-
-Verify the new storage dimension group appears in the list:
-
-```text
-STD | Standard Storage
-```
-
----
-
-## Purpose
-
-This storage dimension group will later be assigned to:
-
-```text
-RAW-1001  Raw Material
-RAW-1002  Raw Material
-FG-1001   Finished Good
-```
-
-and used by:
-
-```text
-Inventory Transactions
-Purchase Orders
-Production Orders
-Sales Orders
-Warehouse Movements
-```
-
----
-
-## Product Dimension Framework
-
-```text
-Item Model Group
-        ↓
-Storage Dimension Group
-        ↓
-Tracking Dimension Group
-        ↓
-Released Product
-```
-
----
-
-## Next Step
-
-After creating the Storage Dimension Group:
-
-```text
-Step 12 - Create Tracking Dimension Group
-```
-
-Recommended configuration:
-
-```text
-Tracking Dimension Group : STD
-
-Batch Number : Yes
-Serial Number: No
-```
-
-This allows material traceability for manufacturing while keeping the setup simple.
-
-
-### Vendors
-
-Create:
-
-```text
-SUI-001
-Swiss Components AG
-```
-
-### Customers
-
-Create:
-
-```text
-CUS-001
-Demo Customer AG
-```
-
-### Released Products
-
-Create:
-
-```text
-RAW-1001
-RAW-1002
-FG-1001
-```
-
-### Product Groups
-
-Configure:
-
-```text
-Raw Materials
-Finished Goods
-Services
-```
-
-### Manufacturing
-
-Create:
-
-```text
-BOM
-Routes
-Resource Groups
-Resources
-```
-
-### Production
-
-Create:
-
-```text
-Production Orders
-BOM Consumption
-Report as Finished
-Inventory Transactions
-```
-
-### Swiss Localization
-
-Configure:
-
-```text
-CHF Currency
-Swiss VAT Codes
-Bank Accounts
-Payment Formats
-```
-
-### Go-Live Validation
-
-Test:
-
-```text
-Purchase Order
-Production Order
-Sales Order
-Inventory Posting
-General Ledger Posting
-```
